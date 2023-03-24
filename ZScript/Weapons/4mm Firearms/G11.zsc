@@ -93,7 +93,7 @@ class HDG11Rifle:HDWeapon{
 			-30,-22,sb.DI_SCREEN_CENTER_BOTTOM|sb.DI_TEXT_ALIGN_RIGHT,Font.CR_DARKGRAY
 			);
 				sb.drawwepcounter(hdw.weaponstatus[G11S_AUTO],
-			-22,-10,"RBRSA3A7","STBURAUT","STFULAUT"
+			-22,-10,"STSEMAUT","STBURAUT","STFULAUT"
 		);
 		}
 		

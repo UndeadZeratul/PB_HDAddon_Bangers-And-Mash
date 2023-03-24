@@ -34,7 +34,7 @@ class HD_KS23:HDWeapon{
 			);
 		}
 		if(hdw.weaponstatus[0]&KS23F_SELECTFIRE)sb.drawwepcounter(hdw.weaponstatus[0]&KS23F_FIREMODE,
-			-22,-10,"RBRSA3A7","STFULAUT"
+			-22,-10,"STSEMAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[KS23S_MAG],10);
 		if(hdw.weaponstatus[KS23S_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));

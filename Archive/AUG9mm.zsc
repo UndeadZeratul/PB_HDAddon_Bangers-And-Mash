@@ -106,7 +106,7 @@ class HD_AUG9mm:HDWeapon{
 			sb.drawnum(hpl.countinv("HDColt9mmMag25"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM,font.CR_BLACK);
 		}
 		sb.drawwepcounter(hdw.weaponstatus[COLT9S_AUTO],
-			-22,-10,"RBRSA3A7","STFULAUT","STFULAUT"
+			-22,-10,"STSEMAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[COLT9S_MAG],25);
 		if(hdw.weaponstatus[COLT9S_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));

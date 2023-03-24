@@ -127,7 +127,7 @@ class HD_PSG1:HDWeapon{
 
 
 		sb.drawwepcounter(hdw.weaponstatus[PSGS_CHAMBER],
-			-16,-10,"blank","RBRSA1A5","RBRSA3A7","RBRSA4A6"
+			-16,-10,"blank","STRNDFRD","STRNDCMB","STRNDJAM"
 		);
 		
 		sb.drawstring(
