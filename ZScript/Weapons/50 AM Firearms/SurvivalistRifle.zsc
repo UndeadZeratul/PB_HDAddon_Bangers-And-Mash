@@ -96,7 +96,7 @@ class HDSurvivalistRifleFNV:HDWeapon{
 			sb.drawnum(hpl.countinv("HD50AM_Mag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM,font.CR_BLACK);
 		}
 		//sb.drawwepcounter(hdw.weaponstatus[COLT50CS_AUTO],
-		//	-22,-10,"RBRSA3A7","STFULAUT","STFULAUT"
+		//	-22,-10,"STSEMAUT","STFULAUT","STFULAUT"
 		//);
 		sb.drawwepnum(hdw.weaponstatus[COLT50CS_MAG],8);
 		if(hdw.weaponstatus[COLT50CS_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));
