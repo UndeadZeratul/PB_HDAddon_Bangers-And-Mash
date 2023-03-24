@@ -34,7 +34,7 @@ class HDLeverGun_355:HDWeapon{
 			);
 		}
 		if(hdw.weaponstatus[0]&LEVF_SELECTFIRE)sb.drawwepcounter(hdw.weaponstatus[0]&LEVF_FIREMODE,
-			-22,-10,"RBRSA3A7","STFULAUT"
+			-22,-10,"STSEMAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[LEVS_MAG],10);
 		if(hdw.weaponstatus[LEVS_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));
