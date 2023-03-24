@@ -73,7 +73,7 @@ class HD_M5165:HDWeapon{
 			sb.drawnum(hpl.countinv("HD_M165Mag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 		}
 		sb.drawwepcounter(hdw.weaponstatus[M165_AUTO],
-			-20,-12,"RBRSA3A7","STFULAUT"
+			-20,-12,"STSEMAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[M165_MAG],165);
 		/*for(int i=hdw.weaponstatus[M165_MAG];i>0;i--){
