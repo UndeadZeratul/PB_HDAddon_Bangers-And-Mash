@@ -62,7 +62,7 @@ class HD_ShAK12:HDWeapon{
 			sb.drawnum(hpl.countinv("HDG11Mag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM,font.CR_BLACK);
 		}
 		sb.drawwepcounter(hdw.weaponstatus[G11S_AUTO],
-			-22,-10,"RBRSA3A7","STBURAUT","STFULAUT"
+			-22,-10,"STSEMAUT","STBURAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[G11S_MAG],45);
 		if(hdw.weaponstatus[G11S_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));

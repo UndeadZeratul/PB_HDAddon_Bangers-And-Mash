@@ -61,7 +61,7 @@ class HD_AutoMag:HDHandgun{
 			sb.drawnum(hpl.countinv("HD50AM_Mag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 		}
 		if(hdw.weaponstatus[0]&PI5F_SELECTFIRE)sb.drawwepcounter(hdw.weaponstatus[0]&PI5F_FIREMODE,
-			-22,-10,"RBRSA3A7","STFULAUT"
+			-22,-10,"STSEMAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[PI50_MAG],8);
 		if(hdw.weaponstatus[PI50_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));

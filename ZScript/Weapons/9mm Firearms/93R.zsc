@@ -57,7 +57,7 @@ class HDRafficaPistol:HDHandgun{
 		}
 		
 		sb.drawwepcounter(hdw.weaponstatus[BPSG_FIREMODE],
-			-22,-10,"RBRSA3A7","STBURAUT"
+			-22,-10,"STSEMAUT","STBURAUT"
 		);
 		
 		sb.drawwepnum(hdw.weaponstatus[BPSG_MAG],15);
