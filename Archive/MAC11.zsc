@@ -107,7 +107,7 @@ class HDMAC11:HDHandgun{
 			sb.drawnum(hpl.countinv("HD9mMag30"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 		}
 		sb.drawwepcounter(hdw.weaponstatus[MACS_AUTO],
-			-22,-10,"RBRSA3A7","STFULAUT"
+			-22,-10,"STSEMAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[MACS_MAG],30);
 		if(hdw.weaponstatus[MACS_CHAMBER]==2){sb.drawwepdot(-26,-17,(3,2));
