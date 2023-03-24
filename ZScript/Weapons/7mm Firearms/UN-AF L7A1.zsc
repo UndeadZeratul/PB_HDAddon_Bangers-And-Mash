@@ -81,7 +81,7 @@ class HD_FNFAL:HDWeapon{
 		}
 		
 		sb.drawwepcounter(hdw.weaponstatus[FALG_AUTO],
-			-20,-12,"RBRSA3A7","STFULAUT"
+			-20,-12,"STSEMAUT","STFULAUT"
 		);
 		
 		if(hdw.weaponstatus[FALG_MAGTYPE]>0){sb.drawwepnum(hdw.weaponstatus[FALG_MAG],35);}

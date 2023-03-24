@@ -57,7 +57,7 @@ class HD_Ruger1022:HDWeapon{
 			sb.drawnum(hpl.countinv("HDRuger1022Mag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 		}
 		sb.drawwepcounter(hdw.weaponstatus[RG12S_AUTO],
-			-22,-10,"RBRSA3A7","STFULAUT","STBURAUT"
+			-22,-10,"STSEMAUT","STFULAUT","STBURAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[RG12S_MAG],10);
 		if(hdw.weaponstatus[RG12S_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));

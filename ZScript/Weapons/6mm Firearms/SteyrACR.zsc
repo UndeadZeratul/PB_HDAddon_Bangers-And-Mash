@@ -72,7 +72,7 @@ class HD_SteyrACR:HDWeapon{
 			sb.drawnum(hpl.countinv("PB_HDSteyrACRMag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 		}
 		sb.drawwepcounter(hdw.weaponstatus[SACRS_AUTO],
-			-22,-10,"RBRSA3A7","STBURAUT","STFULAUT"
+			-22,-10,"STSEMAUT","STBURAUT","STFULAUT"
 		);
 		sb.drawwepnum(hdw.weaponstatus[SACRS_MAG],42);
 		if(hdw.weaponstatus[SACRS_CHAMBER]==2)sb.drawwepdot(-16,-10,(3,1));
