@@ -96,6 +96,9 @@ MENU_STEYRACR_MAGS_MORE_BATTERY_SPAWNTEXT = "Control the spawn rate of multiple 
 // 7mm Firearms
 //-----------------
 
+// 7mm Belt Box
+MENU_7MMBELTBOX_BACKPACKS = "Control whether the 7mm MG Belt Box spawns in Backpacks";
+
 // Smartgun
 MENU_SMARTGUN_TITLE = "------ H&M HS76A1 SmartGun Options ------";
 MENU_SMARTGUN_BFG9K_SPAWNTEXT = "Control the spawn rate of the H&M HS76A1 on BFGs:";
@@ -281,6 +284,11 @@ MENU_PS20_BACKPACKS = "Control whether the PS-20 spawns in Backpacks:";
 //-----------------
 // Unique Firearms
 //-----------------
+
+// Fire Extinguisher
+MENU_EXTINGUISHER_TITLE = "------ Fire Extinguisher Options ------";
+MENU_EXTINGUISHER_AMMOBOX_SPAWNTEXT = "Control the spawn rate of the Fire Extinguisher on Ammo Boxes:";
+MENU_EXTINGUISHER_BACKPACKS = "Control whether the Fire Extinguisher spawns in Backpacks:";
 
 // Railgun
 MENU_RAILGUN_TITLE = "------ XM99 Experimental Railgun Options ------";

@@ -329,6 +329,8 @@ OptionMenu "smartgunSpawning" {
 
 	StaticText "$MENU_SMARTGUN_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "smartgun_allowBackpacks", "OnOff"
+	StaticText "$MENU_7MMBELTBOX_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "beltbox7mm_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Green"
@@ -358,6 +360,8 @@ OptionMenu "m60Spawning" {
 
 	StaticText "$MENU_M60_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "m60_allowBackpacks", "OnOff"
+	StaticText "$MENU_7MMBELTBOX_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "beltbox7mm_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Green"
@@ -1208,6 +1212,35 @@ OptionMenu "knifeSpawning" {
 
 	StaticText "$MENU_RESETOPTIONS", "Fire"
 	SafeCommand "$MENU_RESETALLOPTIONS", "knife_reset_cvars"
+}
+
+OptionMenu "fireExtinguisherSpawning" {
+    Title "$MENU_EXTINGUISHER_TITLE"
+    StaticText ""
+
+   	StaticText "$MENU_NOTICE", "Fire"
+    StaticText "$MENU_SPAWNRATE_TEXT1", "White"
+    StaticText "$MENU_SPAWNRATE_TEXT2", "White"
+    StaticText ""
+
+	StaticText "$MENU_WEPSPAWNOPTIONS", "Fire"
+    StaticText "$MENU_EXTINGUISHER_AMMOBOX_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "extinguisher_ammobox_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar extinguisher_ammobox_spawn_bias"
+ 	StaticText ""
+
+	StaticText "$MENU_KNIFE_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "extinguisher_allowBackpacks", "OnOff"
+ 	StaticText ""
+
+	StaticText "$MENU_PERSISTENCYOPTIONS", "Fire"
+    StaticText "$MENU_PERSISTENCY_TEXT", "White"
+	Option "$MENU_WEPPERSISTENCY", "extinguisher_persistent_spawning", "OnOff"
+	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar extinguisher_persistent_spawning"
+ 	StaticText ""
+
+	StaticText "$MENU_RESETOPTIONS", "Fire"
+	SafeCommand "$MENU_RESETALLOPTIONS", "extinguisher_reset_cvars"
 }
 
 OptionMenu "fireaxeSpawning" {

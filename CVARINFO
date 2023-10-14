@@ -45,6 +45,9 @@ server bool m60_allowBackpacks = true;
 server int m60_thunderbuster_spawn_bias = 24;
 server bool m60_persistent_spawning = false;
 
+// 7mm Belt Box
+server bool beltbox7mm_allowBackpacks = true;
+
 // Devincenzia
 server bool devincenzia_allowBackpacks = true;
 server int devincenzia_thunderbuster_spawn_bias = 24;
@@ -162,8 +165,9 @@ server int terminator_shellbox_spawn_bias = 49;
 server bool terminator_allowBackpacks = false;
 server bool terminator_persistent_spawning = false;
 
-server int fireextinguisher_ammobox_spawn_bias = 24;
-server bool fireextinguisher_persistent_spawning = false;
+server bool extinguisher_allowBackpacks = true;
+server int extinguisher_ammobox_spawn_bias = 24;
+server bool extinguisher_persistent_spawning = false;
 
 server bool ps20_allowBackpacks = true;
 server int ps20_shellbox_spawn_bias = 14;
