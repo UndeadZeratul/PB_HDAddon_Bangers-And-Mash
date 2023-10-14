@@ -9,18 +9,15 @@ class HD8mmElectroMagnetic:HDRoundAmmo{
 		+forcexybillboard
 		+rollsprite +rollcenter
 		+hdpickup.multipickup
-		inventory.pickupmessage "Picked up a 8mm EC round.";
+		inventory.pickupmessage "$PICKUP_8MMEC";
 		hdpickup.refid HDLD_PWRAILGUNAMMO;
-		tag "8x35mm Electromagnetic Cartridge";
+		tag "$TAG_8MMEC";
 		hdpickup.bulk ENC_ELECTROMAG_AMMO;
 		inventory.icon "RLGAZ0";
 		xscale 0.3;yscale 0.3;
 	}
 	override void SplitPickup(){
 		SplitPickupBoxableRound(12,36,"HD8mmECAmmoBox","RLGSZ0","RLGAZ0");
-	}
-	override void GetItemsThatUseThis(){
-		itemsthatusethis.push("HDFortuneRailgun");
 	}
 	states{
 	spawn:

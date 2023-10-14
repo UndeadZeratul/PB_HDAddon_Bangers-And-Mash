@@ -14,9 +14,9 @@ version "4.10"
 // Magazines
 //-----------------
 
-// 4mm EC Magazines
-#include "zscript/Magazines/4mm EC Magazines/PWRailgunAmmo.zsc"
-#include "zscript/Magazines/4mm EC Magazines/PWRailgunShots.zsc"
+// 8mm EC Magazines
+#include "zscript/Magazines/8mm EC Magazines/PWRailgunAmmo.zsc"
+#include "zscript/Magazines/8mm EC Magazines/PWRailgunShots.zsc"
 
 // 4mm Magazines
 #include "zscript/Magazines/4mm Magazines/G11Ammo.zsc"
