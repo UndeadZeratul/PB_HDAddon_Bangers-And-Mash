@@ -125,6 +125,8 @@ OptionMenu "PBWepsMenu" {
 	StaticText ""
 	Submenu "$TAG_KHARON", "kharonSpawning", 0, 1
 	StaticText ""
+	Submenu "$TAG_EXTINGUISHER", "fireExtinguisherSpawning", 0, 1
+	StaticText ""
 
 	StaticText "$MENU_RESETOPTIONS_TITLE", "Red"
 	StaticText ""
