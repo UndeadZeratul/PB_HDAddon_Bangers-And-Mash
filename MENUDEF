@@ -74,6 +74,8 @@ OptionMenu "PBWepsMenu" {
 	StaticText ""
 	Submenu "$TAG_M9S", "m9sSpawning", 0, 1
 	StaticText ""
+	Submenu "$TAG_COLTCOMMANDO", "colt355Spawning", 0, 1
+	StaticText ""
 
 	StaticText "$MENU_EXPLOSIVES_TITLE", "Brown"
 	StaticText ""
@@ -109,6 +111,8 @@ OptionMenu "PBWepsMenu" {
     Submenu "$TAG_MANCUBUSCANNON", "mancubuscannonSpawning", 0, 1
 	StaticText ""
 	Submenu "$TAG_WPGRENADES", "wpgrenadeSpawning", 0, 1
+	StaticText ""
+	Submenu "$TAG_PS20", "ps20Spawning", 0, 1
 	StaticText ""
 
 	StaticText "$MENU_MELEEWEAPONS_TITLE", "DarkGrey"
@@ -245,6 +249,8 @@ OptionMenu "bugerm22Spawning" {
 
 	StaticText "$MENU_BUGERM22_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "ruger1022_allowBackpacks", "OnOff"
+	StaticText "$MENU_BUGERM22_MAG_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "ruger1022mag_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
@@ -290,8 +296,8 @@ OptionMenu "steyracrSpawning" {
 
 	StaticText "$MENU_STEYRACR_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "steyracr_allowBackpacks", "OnOff"
-	StaticText "$MENU_STEYRACR_MAG_BACKPACKS", "White"
-	Option "$MENU_BACKKPACKSALLOWED", "steyracrmag_allowBackpacks", "OnOff"
+	StaticText "$MENU_STEYRACR_MAGS_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "steyracrmag_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
@@ -425,6 +431,8 @@ OptionMenu "psg1Spawning" {
 
 	StaticText "$MENU_PSG1_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "psg1_allowBackpacks", "OnOff"
+	StaticText "$MENU_PSG1_MAG_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "psg1mag_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
@@ -647,6 +655,8 @@ OptionMenu "kelenkenSpawning" {
 
 	StaticText "$MENU_KELENKEN_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "kelenken_allowBackpacks", "OnOff"
+	StaticText "$MENU_KELENKEN_MAG_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "kelenkenmag_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Green"
@@ -676,6 +686,8 @@ OptionMenu "devincenziaSpawning" {
 
 	StaticText "$MENU_DEVINCENZIA_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "devincenzia_allowBackpacks", "OnOff"
+	StaticText "$MENU_DEVINCENZIA_MAG_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "devincenziamag_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
@@ -877,6 +889,8 @@ OptionMenu "m2hbSpawning" {
 
 	StaticText "$MENU_M2HB_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "m2hb_allowBackpacks", "OnOff"
+	StaticText "$MENU_M2HB_MAG_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "m2hbmag_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Green"
@@ -929,6 +943,35 @@ OptionMenu "colt355Spawning" {
 }
 
 // Explosives
+OptionMenu "ps20Spawning" {
+    Title "$MENU_PS20_TITLE"
+    StaticText ""
+
+   	StaticText "$MENU_NOTICE", "Fire"
+    StaticText "$MENU_SPAWNRATE_TEXT1", "White"
+    StaticText "$MENU_SPAWNRATE_TEXT2", "White"
+    StaticText ""
+
+	StaticText "$MENU_WEPSPAWNOPTIONS", "Fire"
+    StaticText "$MENU_PS20_SHELLBOX_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "ps20_shellbox_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar ps20_shellbox_spawn_bias"
+	StaticText ""
+
+	StaticText "$MENU_PS20_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "ps20_allowBackpacks", "OnOff"
+ 	StaticText ""
+
+	StaticText "$MENU_PERSISTENCYOPTIONS", "Fire"
+    StaticText "$MENU_PERSISTENCY_TEXT", "White"
+	Option "$MENU_WEPPERSISTENCY", "ps20_persistent_spawning", "OnOff"
+	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar ps20_persistent_spawning;"
+ 	StaticText ""
+
+	StaticText "$MENU_RESETOPTIONS", "Fire"
+	SafeCommand "$MENU_RESETALLOPTIONS", "ps20_reset_cvars"
+}
+
 OptionMenu "wpgrenadeSpawning" {
     Title "$MENU_WPGRENADES_TITLE"
     StaticText ""
@@ -1085,6 +1128,8 @@ OptionMenu "railgunSpawning" {
 
 	StaticText "$MENU_RAILGUN_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "railgun_allowBackpacks", "OnOff"
+	StaticText "$MENU_8MMEC_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "eightmilec_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Cyan"

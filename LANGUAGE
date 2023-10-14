@@ -75,6 +75,8 @@ MENU_M5165C_MAG_BACKPACKS = "control whether the M5165C's Magazines spawn in Bac
 MENU_BUGERM22_TITLE = "------ Buger M22 Target Rifle Options ------";
 MENU_BUGERM22_SHELLBOX_SPAWNTEXT = "Control the spawn rate of the Buger M22 on Shell Boxes:";
 MENU_BUGERM22_BACKPACKS = "Control whether the Buger M22 spawns in Backpacks:";
+MENU_BUGERM22_MAG_SHELLBOX_SPAWNTEXT = "Control the spawn rate of the Buger M22 Magazine on Shell Boxes:";
+MENU_BUGERM22_MAG_BACKPACKS = "Control whether the Buger M22 Magazine spawns in Backpacks:";
 
 //-----------------
 // 6mm Firearms
@@ -85,6 +87,7 @@ MENU_STEYRACR_TITLE = "------ Austere M17 Flechette Rifle Options ------";
 MENU_STEYRACR_THUNDERBUSTER_SPAWNTEXT = "Control the spawn rate of the Austere M17 on Thunderbusters:";
 MENU_STEYRACR_VULCANETTE_SPAWNTEXT = "Control the spawn rate of the Austere M17 on Vulcanettes:";
 MENU_STEYRACR_BACKPACKS = "Control whether the Austere M17 spawns in Backpacks:";
+MENU_STEYRACR_MAGS_BACKPACKS = "Control whether the Austere M17 Magazine spawns in Backpacks:";
 MENU_STEYRACR_MAGS_BATTERY_SPAWNTEXT = "Control the spawn rate of singular Austere M17 Magazines on Batteries:";
 MENU_STEYRACR_MAGS_4MMAG_SPAWNTEXT = "Control the spawn rate of singular Austere M17 Magazines on 4mm Magazines:";
 MENU_STEYRACR_MAGS_MORE_BATTERY_SPAWNTEXT = "Control the spawn rate of multiple Austere M17 Magazines on Batteries:";
@@ -116,6 +119,7 @@ MENU_PSG1_TITLE = "------ H&M PSG2A1 Sniper Rifle Options ------";
 MENU_PSG1_HUNTER_SPAWNTEXT = "Control the spawn rate of the H&M PSG2A1 on Hunters:";
 MENU_PSG1_SLAYER_SPAWNTEXT = "Control the spawn rate of the H&M PSG2A1 on Slayers:";
 MENU_PSG1_BACKPACKS = "Control whether the H&M PSG2A1 spawns in Backpacks";
+MENU_PSG1_MAG_BACKPACKS = "Control whether the H&M PSG2A1 Magazine spawns in Backpacks";
 
 //-----------------
 // 9mm Firearms
@@ -167,11 +171,13 @@ MENU_TERMINATOR_BACKPACKS = "Control whether the Raycob Exterminator spawns in B
 MENU_KELENKEN_TITLE = "------ MS-AT 35mm \"Kelenken\" Options ------";
 MENU_KELENKEN_BFG9K_SPAWNTEXT = "Control the spawn rate of the MS-AT 35mm \"Kelenken\" on BFGs:";
 MENU_KELENKEN_BACKPACKS = "Control whether the MS-AT 35mm \"Kelenken\" spawns in Backpacks:";
+MENU_KELENKEN_MAG_BACKPACKS = "Control whether the 35mm Bolt Box spawns in Backpacks:";
 
 // Devincenzia
 MENU_DEVINCENZIA_TITLE = "------ Berlinghoff XM135 \"Devincenzia\" Options ------";
 MENU_DEVINCENZIA_THUNDERBUSTER_SPAWNTEXT = "Control the spawn rate of the XM135 \"Devincenzia\" on Thunderbusters:";
 MENU_DEVINCENZIA_BACKPACKS = "Control whether the XM135 \"Devincenzia\" spawns in Backpacks:";
+MENU_DEVINCENZIA_MAG_BACKPACKS = "Control whether the XM135 \"Devincenzia\" Magazine spawns in Backpacks:";
 
 //-----------------
 // 45 ACP Firearms
@@ -224,6 +230,7 @@ MENU_LEVERGAT_BACKPACKS = "Control whether the Sawyer LR37 spawns in Backpacks:"
 MENU_M2HB_TITLE = "------ Brownell AM-HMG50 \"Mk II Stinger\" Options";
 MENU_M2HB_BFG9000_SPAWNTEXT = "Control the spawn rate of the Brownell AM-HMG50 on BFG-9000s:";
 MENU_M2HB_BACKPACKS = "Control whether the Brownell AM-HMG50 spawns in Backpacks:";
+MENU_M2HB_MAG_BACKPACKS = "Control whether the .50 OMG Belt Box spawns in Backpacks:";
 
 //-----------------
 // .355 Firearms
@@ -256,15 +263,20 @@ MENU_TOXICGASGRENADE_BACKPACKS = "Control whether the \"Roller\" Toxic Gas Grena
 
 // CGM-25
 MENU_CGM25_TITLE = "------ DLAaM ATCM-35 Options ------";
-MENU_AT4_ROCKETBOX_SPAWNTEXT = "Control the spawn rate of the DLAaM ATCM-35 on Rocket Boxes:";
-MENU_AT4_SHELLBOX_SPAWNTEXT = "Control the spawn rate of the DLAaM ATCM-35 on Shell Boxes:";
-MENU_AT4_BACKPACKS = "Control whether the DLAaM ATCM-35 spawns in Backpacks:";
+MENU_CGM25_ROCKETBOX_SPAWNTEXT = "Control the spawn rate of the DLAaM ATCM-35 on Rocket Boxes:";
+MENU_CGM25_SHELLBOX_SPAWNTEXT = "Control the spawn rate of the DLAaM ATCM-35 on Shell Boxes:";
+MENU_CGM25_BACKPACKS = "Control whether the DLAaM ATCM-35 spawns in Backpacks:";
 
 // AT-4
 MENU_AT4_TITLE = "------ RAT-84 Options ------";
-MENU_CGM25_ROCKETBOX_SPAWNTEXT = "Control the spawn rate of the RAT-84 on Rocket Boxes:";
-MENU_CGM25_SHELLBOX_SPAWNTEXT = "Control the spawn rate of the RAT-84 on Shell Boxes:";
-MENU_CGM25_BACKPACKS = "Control whether the RAT-84 spawns in Backpacks:";
+MENU_AT4_ROCKETBOX_SPAWNTEXT = "Control the spawn rate of the RAT-84 on Rocket Boxes:";
+MENU_AT4_SHELLBOX_SPAWNTEXT = "Control the spawn rate of the RAT-84 on Shell Boxes:";
+MENU_AT4_BACKPACKS = "Control whether the RAT-84 spawns in Backpacks:";
+
+// PS-20
+MENU_PS20_TITLE = "------ PS-20 Options ------";
+MENU_PS20_SHELLBOX_SPAWNTEXT = "Control the spawn rate of the PS-20 on Shell Boxes:";
+MENU_PS20_BACKPACKS = "Control whether the PS-20 spawns in Backpacks:";
 
 //-----------------
 // Unique Firearms
@@ -304,6 +316,13 @@ MENU_SLEDGEHAMMER_BACKPACKS = "Control whether the Sledgehammer spawns in Backpa
 // Kharon
 MENU_KHARON_TITLE = "------ Replica Kharon Options ------";
 MENU_KHARON_BACKPACKS = "Control whether the Replica Kharon spawns in Backpacks:";
+
+//-----------------
+// Ammunition
+//-----------------
+
+// 8mm Electromagnetic Cartridges
+MENU_8MMEC_BACKPACKS = "Control whether the 8x35mm Electromagnetic Cartridges spawn in Backpacks:";
 
 // Weapon Tags
 
@@ -376,3 +395,7 @@ TAG_KNIFE = "Combat Knife";
 TAG_FIREAXE = "Fire Axe";
 TAG_SLEDGEHAMMER = "Sledgehammer";
 TAG_KHARON = "Replica Kharon";
+
+// 8mm Electromagnetic
+TAG_8MMEC = "8x35mm Electromagnetic Cartridge";
+PICKUP_8MMEC = "Picked up a 8mm EC round.";
