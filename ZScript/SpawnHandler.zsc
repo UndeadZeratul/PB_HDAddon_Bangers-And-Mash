@@ -371,8 +371,8 @@ class PBWepsHandler : EventHandler {
 
         // Automag Semi-Auto
         Array<PBWepsSpawnItemEntry> spawns_automag_sa;
+        spawns_automag_sa.push(addItemEntry('HDAutoPistol', automag_sa_pistol_spawn_bias));
         spawns_automag_sa.push(addItemEntry('HunterRandom', automag_sa_hunter_spawn_bias));
-        spawns_automag_sa.push(addItemEntry('HDPistol', automag_sa_pistol_spawn_bias));
         addItem('PB_HDAutoMagSpawn_SA', spawns_automag_sa, automag_sa_persistent_spawning);
 
         // G11
@@ -427,12 +427,12 @@ class PBWepsHandler : EventHandler {
 
         // MAC-11/10/whatever
         Array<PBWepsSpawnItemEntry> spawns_MAC10;
-        spawns_MAC10.push(addItemEntry('HDPistol', mac10_pistol_spawn_bias));
+        spawns_MAC10.push(addItemEntry('HDAutoPistol', mac10_pistol_spawn_bias));
         addItem('HDMAC10', spawns_MAC10, mac10_persistent_spawning);
 
         // Mk. 23 SOCOM
         Array<PBWepsSpawnItemEntry> spawns_mk23socom;
-        spawns_mk23socom.push(addItemEntry('HDPistol', mk23socom_pistol_spawn_bias));
+        spawns_mk23socom.push(addItemEntry('HDAutoPistol', mk23socom_pistol_spawn_bias));
         spawns_mk23socom.push(addItemEntry('ClipBoxPickup', mk23socom_ammobox_spawn_bias));
         addItem('PB_MK23SOCOMSpawn', spawns_mk23socom, mk23socom_persistent_spawning);
 
@@ -485,12 +485,12 @@ class PBWepsHandler : EventHandler {
 
         // 93R
         Array<PBWepsSpawnItemEntry> spawns_93R;
-        spawns_93R.push(addItemEntry('HDPistol', raffica_pistol_spawn_bias));
+        spawns_93R.push(addItemEntry('HDAutoPistol', raffica_pistol_spawn_bias));
         addItem('HDRafficaPistol', spawns_93R, raffica_persistent_spawning);
 
         // M9S
         Array<PBWepsSpawnItemEntry> spawns_m9s;
-        spawns_m9s.push(addItemEntry('HDPistol', m9s_pistol_spawn_bias));
+        spawns_m9s.push(addItemEntry('HDAutoPistol', m9s_pistol_spawn_bias));
         addItem('HDMinebeaPM9', spawns_m9s, m9s_persistent_spawning);
 
         // M2HB
