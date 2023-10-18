@@ -318,7 +318,7 @@ class PBWepsHandler : EventHandler {
 
         // Example from Ace-Corp Extended. - [Ted]
         /*Array<PBWepsSpawnItemEntry> spawns_blackhawk;
-        spawns_blackhawk.push(addItemEntry('HDRL', blackhawk_launcher_spawn_bias));
+        spawns_blackhawk.push(addItemEntry('RLReplaces', blackhawk_launcher_spawn_bias));
         addItem('BlackhawkRandom', spawns_blackhawk, blackhawk_persistent_spawning);*/
 
         // Railgun
