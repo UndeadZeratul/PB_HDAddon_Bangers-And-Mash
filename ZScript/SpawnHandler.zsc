@@ -338,29 +338,29 @@ class PBWepsHandler : EventHandler {
 
         // FAL
         Array<PBWepsSpawnItemEntry> spawns_fal;
-        spawns_fal.push(addItemEntry('ThunderBuster', fal_thunderbuster_spawn_bias));
+        spawns_fal.push(addItemEntry('PlasmaReplaces', fal_thunderbuster_spawn_bias));
         spawns_fal.push(addItemEntry('ChaingunReplaces', fal_vulcanette_spawn_bias));
         addItem('HD_FNFAL', spawns_fal, fal_persistent_spawning);
 
         // M60
         Array<PBWepsSpawnItemEntry> spawns_m60;
-        spawns_m60.push(addItemEntry('ThunderBuster', m60_thunderbuster_spawn_bias));
+        spawns_m60.push(addItemEntry('PlasmaReplaces', m60_thunderbuster_spawn_bias));
         addItem('HD_M60', spawns_m60, m60_persistent_spawning);
 
         // Devincenzia
         Array<PBWepsSpawnItemEntry> spawns_devincenzia;
-        spawns_devincenzia.push(addItemEntry('ThunderBuster', devincenzia_thunderbuster_spawn_bias));
+        spawns_devincenzia.push(addItemEntry('PlasmaReplaces', devincenzia_thunderbuster_spawn_bias));
         addItem('HD_ATCDevincenzia', spawns_devincenzia, devincenzia_persistent_spawning);
 
         // Steyr ACR
         Array<PBWepsSpawnItemEntry> spawns_SteyrACR;
-        spawns_SteyrACR.push(addItemEntry('ThunderBuster', steyracr_thunderbuster_spawn_bias));
         spawns_SteyrACR.push(addItemEntry('ChaingunReplaces', steyracr_vulcanette_spawn_bias));
+        spawns_SteyrACR.push(addItemEntry('PlasmaReplaces', steyracr_thunderbuster_spawn_bias));
         addItem('PB_SteyrACR_Spawn', spawns_SteyrACR, steyracr_persistent_spawning);
 
         // Mancubus Cannon
         Array<PBWepsSpawnItemEntry> spawns_mancubuscannon;
-        spawns_mancubuscannon.push(addItemEntry('ThunderBuster', mancubuscannon_thunderbuster_spawn_bias));
+        spawns_mancubuscannon.push(addItemEntry('PlasmaReplaces', mancubuscannon_thunderbuster_spawn_bias));
         addItem('HDMancCannon', spawns_mancubuscannon, mancubuscannon_persistent_spawning);
 
         // Automag Full-Auto
