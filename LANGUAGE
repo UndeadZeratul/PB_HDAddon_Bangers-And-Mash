@@ -121,6 +121,7 @@ MENU_FAL_CHAINGUN_SPAWNTEXT                 = "Control the spawn rate of the UN-
 MENU_FAL_PLASMA_SPAWNTEXT                   = "Control the spawn rate of the UN-AF L7A1 on Thunderbusters:";
 MENU_FAL_LIBERATOR_SPAWNTEXT                = "Control the spawn rate of the UN-AF L7A1 on Liberators:";
 MENU_FAL_BACKPACKS                          = "Control whether the UN-AF L7A1 spawns in Backpacks:";
+MENU_FALMAG_CLIPMAG_SPAWNTEXT               = "Control the spawn rate of the UN-AF L7A1's Drums on Clip Magazines:";
 MENU_FALMAG_BATTERY_SPAWNTEXT               = "Control the spawn rate of the UN-AF L7A1's Drums on Batteries:";
 MENU_FALMAG_BACKPACKS                       = "Control whether the UN-AF L7A1's Drums spawn in Backpacks:";
 

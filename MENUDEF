@@ -412,6 +412,9 @@ OptionMenu "falSpawning" {
  	StaticText ""
 
 	StaticText "$MENU_MAGSPAWNOPTIONS", "Green"
+    StaticText "$MENU_FALMAG_CLIPMAG_SPAWNTEXT", "White"
+	Option "$MENU_MAGSPAWNRATE", "falmag_clipmag_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETMAG", "resetcvar falmag_clipmag_spawn_bias"
     StaticText "$MENU_FALMAG_BATTERY_SPAWNTEXT", "White"
 	Option "$MENU_MAGSPAWNRATE", "falmag_battery_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETMAG", "resetcvar falmag_battery_spawn_bias"
