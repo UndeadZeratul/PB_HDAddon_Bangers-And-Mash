@@ -300,7 +300,7 @@ MENU_PS20_BACKPACKS                         = "Control whether the PS-20 spawns 
 
 // Fire Extinguisher
 MENU_EXTINGUISHER_TITLE                     = "------ Fire Extinguisher Options ------";
-MENU_EXTINGUISHER_CLIPBOX_SPAWNTEXT         = "Control the spawn rate of the Fire Extinguisher on Clip Boxes:";
+MENU_EXTINGUISHER_CLIPBOX_SPAWNTEXT         = "Control the spawn rate of the Fire Extinguisher with Clip Boxes:";
 MENU_EXTINGUISHER_BACKPACKS                 = "Control whether the Fire Extinguisher spawns in Backpacks:";
 
 // Railgun

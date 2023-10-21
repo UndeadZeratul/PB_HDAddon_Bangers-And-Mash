@@ -1267,7 +1267,7 @@ OptionMenu "fireExtinguisherSpawning" {
 
 	StaticText "$MENU_WEPSPAWNOPTIONS", "Fire"
     StaticText "$MENU_EXTINGUISHER_CLIPBOX_SPAWNTEXT", "White"
-	Option "$MENU_WEPSPAWNRATE", "extinguisher_clipbox_spawn_bias", "SpawnBias"
+	Option "$MENU_WEPSPAWNRATE", "extinguisher_clipbox_spawn_bias", "DropBias"
 	SafeCommand "$MENU_RESETWEP", "resetcvar extinguisher_clipbox_spawn_bias"
  	StaticText ""
 
