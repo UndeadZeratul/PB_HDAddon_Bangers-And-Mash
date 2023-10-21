@@ -64,7 +64,7 @@ class HD_M165Mag:HDMagAmmo{
 		else if(fmag==2)magsprite="A18MD0";
 		else if(fmag==3)magsprite="A18ME0";
 		else magsprite="A18MV0";
-		return magsprite,"5MMRY0","HD5MM_Ammo",1.5;
+		return magsprite,"5MMRZ0","HD5MM_Ammo",1.5;
 	}
 	states{
 	spawn:
