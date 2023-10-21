@@ -200,6 +200,7 @@ MENU_DEVINCENZIAMAG_BACKPACKS               = "Control whether the XM135 \"Devin
 // MAC-10
 MENU_MAC10_TITLE                            = "------ Raycob RAC-10/45 Machine Pistol Options ------";
 MENU_MAC10_PISTOL_SPAWNTEXT                 = "Control the spawn rate of the Raycob RAC-10/45 on Pistols:";
+MENU_MAC10_CLIPBOX_SPAWNTEXT                = "Control the spawn rate of the Raycob RAC-10/45 on Clip Boxes:";
 MENU_MAC10_BACKPACKS                        = "Control whether the Raycob RAC-10/45 spawns in Backpacks:";
 MENU_MAC10MAG_CLIPMAG_SPAWNTEXT             = "Control the spawn rate of the Raycob RAC-10/45's Magazines on Clip Magazines:";
 MENU_MAC10MAG_BACKPACKS                     = "Control whether the Raycob RAC-10/45's Magazines spawn in Backpacks:";

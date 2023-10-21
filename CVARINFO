@@ -137,6 +137,7 @@ server bool psg1mag_allowBackpacks = true;
 // MAC-10
 server bool mac10_allowBackpacks = true;
 server int mac10_pistol_spawn_bias = 14;
+server int mac10_clipbox_spawn_bias = 14;
 server bool mac10_persistent_spawning = false;
 
 // Mk. 23 SOCOM

@@ -749,6 +749,9 @@ OptionMenu "mac10Spawning" {
     StaticText "$MENU_MAC10_PISTOL_SPAWNTEXT", "White"
 	Option "$MENU_WEPSPAWNRATE", "mac10_pistol_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETWEP", "resetcvar mac10_pistol_spawn_bias"
+    StaticText "$MENU_MAC10_CLIPBOX_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "mac10_clipbox_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar mac10_clipbox_spawn_bias"
  	StaticText ""
 
 	StaticText "$MENU_MAGSPAWNOPTIONS", "Green"
