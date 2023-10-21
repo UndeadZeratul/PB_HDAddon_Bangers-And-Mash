@@ -152,7 +152,6 @@ OptionMenu "g11Spawning" {
 	SafeCommand "$MENU_RESETWEP", "resetcvar g11_normal_clipbox_spawn_bias"
  	StaticText ""
 
-	StaticText "$MENU_WEPSPAWNOPTIONS", "Orange"
     StaticText "$MENU_G11_SCOPED_CHAINGUN_SPAWNTEXT", "White"
 	Option "$MENU_WEPSPAWNRATE", "g11_scoped_chaingun_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETWEP", "resetcvar g11_scoped_chaingun_spawn_bias"
@@ -166,9 +165,9 @@ OptionMenu "g11Spawning" {
  	StaticText ""
 
 	StaticText "$MENU_MAGSPAWNOPTIONS", "Orange"
-    StaticText "$MENU_G11MAG_CLIPBOX_SPAWNTEXT", "White"
-	Option "$MENU_MAGSPAWNRATE", "g11mag_clipbox_spawn_bias", "SpawnBias"
-	SafeCommand "$MENU_RESETMAG", "resetcvar g11mag_clipbox_spawn_bias"
+    StaticText "$MENU_G11MAG_CLIPMAG_SPAWNTEXT", "White"
+	Option "$MENU_MAGSPAWNRATE", "g11mag_clipmag_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETMAG", "resetcvar g11mag_clipmag_spawn_bias"
  	StaticText ""
 
 	StaticText "$MENU_G11MAG_BACKPACKS", "White"
