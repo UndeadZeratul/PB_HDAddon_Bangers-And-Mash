@@ -16,7 +16,7 @@ class PB_PSG1_MAG:HDMagAmmo{
 	}
 	override string,string,name,double getmagsprite(int thismagamt){
 		string magsprite=(thismagamt>0)?"PSGMNORM":"PSGMEMPTY";
-		return magsprite,"RBRSA3A7","SevenMilAmmo",1.7;
+		return magsprite,"7RNDA0","SevenMilAmmo",1.7;
 	}
 	override void GetItemsThatUseThis(){
 		itemsthatusethis.push("HD_PSG1");
