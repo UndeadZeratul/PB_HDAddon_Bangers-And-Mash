@@ -203,6 +203,7 @@ server int eightmilec_battery_spawn_bias = 14;
 server bool eightmilec_persistent_spawning = false;
 
 server bool napalmtank_allowBackpacks = true;
+server int napalm_rocket_spawn_bias = 14;
 server int napalm_battery_spawn_bias = 14;
 server bool napalm_persistent_spawning = false;
 
@@ -212,6 +213,7 @@ server bool am50mag_persistent_spawning = false;
 
 server bool cawsmag_allowBackpacks = true;
 server int cawsmag_clipmag_spawn_bias = 14;
+server int cawsmag_shell_spawn_bias = 14;
 server bool cawsmag_persistent_spawning = false;
 
 server bool colt355mag_allowBackpacks = true;

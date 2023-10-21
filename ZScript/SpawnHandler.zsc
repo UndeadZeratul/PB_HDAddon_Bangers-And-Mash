@@ -522,7 +522,7 @@ class PBWepsHandler : EventHandler {
         spawns_acrmag.push(addItemEntry('ClipMagPickup', acrmag_clipmag_spawn_bias));
         addItem('PB_HDSteyrACRMag', spawns_acrmag, acrmag_persistent_spawning);
 
-        // Steyr ACR Mags
+        // Steyr ACR Mag Bundles
         Array<PBWepsSpawnItemEntry> spawns_acrmags;
         spawns_acrmags.push(addItemEntry('ClipMagPickup', acrmag_clipmag_spawn_bias));
         addItem('PB_SteyrACR_MultiMagSpawn', spawns_acrmags, acrmag_persistent_spawning);
@@ -534,7 +534,8 @@ class PBWepsHandler : EventHandler {
 
         // Napalm Tanks
         Array<PBWepsSpawnItemEntry> spawns_napalm;
-        spawns_napalm.push(addItemEntry('RocketAmmo', napalm_battery_spawn_bias));
+        spawns_napalm.push(addItemEntry('RocketAmmo', napalm_rocket_spawn_bias));
+        spawns_napalm.push(addItemEntry('CellRandom', napalm_battery_spawn_bias));
         addItem('HDNapalmTank', spawns_napalm, napalm_persistent_spawning);
 
         // 50 AM Mags
@@ -549,7 +550,8 @@ class PBWepsHandler : EventHandler {
 
         // CAWS Mags
         Array<PBWepsSpawnItemEntry> spawns_cawsmag;
-        spawns_cawsmag.push(addItemEntry('ShellBoxRandom', cawsmag_clipmag_spawn_bias));
+        spawns_cawsmag.push(addItemEntry('ClipMagPickup', cawsmag_clipmag_spawn_bias));
+        spawns_cawsmag.push(addItemEntry('ShellRandom', cawsmag_shell_spawn_bias));
         addItem('HD_CAWSMag', spawns_cawsmag, cawsmag_persistent_spawning);
 
         // Colt 355 Mags
@@ -559,8 +561,8 @@ class PBWepsHandler : EventHandler {
 
         // MAC-10 Mags
         Array<PBWepsSpawnItemEntry> spawns_mac10mag;
-        spawns_cawsmag.push(addItemEntry('ClipMagPickup', mac10mag_clipmag_spawn_bias));
-        addItem('HDMAC10_Mag', spawns_cawsmag, mac10mag_persistent_spawning);
+        spawns_mac10mag.push(addItemEntry('ClipMagPickup', mac10mag_clipmag_spawn_bias));
+        addItem('HDMAC10_Mag', spawns_mac10mag, mac10mag_persistent_spawning);
 
         // Mk. 23 SOCOM Mags
         Array<PBWepsSpawnItemEntry> spawns_mk23socommags;

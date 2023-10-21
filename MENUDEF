@@ -32,6 +32,22 @@ OptionValue "SpawnBias" {
 	 199,  "1 in 200"
 }
 
+// Drop Bias (for items that don't replace). 
+OptionValue "DropBias" {
+	-1,    "Disabled"
+	 0,    "With All"
+	 2,    "1 in 3"
+	 4,    "1 in 5"
+	 9,    "1 in 10"
+	 14,   "1 in 15"
+	 19,   "1 in 20"
+	 24,   "1 in 25"
+	 49,   "1 in 50"
+	 99,   "1 in 100"
+	 149,  "1 in 150"
+	 199,  "1 in 200"
+}
+
 OptionMenu "PBWepsMenu" {
 	Title "$PBWEPS_MENU"
     StaticText ""
@@ -466,6 +482,9 @@ OptionMenu "93rSpawning" {
     StaticText "$MENU_93R_PISTOL_SPAWNTEXT", "White"
 	Option "$MENU_WEPSPAWNRATE", "raffica_pistol_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETWEP", "resetcvar raffica_pistol_spawn_bias"
+    StaticText "$MENU_93R_CLIPBOX_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "raffica_clipbox_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar raffica_clipbox_spawn_bias"
  	StaticText ""
 
 	StaticText "$MENU_93R_BACKPACKS", "White"
@@ -495,6 +514,9 @@ OptionMenu "m9sSpawning" {
     StaticText "$MENU_M9S_PISTOL_SPAWNTEXT", "White"
 	Option "$MENU_WEPSPAWNRATE", "m9s_pistol_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETWEP", "resetcvar m9s_pistol_spawn_bias"
+    StaticText "$MENU_M9S_CLIPBOX_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "m9s_clipbox_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar m9s_clipbox_spawn_bias"
  	StaticText ""
 
 	StaticText "$MENU_M9S_BACKPACKS", "White"
@@ -534,6 +556,9 @@ OptionMenu "cawsSpawning" {
     StaticText "$MENU_CAWSMAG_CLIPMAG_SPAWNTEXT", "White"
 	Option "$MENU_MAGSPAWNRATE", "cawsmag_clipmag_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETMAG", "resetcvar cawsmag_clipmag_spawn_bias"
+    StaticText "$MENU_CAWSMAG_SHELL_SPAWNTEXT", "White"
+	Option "$MENU_MAGSPAWNRATE", "cawsmag_shell_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETMAG", "resetcvar cawsmag_shell_spawn_bias"
  	StaticText ""
 
 	StaticText "$MENU_CAWS_BACKPACKS", "White"
@@ -628,7 +653,7 @@ OptionMenu "terminatorSpawning" {
 
 	StaticText "$MENU_WEPSPAWNOPTIONS", "Red"
     StaticText "$MENU_TERMINATOR_SHELLBOX_SPAWNTEXT", "White"
-	Option "$MENU_WEPSPAWNRATE", "terminator_shellbox_spawn_bias", "SpawnBias"
+	Option "$MENU_WEPSPAWNRATE", "terminator_shellbox_spawn_bias", "DropBias"
 	SafeCommand "$MENU_RESETWEP", "resetcvar terminator_shellbox_spawn_bias"
  	StaticText ""
 
@@ -1135,6 +1160,14 @@ OptionMenu "railgunSpawning" {
 
 	StaticText "$MENU_RAILGUN_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "railgun_allowBackpacks", "OnOff"
+ 	StaticText ""
+	
+	StaticText "$MENU_AMMOSPAWNOPTIONS", "Cyan"
+    StaticText "$MENU_8MMEC_BATTERY_SPAWNTEXT", "White"
+	Option "$MENU_AMMOSPAWNRATE", "eightmilec_battery_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETAMMO", "resetcvar eightmilec_battery_spawn_bias"
+ 	StaticText ""
+
 	StaticText "$MENU_8MMEC_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "eightmilec_allowBackpacks", "OnOff"
  	StaticText ""
@@ -1165,6 +1198,9 @@ OptionMenu "mancubuscannonSpawning" {
  	StaticText ""
 
 	StaticText "$MENU_MAGSPAWNOPTIONS", "Fire"
+    StaticText "$MENU_NAPALMTANK_ROCKET_SPAWNTEXT", "White"
+	Option "$MENU_MAGSPAWNRATE", "napalm_rocket_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETMAG", "resetcvar napalm_rocket_spawn_bias"
     StaticText "$MENU_NAPALMTANK_BATTERY_SPAWNTEXT", "White"
 	Option "$MENU_MAGSPAWNRATE", "napalm_battery_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETMAG", "resetcvar napalm_battery_spawn_bias"
@@ -1261,7 +1297,7 @@ OptionMenu "fireaxeSpawning" {
 	SafeCommand "$MENU_RESETWEP", "resetcvar fireaxe_chainsaw_spawn_bias"
  	StaticText ""
 
-	StaticText "$MENU_KNIFE_BACKPACKS", "White"
+	StaticText "$MENU_FIREAXE_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "fireaxe_allowBackpacks", "OnOff"
  	StaticText ""
 
