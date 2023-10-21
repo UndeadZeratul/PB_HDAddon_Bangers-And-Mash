@@ -15,7 +15,7 @@ class HD_PB_50OMGBeltBox:HDMagAmmo{
 	}
 	override string,string,name,double getmagsprite(int thismagamt){
 		string magsprite=(thismagamt>0)?"M2ABA0":"M2ABB0";
-		return magsprite,"RBRSA3A7","HD50OMGAmmo",1.7;
+		return magsprite,"OGBLA0","HD50OMGAmmo",1.7;
 	}
 	
 	override void DrawRoundCount(HDStatusBar sb,HDPlayerPawn hpl,name roundsprite,double scl,int offx,int offy){

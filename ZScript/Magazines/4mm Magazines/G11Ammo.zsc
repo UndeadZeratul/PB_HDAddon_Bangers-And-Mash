@@ -16,7 +16,7 @@ class HDG11Mag:HDMagAmmo{
 	}
 	override string,string,name,double getmagsprite(int thismagamt){
 		string magsprite=(thismagamt>0)?"G11MD0":"G11MC0";
-		return magsprite,"RBRSBRN","FourMilAmmo",1.5;
+		return magsprite,"4RNDA0","FourMilAmmo",1.5;
 	}
 	
 		override void postbeginplay(){

@@ -18,7 +18,7 @@ class HDRuger1022Mag:HDMagAmmo{
 	}
 	override string,string,name,double getmagsprite(int thismagamt){
 		string magsprite=(thismagamt>0)?"R10MA0":"R10MB0";
-		return magsprite,"5MMRY0","HD5MM_Ammo",2.;
+		return magsprite,"5MMRZ0","HD5MM_Ammo",2.;
 	}
 	override void GetItemsThatUseThis(){
 		itemsthatusethis.push("HD_Ruger1022");
