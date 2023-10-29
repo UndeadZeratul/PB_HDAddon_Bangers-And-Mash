@@ -4,7 +4,7 @@ class HD_PB_7mmBeltBox:HDMagAmmo{
 		//$Title "7.76mm LMG Box"
 		//$Sprite "RMAGA0"
 
-		hdmagammo.maxperunit 250;
+		hdmagammo.maxperunit 150;
 		hdmagammo.roundtype "SevenMilAmmo";
 		hdmagammo.roundbulk ENC_776_LOADED;
 		hdmagammo.magbulk ENC_776BELTBOX_EMPTY;

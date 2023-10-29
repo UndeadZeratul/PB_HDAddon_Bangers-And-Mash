@@ -397,7 +397,7 @@ TAG_AUTOMAG                                 = "SP-50 Mega Class Magnum";
 TAG_M2HB                                    = "Brownell AM-HMG50 \"MKII Stinger\"";
 
 // .355 Firearms
-TAG_COLTCOMMANDO                            = "Volt M35A1 HPC";
+TAG_COLTCOMMANDO                            = "Volt R0355 HPC \"Commando\"";
 
 // Rocket Launchers
 TAG_CGM25                                   = "DLAaM ATCM-35";

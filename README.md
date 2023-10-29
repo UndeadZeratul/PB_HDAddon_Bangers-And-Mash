@@ -1,8 +1,9 @@
 # PB-HDAddon-Bangers-And-Mash
 
-## You need HDBulletLib-Recasted to run this mod
+## You need [HDBulletLib-Recasted](https://github.com/Hdest-Community/HDBulletLib-Recasted) to run this mod
 
 I'm not particularly active in HDest at the moment, but if you ping me on the HDest Discord, I'll respond to ya.
+
 
 ---- AMMO TYPES USED BY THE MOD ----
 
@@ -359,8 +360,9 @@ Sounds = from base HD
 Sprites = Captain J
 Sounds = Mike MacDee (Robocop.pk3)
 
----Aralite M35A1 HPC---
-Sprites = Sgt. Mark IV
+---Volt M35A1 HPC---
+New Sprites = TG5
+Old Sprites = Sgt. Mark IV
 Sounds = I forgot :(
 
 ---H&M HS776 SmartGun---
@@ -382,6 +384,7 @@ Sounds = from base HD
 ---USGI SSW-60---
 Sprites = YukesVonFaust, Potetobloke
 Sounds = Skulltag(?), CS 1.6
+
 
 /////UNUSED STUFF/////
 
