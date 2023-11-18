@@ -94,7 +94,7 @@ class HDGasGrenade:HDFragGrenade{
 		+ROLLSPRITE
 		+ROLLCENTER
 		scale 0.35;
-		obituary "%o was smoked by %k.";
+		obituary "$OB_GASGRENADES";
 		hdfraggrenade.rollertype "HDGasGrenadeRoller";
 	}
 	states

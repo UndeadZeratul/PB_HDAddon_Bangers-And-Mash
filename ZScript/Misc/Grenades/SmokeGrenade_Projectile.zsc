@@ -10,7 +10,7 @@ class HDSmokeGrenadeRoller:HDFragGrenadeRoller{
 			bouncetype "doom";bouncesound "misc/fragknock";
 		radius 2;height 2;damagetype "none";
 		scale 0.35;
-		obituary "%o was gassed by %k.";
+		obituary "$OB_SMOKEGRENADES";
 		radiusdamagefactor 0.04;pushfactor 1.4;maxstepheight 2;
 		mass 42;
 	}

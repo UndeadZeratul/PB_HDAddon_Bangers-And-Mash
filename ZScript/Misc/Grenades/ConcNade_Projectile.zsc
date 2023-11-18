@@ -8,7 +8,7 @@ class HDConcussionGrenadeRoller:HDActor{
 			bouncetype "doom";bouncesound "misc/fragknock";
 		radius 2;height 2;damagetype "none";
 		scale 0.3;
-		obituary "%o was fragged by %k.";
+		obituary "$OB_CONCGRENADES";
 		radiusdamagefactor 0.04;pushfactor 1.4;maxstepheight 2;mass 30;
 	}
 	override bool used(actor user){

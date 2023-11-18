@@ -10,13 +10,13 @@ class HDNapalmTank:HDMagAmmo{
 
 		hdmagammo.maxperunit 750;
 		hdmagammo.roundtype "";
-		tag "Napalm Tank";
+		tag "$TAG_NAPALM_TANK";
 		hdpickup.refid HDLD_NAPALMTANK;
 		hdpickup.bulk ENC_NAPALMTANK;
 		hdmagammo.roundbulk ENC_NAPALM;
 		hdmagammo.magbulk ENC_NAPALMTANK;
 		hdmagammo.mustshowinmagmanager true;
-		inventory.pickupmessage "Picked up a tank of napalm.";
+		inventory.pickupmessage "$PICKUP_NAPALM_TANK";
 		inventory.icon "GSTKA0";
 		scale 0.4;
 		Health 20;

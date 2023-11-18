@@ -5,7 +5,7 @@ class HDMinebeaPM9:HDHandgun{
 		//$Title "Minato M9 PDW"
 		//$Sprite "MC1PA0"
 
-		obituary "%o was quietly magdumped by %k.";
+		obituary "$OB_M95";
 		weapon.selectionorder 35;
 		weapon.slotpriority 1.8;
 		+hdweapon.fitsinbackpack
@@ -16,7 +16,7 @@ class HDMinebeaPM9:HDHandgun{
 		weapon.bobrangey 0.6;
 		weapon.bobspeed 2.5;
 		scale 0.60;
-		inventory.pickupmessage "You got the suppressed machine pistol!";
+		inventory.pickupmessage "$PICKUP_M95";
 		hdweapon.barrelsize 25,0.65,1.1;
 		hdweapon.refid HDLD_MINEBEAPM9;
 		tag "$TAG_M9S";

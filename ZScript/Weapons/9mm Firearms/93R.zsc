@@ -15,7 +15,7 @@ class HDRafficaPistol:HDHandgun{
 		weapon.bobspeed 2.5;
 		weapon.bobstyle "normal";
 		// The obituary message should be made unique later for language sake. - [Ted]
-		obituary "$OB_PISTOL";
+		obituary "$OB_93R";
 		inventory.pickupmessage "$PICKUP_93R";
 		tag "$TAG_93R";
 		hdweapon.refid HDLD_RAFFICAPISTOL;

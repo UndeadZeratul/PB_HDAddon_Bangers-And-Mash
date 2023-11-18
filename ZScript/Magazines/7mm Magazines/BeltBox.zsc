@@ -9,8 +9,8 @@ class HD_PB_7mmBeltBox:HDMagAmmo{
 		hdmagammo.roundbulk ENC_776_LOADED;
 		hdmagammo.magbulk ENC_776BELTBOX_EMPTY;
 		hdpickup.refid HDLD_776_BELTBOX;
-		tag "7.76mm MG Box";
-		inventory.pickupmessage "Picked up a 7.76mm MG belt box.";
+		tag "$TAG_7MM_BELTBOX";
+		inventory.pickupmessage "$PICKUP_7MM_BELTBOX";
 		scale 0.8;
 	}
 	override string,string,name,double getmagsprite(int thismagamt){

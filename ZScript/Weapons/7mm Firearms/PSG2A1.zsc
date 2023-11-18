@@ -8,13 +8,13 @@ class HD_PSG1:HDWeapon{
 		//$Title "Buger M22 Target Rifle"
 		//$Sprite "G11PA0"
 
-		obituary "%k pointed and clicked at %o.";
+		obituary "$OB_PSG1";
 		weapon.kickback 25;
 		weapon.slotnumber 8;
 		scale 0.57;
 		weapon.bobrangex 0.28;
 		weapon.bobrangey 1.1;
-		inventory.pickupMessage "You got the semi-auto sniper rifle!";
+		inventory.pickupMessage "$PICKUP_PSG1";
 		//hdweapon.barrelsize 45,1,2;
 		hdweapon.refid HDLD_PSG1_RIFLE;
 		tag "$TAG_PSG1";

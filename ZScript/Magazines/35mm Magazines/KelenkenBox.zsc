@@ -9,8 +9,8 @@ class HD_PB_35mmBeltBox:HDMagAmmo{
 		hdmagammo.roundbulk ENC_BRONTOSHELLLOADED;
 		hdmagammo.magbulk ENC_35MMBELTBOX_EMPTY;
 		hdpickup.refid HDLD_35MM_BELTBOX;
-		tag "35mm Bolt Box";
-		inventory.pickupmessage "Picked up a 35mm Bolt box.";
+		tag "$TAG_35MM_BELTBOX";
+		inventory.pickupmessage "$PICKUP_35MM_BELTBOX";
 		scale 0.7;
 	}
 	override string,string,name,double getmagsprite(int thismagamt){

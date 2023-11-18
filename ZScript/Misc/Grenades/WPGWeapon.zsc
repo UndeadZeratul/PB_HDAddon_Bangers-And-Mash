@@ -93,7 +93,7 @@ class HDWhitePhosphorusGrenade:HDFragGrenade{
 		+ROLLSPRITE
 		+ROLLCENTER
 		scale 0.425;
-		obituary "%o was smoked by %k.";
+		obituary "$OB_WPGRENADES";
 		hdfraggrenade.rollertype "HDWilliePeteGrenadeRoller";
 	}
 	states
@@ -134,7 +134,7 @@ class HDWilliePeteGrenadeAmmo:HDAmmo{
 		inventory.amount 1;
 		scale 0.35;
 		inventory.maxamount 50;
-		inventory.pickupmessage "Picked up a White Phosphorus Grenade.";
+		inventory.pickupmessage "$PICKUP_WPGRENADES";
 		inventory.pickupsound "weapons/pocket";
 		tag "$TAG_WPGRENADES";
 		hdpickup.refid HDLD_GRE_WHITEPHOSPHORUS;
@@ -166,7 +166,7 @@ class HDWilliePeteGrenadeP:HDUPK{
 		scale 0.35;height 3;radius 3;
 		hdupk.amount 1;
 		hdupk.pickuptype "HDWilliePeteGrenadeAmmo";
-		hdupk.pickupmessage "Picked up a White Phosphorus Grenade.";
+		hdupk.pickupmessage "$PICKUP_WPGRENADES";
 		hdupk.pickupsound "weapons/rifleclick2";
 		stamina 1;
 	}

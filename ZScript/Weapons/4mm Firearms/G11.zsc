@@ -8,14 +8,14 @@ class HDG11Rifle:HDWeapon{
 		//$Sprite "G11PA0"
 
 		+hdweapon.fitsinbackpack
-		obituary "%o received lead poisoning from %k's PEZ dispenser.";
+		obituary "$OB_G11_NORMAL";
 		weapon.selectionorder 18;
 		weapon.slotnumber 4;
 		scale 0.75;
-		inventory.pickupmessage "$PICKUP_G11";
+		inventory.pickupmessage "$PICKUP_G11_NORMAL";
 		hdweapon.barrelsize 26,3,2.25;
 		hdweapon.refid HDLD_G11;
-		tag "$TAG_G11";
+		tag "$TAG_G11_NORMAL";
 	}
 	
 	override bool AddSpareWeapon(actor newowner){return AddSpareWeaponRegular(newowner);}

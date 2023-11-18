@@ -16,7 +16,7 @@ class HDCGM25_WEP:HDWeapon{
 		weapon.bobrangey 0.86;
 		scale 0.725;
 		inventory.pickupmessage "$PICKUP_CGM25";
-		obituary "%o was stung by %k's Honey Bee.";
+		obituary "$OB_CGM25";
 		hdweapon.barrelsize 28,3.1,3;
 		tag "$TAG_CGM25";
 		hdweapon.refid HDLD_KILLERBEE;
@@ -712,8 +712,8 @@ class StingerTubeRound:HDAmmo{
 	default{
 		+inventory.ignoreskill
 		+forcexybillboard
-		inventory.pickupmessage "Picked up a ''Honey Bee'' missile tube.";
-		tag "''Honey Bee'' Rocket Tube";
+		inventory.pickupmessage "$PICKUP_CGM25_AMMO";
+		tag "$TAG_CGM25_AMMO";
 		inventory.icon "F43PD0";
 		hdpickup.refid HDLD_KILLERBEE_AMMO;
 		hdpickup.bulk ENC_KILLERBEE_AMMO;

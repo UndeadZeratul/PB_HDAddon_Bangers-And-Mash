@@ -5,7 +5,7 @@ class HDMAC10:HDHandgun{
 		//$Title "Raycob RAC-13/9 Machine Pistol"
 		//$Sprite "MC1PA0"
 
-		obituary "%o met %k's lead spitting brick.";
+		obituary "$OB_MAC10";
 		weapon.selectionorder 31;
 		weapon.slotpriority 1.8;
 		+hdweapon.fitsinbackpack
@@ -16,7 +16,7 @@ class HDMAC10:HDHandgun{
 		weapon.bobrangey 0.6;
 		weapon.bobspeed 2.5;
 		scale 0.60;
-		inventory.pickupmessage "You got the Raycob RAC-10/45!";
+		inventory.pickupmessage "$PICKUP_MAC10";
 		hdweapon.barrelsize 10,0.65,0.5;
 		hdweapon.refid HDLD_MAC10;
 		tag "$TAG_MAC10";

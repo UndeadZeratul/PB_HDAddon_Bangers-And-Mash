@@ -9,9 +9,9 @@ class HDG11Mag:HDMagAmmo{
 		hdmagammo.roundtype "FourMilAmmo";
 		hdmagammo.roundbulk ENC_426_LOADED;
 		hdmagammo.magbulk ENC_G11MAG_EMPTY;
-		tag "G26 Magazine";
+		tag "$TAG_G11_MAG";
 		scale 0.75;
-		inventory.pickupmessage "Picked up a G26 Magazine.";
+		inventory.pickupmessage "$PICKUP_G11_MAG";
 		hdpickup.refid HDLD_G11MAG;
 	}
 	override string,string,name,double getmagsprite(int thismagamt){

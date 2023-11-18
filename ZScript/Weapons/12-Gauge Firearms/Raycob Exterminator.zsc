@@ -14,8 +14,8 @@ class HDTerminatorSG:HDWeapon{
 		weapon.bobrangey 0.6;
 		weapon.bobspeed 2.5;
 		weapon.bobstyle "normal";
-		obituary "%o died an embarrassing death, caused by %k.";
-		inventory.pickupmessage "You got the Raycob Exterminator.";
+		obituary "$OB_TERMINATOR";
+		inventory.pickupmessage "$PICKUP_TERMINATOR";
 		tag "$TAG_TERMINATOR";
 		hdweapon.refid HDLD_TERMINATOR;
 		hdweapon.barrelsize 21,0.3,0.5;

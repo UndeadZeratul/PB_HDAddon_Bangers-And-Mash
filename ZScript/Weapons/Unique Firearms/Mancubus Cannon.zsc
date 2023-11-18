@@ -11,8 +11,8 @@ class HDMancCannon:HDWeapon{
 		weapon.kickback 2;
 		scale 0.8;
 		hdweapon.refid HDLD_MANCUGUNWEAPON;
-		inventory.pickupmessage "You got a modified mancubus's arm cannon! It somehow works.";
-		obituary "%o was roasted and toasted by %k.";
+		inventory.pickupmessage "$PICKUP_MANCUBUSCANNON";
+		obituary "$OB_MANCUBUSCANNON";
 		hdweapon.barrelsize 26,2,2;
 		tag "$TAG_MANCUBUSCANNON";
 	}

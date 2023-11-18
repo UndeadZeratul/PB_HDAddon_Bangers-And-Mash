@@ -311,7 +311,7 @@ class HDGasGrenadeThrown:HDFragGrenade{
 		+ROLLSPRITE
 		+ROLLCENTER
 		scale 0.35;
-		obituary "%o smelled something really bad.";
+		obituary "$OB_GASGRENADES";
 		hdfraggrenade.rollertype "HDGasGrenadeRoller";
 		mass 42;
 	}

@@ -9,7 +9,7 @@ class HD_SteyrACR:HDWeapon{
 		//$Sprite "G11PA0"
 
 		+hdweapon.fitsinbackpack
-		obituary "%k performed acupuncture on %o. It did not end well.";
+		obituary "$OB_STEYRACR";
 		weapon.selectionorder 60;
 		weapon.slotnumber 4;
 		scale 0.55;

@@ -371,9 +371,28 @@ TAG_G11_SCOPED                              = "H&M G26SD Covert";
 PICKUP_G11_NORMAL                           = "You got the Dual Purpose Infantry Rifle!";
 PICKUP_G11_SCOPED                           = "You got the G26SD Covert!";
 
+OB_G11_NORMAL                               = "%o received lead poisoning from %k's PEZ dispenser.";
+OB_G11_SCOPED                               = "%o received lead poisoning from %k's PEZ dispenser.";
+
+TAG_G11_MAG                                 = "G26 Magazine";
+
+PICKUP_G11_MAG                              = "Picked up a G26 Magazine.";
+
 // 5mm Firearms
 TAG_M5165C                                  = "Arkoudi M5/165c";
 TAG_BUGERM22                                = "Buger M22 Target Rifle";
+
+PICKUP_M5165C                               = "You got the 5mm SMG! Fire a swarm of angry bees at them!";
+PICKUP_BUGERM22                             = "You got the target rifle! Hunt some small game with it!";
+
+OB_M5165C                                   = "%o was riddled with holes by %k angry bee gun.";
+OB_BUGERM22                                 = "%o died from lead poisoning. Thanks, %k.";
+
+TAG_M5165C_MAG                              = "M5/165c Drum";
+TAG_BUGERM22_MAG                            = "Buger M22 Magazine";
+
+PICKUP_M5165C_MAG                           = "Picked up an M5/165c Magazine.";
+PICKUP_BUGERM22_MAG                         = "Picked up a small target rifle magazine.";
 
 // 6mm Firearms
 TAG_STEYR                                   = "Austere Flechette Rifles";
@@ -383,17 +402,46 @@ TAG_STEYRAICW                               = "Austere XM18 AICR";
 PICKUP_STEYRACR                             = "You got the flechette rifle!";
 PICKUP_STEYRAICW                            = "You got the Advanced Infantry Combat Rifle!";
 
+OB_STEYRACR                                 = "%k performed acupuncture on %o. It did not end well.";
+OB_STAYRAICW                                = "%k performed acupuncture on %o. It did not end well.";
+
+TAG_STEYR_MAG                               = "Austere M17 Magazine";
+
+PICKUP_STEYR_MAG                            = "Picked up a flechette rifle magazine.";
+
 // 7mm Firearms
 TAG_SMARTGUN                                = "H&M HS76A1 SmartGun";
 TAG_M60                                     = "USGI M60E1 \"Hungry Hog\"";
 TAG_FAL                                     = "UN-AF L7A1 \"Defender\"";
 TAG_PSG1                                    = "H&M PSG2A1 Sniper Rifle";
 
+PICKUP_SMARTGUN                             = "You got the HS76A1 SmartGun! Fire it in short, controlled bursts!";
+PICKUP_M60                                  = "You got the 7.76 GPMG! Get some!";
+PICKUP_FAL                                  = "You got the 7.76 Support Weapon!";
+PICKUP_PSG1                                 = "You got the semi-auto sniper rifle!";
+
+OB_SMARTGUN                                 = "%o was turned into swiss cheese by %k's bike parts.";
+OB_M60                                      = "%k didn't lead %o as much.";
+OB_FAL                                      = "%o was hit with the right hand of the free world from %k.";
+OB_PSG1                                     = "%k pointed and clicked at %o.";
+
+TAG_7MM_BELTBOX                             = "7.76mm MG Box";
+TAG_FAL_MAG                                 = "L7A1 Drum Magazine";
+TAG_PSG1_MAG                                = "H&M PSG Magazine";
+
+PICKUP_7MM_BELTBOX                          = "Picked up a 7.76mm MG belt box.";
+PICKUP_FAL_MAG                              = "Picked up a drum magazine for the L7A1.";
+PICKUP_PSG1_MAG                             = "Picked up a semi-auto sniper rifle magazine.";
+
 // 9mm Firearms
 TAG_93R                                     = "Mouletta 97R \"Raffica\"";
 TAG_M9S                                     = "Minato M9S Machine Pistol";
 
 PICKUP_93R                                  = "You got the burst pistol!";
+PICKUP_M95                                  = "You got the suppressed machine pistol!";
+
+OB_93R                                      = "%o got capped by %k's pea shooter.";
+OB_M95                                      = "%o was quietly magdumped by %k.";
 
 // 12-Gauge Firearms
 TAG_CAWS                                    = "H&M CROWS \"Presslufthämmer\"";
@@ -401,26 +449,86 @@ TAG_STREETSWEEPER                           = "Raycob Urban Destroyer";
 TAG_URAGAN5                                 = "Arkoudi M12/5 Shotgun";
 TAG_TERMINATOR                              = "Raycob Exterminator";
 
+PICKUP_CAWS                                 = "You got the Automatic Shotgun! Time to take out the trash!";
+PICKUP_STREETSWEEPER                        = "You got the Raycob Urban Destroyer!";
+PICKUP_URAGAN5                              = "You got the revolver shotgun!";
+PICKUP_TERMINATOR                           = "You got the Raycob Exterminator.";
+
+OB_CAWS                                     = "%o was the cause, and %k's death was the effect.";
+OB_STREETSWEEPER                            = "%o was destroyed by %k's registered (citation needed) \"destructive device\".";
+OB_URAGAN5                                  = "%o tried to match %k with the big iron on their hip.";
+OB_TERMINATOR                               = "%o died an embarrassing death, caused by %k.";
+
+TAG_CAWSM_MAG                               = "Combat Shotgun Magazine";
+
+PICKUP_CAWS_MAG                             = "Picked up an automatic combat shotgun magazine.";
+
 // 35mm Firearms
 TAG_DEVINCENZIA                             = "Berlinghoff XM135 \"Devincenzia\"";
 TAG_KELENKEN                                = "MS-AT 35mm \"Kelenken\"";
+
+PICKUP_DEVINCENZIA                          = "You got the Devincenzia! State of the art bang bang!";
+PICKUP_KELENKEN                             = "You got the Kelenken!";
+
+OB_DEVINCENZIA                              = "%k made %o cease to exist.";
+OB_KELENKEN                                 = "%k made %o cease to exist.";
+
+TAG_35MM_BELTBOX                            = "35mm Bolt Box";
+TAG_DEVINCENZIA_MAG                         = "XM135 \"Devincenzia\" Magazine";
+
+PICKUP_35MM_BELTBOX                         = "Picked up a 35mm Bolt box.";
+PICKUP_DEVINCENZIA_MAG                      = "Picked up a Devincenzia magazine.";
 
 // 45 ACP Firearms
 TAG_MK23                                    = "H&M Mk.45 Combat Handgun";
 TAG_MAC10                                   = "Raycob RAC-10/45 Machine Pistol";
 
+PICKUP_MK23                                 = "You got the spec-ops handgun!";
+PICKUP_MAC10                                = "You got the Raycob RAC-10/45!";
+
+OB_MK23                                     = "%o was silently taken out.";
+OB_MAC10                                    = "%o met %k's lead spitting brick.";
+
+TAG_MK23_MAG                                = "Mk.45 Service Handgun Magazine";
+TAG_MAC10_MAG                               = "RAC-10/45 32 Round Magazine";
+
+PICKUP_MK23_MAG                             = "Picked up a Mk.45 magazine.";
+PICKUP_MAC10_MAG                            = "Picked up an RAC-10/45 magazine.";
+
 // 50 AM Firearms
 TAG_AUTOMAG                                 = "SP-50 Mega Class Magnum";
 TAG_SURVIVALISTRIFLE_FNV                    = "Sawyer R50 \"Grendel\" Rifle";
 
+PICKUP_AUTOMAG                              = "You got the magnum handgun!";
 PICKUP_SURVIVALISTRIFLE_FNV                 = "You got the .50 AM rifle!";
+
+OB_AUTOMAG                                  = "%k assumed %o was carrying their 2nd pistol.";
+OB_SURVIVALISTRIFLE_FNV                     = "%o didn't survive %k's rifle.";
+
+TAG_50AM_MAG                                = ".50 AM Magazine";
+
+PICKUP_50AM_MAG                             = "Picked up a .50 AM magazine.";
 
 // 50 OMG Firearms
 TAG_M2HB                                    = "Brownell AM-HMG50 \"MKII Stinger\"";
 
+PICKUP_M2HB                                 = "You got the HMG!";
+
+OB_M2HB                                     = "%k made %o cease to exist.";
+
+TAG_50OMG_BELTBOX                           = ".50 OMG Belt Box";
+
+PICKUP_50OMG_BELTBOX                        = "Picked up a .50 OMG belt box.";
+
 // .355 Firearms
 TAG_COLTCOMMANDO                            = "Volt R0355 HPC \"Commando\"";
 TAG_LEVERGAT                                = "Sawyer LR355 \"Big Boy\" Hunting Carbine";
+
+PICKUP_COLTCOMMANDO                         = "You got the .355 SMG!";
+PICKUP_LEVERGAT                             = "You got the lever action rifle!";
+
+OB_COLTCOMMANDO                             = "%o was soaked by %k's pea stream.";
+OB_LEVERGAT                                 = "%k made %o yee their last haw.";
 
 // Rocket Launchers
 TAG_AT4                                     = "EAT-17 Expendable Anti-Tank";
@@ -429,6 +537,13 @@ TAG_CGM25                                   = "DLAaM IHML-98 \"Honey Bee\"";
 PICKUP_AT4                                  = "You got the disposable rocket launcher!";
 PICKUP_CGM25                                = "You got the homing missile launcher!";
 
+OB_AT4                                      = "%o's remains can no longer be identified thanks to %k's green tube.";
+OB_CGM25                                    = "%o was stung by %k's Honey Bee.";
+
+TAG_CGM25_AMMO                              = "\"Honey Bee\" Rocket Tube";
+
+PICKUP_CGM25_AMMO                           = "Picked up a \"Honey Bee\" missile tube.";
+
 // Unique Firearms
 TAG_RAILGUN                                 = "XM99 Experimental Railgun";
 TAG_RAILGUNDYNAMO                           = "XM99 Railgun Dynamo";
@@ -436,19 +551,53 @@ TAG_MANCUBUSCANNON                          = "Mancubus Arm Cannon";
 TAG_EXTINGUISHER                            = "Fire Extinguisher";
 TAG_PS20                                    = "Denton Light Arms and Munitions PS-451";
 
+PICKUP_RAILGUN                              = "You got the railgun!";
+PICKUP_RAILGUNDYNAMO                        = "You found the XM99 Railgun's dynamo.";
+PICKUP_MANCUBUSCANNON                       = "You got a modified mancubus's arm cannon! It somehow works.";
+PICKUP_EXTINGUISHER                         = "Picked up a fire extinguisher.";
+PICKUP_PS20                                 = "You got the PS-451!";
+
+OB_RAILGUN                                  = "%o's misfortune lead to them getting killed by %k.";
+OB_RAILGUNDYNAMO                            = "%o was mysteriously killed by %k.";
+OB_MANCUBUSCANNON                           = "%o was roasted and toasted by %k.";
+OB_EXTINGUISHER                             = "%k put out %o's existence.";
+OB_PS20                                     = "%o got disposed by %k's really strong piece of metal.";
+
+TAG_NAPALM_TANK                             = "Napalm Tank";
+
+PICKUP_NAPALM_TANK                          = "Picked up a tank of napalm.";
+
 // Items
+TAG_CONCGRENADES                            = "";
 TAG_WPGRENADES                              = "M70 White Phosphorus Grenades";
 TAG_GASGRENADES                             = "\"Skunk\" Gas Grenades";
 TAG_SMOKEGRENADES                           = "Smoke Grenades";
 
+PICKUP_CONCGRENADES                         = "";
+PICKUP_WPGRENADES                           = "Picked up a White Phosphorus Grenade.";
 PICKUP_GASGRENADES                          = "Picked up a \"Skunk\" Gas Grenade.";
 PICKUP_SMOKEGRENADES                        = "Picked up a Smoke Grenade.";
+
+OB_CONCGRENADES                             = "%o was fragged by %k.";
+OB_WPGRENADES                               = "%o was roasted and toasted by %k.";
+OB_GASGRENADES                              = "%o was gassed by %k.";
+OB_SMOKEGRENADES                            = "%o was smoked by %k.";
 
 // Melee Weapons
 TAG_KNIFE                                   = "Combat Knife";
 TAG_FIREAXE                                 = "Fire Axe";
 TAG_SLEDGEHAMMER                            = "Sledgehammer";
 TAG_KHARON                                  = "Replica Kharon";
+
+PICKUP_KNIFE                                = "You got the combat knife!";
+PICKUP_FIREAXE                              = "You got the Fire Axe! (not on fire though)";
+PICKUP_SLEDGEHAMMER                         = "You got the sledgehammer!";
+PICKUP_KHARON                               = "You got the Kharon! That's some fine demon steel!";
+
+OB_KNIFE                                    = "%o got shanked by %k.";
+OB_FIREAXE                                  = "\"Hey %o!\", shouted %k.";
+OB_SLEDGEHAMMER                             = "%o got evicted by %k. (plus property damage)";
+OB_KHARON                                   = "%o got sliced and diced by %k.";
 
 // 8mm Electromagnetic
 TAG_8MMEC                                   = "8x35mm Electromagnetic Cartridge";

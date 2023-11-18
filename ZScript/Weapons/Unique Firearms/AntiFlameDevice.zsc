@@ -17,8 +17,8 @@ class HDFireExtinguisher:HDWeaponGrabber{
 		weapon.bobspeed 2.1;
 		weapon.kickback 2;
 		scale 0.4;
-		inventory.pickupmessage "Picked up a fire extinguisher.";
-		obituary "%k put out %o's existence.";
+		inventory.pickupmessage "$PICKUP_EXTINGUISHER";
+		obituary "$OB_EXTINGUISHER";
 		hdweapon.barrelsize 26,1,2;
 		hdweapon.refid HDLD_FIREEXTINGUISHER;
 		tag "$TAG_EXTINGUISHER";

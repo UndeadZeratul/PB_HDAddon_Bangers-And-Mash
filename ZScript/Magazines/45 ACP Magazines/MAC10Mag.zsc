@@ -9,8 +9,8 @@ class HDMAC10_Mag:HD9mMag15{
 		hdmagammo.roundbulk ENC_M10_45ACP_LOADED;
 		hdmagammo.maxperunit 32;
 		hdmagammo.magbulk ENC_M10_MAG_EMPTY;
-		tag "RAC-10/45 32 Round Magazine";
-		inventory.pickupmessage "Picked up an RAC-10/45 magazine.";
+		tag "$TAG_MAC10_MAG";
+		inventory.pickupmessage "$PICKUP_MAC10_MAG";
 		hdpickup.refid HDLD_MAC10_MAG;
 	}
 	override string,string,name,double getmagsprite(int thismagamt){

@@ -9,7 +9,7 @@ class HD_CAWSGUN:HDShotgun{
 		//$Sprite "FALPA0"
 
 		-hdweapon.fitsinbackpack
-		obituary "%o was the cause, and %k's death was the effect.";
+		obituary "$OB_CAWS";
 		weapon.selectionorder 10;
 		weapon.slotpriority 1.125;
 		weapon.slotnumber 3;
@@ -18,7 +18,7 @@ class HD_CAWSGUN:HDShotgun{
 		weapon.bobrangey 0.9;
 		//weapon.bobspeed 2.5;
 		scale 0.65;
-		inventory.pickupmessage "You got the Automatic Shotgun! Time to take out the trash!";
+		inventory.pickupmessage "$PICKUP_CAWS";
 		hdweapon.barrelsize 27,1,2;
 		tag "$TAG_CAWS";
 		hdweapon.refid HDLD_CAWSGUN;

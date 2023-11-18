@@ -14,8 +14,8 @@ class HDPS20:HDHandgun{
 		weapon.bobrangex 0.21;
 		weapon.bobrangey 0.86;
 		scale 0.6;
-		inventory.pickupmessage "You got the PS-451!";
-		obituary "%o got disposed by %k's really strong piece of metal.";
+		inventory.pickupmessage "$PICKUP_PS20";
+		obituary "$OB_PS20";
 		hdweapon.barrelsize 5,1,2;
 		tag "$TAG_PS20";
 		inventory.amount 1;

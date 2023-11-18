@@ -35,9 +35,9 @@ class HDCombatKnife:HD_PB_UnarmedWeapon{
 		+hdweapon.reverseguninertia
 		+nodamagethrust
 		radius 3;height 3;
-		inventory.pickupmessage "You got the combat knife!";
+		inventory.pickupmessage "$PICKUP_KNIFE";
 		hdweapon.barrelsize 1,1,1;
-		obituary "%o got shanked by %k.";
+		obituary "$OB_KNIFE";
 		attacksound "*fist";
 		weapon.selectionorder 100;
 		weapon.kickback 15;

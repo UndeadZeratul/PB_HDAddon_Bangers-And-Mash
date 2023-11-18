@@ -9,8 +9,8 @@ class HD_PB_50OMGBeltBox:HDMagAmmo{
 		hdmagammo.roundbulk ENC_50OMG_LOADED;
 		hdmagammo.magbulk ENC_M2HBBELTBOX_EMPTY;
 		hdpickup.refid HDLD_M2HB_BELTBOX;
-		tag ".50 OMG Belt Box";
-		inventory.pickupmessage "Picked up a .50 OMG belt box.";
+		tag "$TAG_50OMG_BELTBOX";
+		inventory.pickupmessage "$PICKUP_50OMG_BELTBOX";
 		scale 0.8;
 	}
 	override string,string,name,double getmagsprite(int thismagamt){
