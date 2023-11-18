@@ -13,7 +13,7 @@ class HDG11Rifle_Scoped:HDWeapon{
 		//$Sprite "G12PA0"
 
 		+hdweapon.fitsinbackpack
-		obituary "%o received lead poisoning from %k's PEZ dispenser.";
+		obituary "$OB_G11_SCOPED";
 		weapon.selectionorder 16;
 		weapon.slotnumber 4;
 		scale 0.75;

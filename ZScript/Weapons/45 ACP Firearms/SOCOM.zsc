@@ -16,8 +16,8 @@ class HDMK23SOCOM:HDHandgun{
 		weapon.bobspeed 2.5;
 		weapon.bobstyle "normal";
 		//obituary "%o got capped by %k's pea shooter.";
-		obituary "%o was silently taken out.";
-		inventory.pickupmessage "You got the spec-ops handgun!";
+		obituary "$OB_MK23";
+		inventory.pickupmessage "$PICKUP_MK23";
 		tag "$TAG_MK23";
 		hdweapon.refid HDLD_MK23SOCOM_WEAPON;
 		hdweapon.barrelsize 21,0.5,0.5;

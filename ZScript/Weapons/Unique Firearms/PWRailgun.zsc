@@ -16,8 +16,8 @@ class HDFortuneRailgun:HDWeapon{
 		weapon.bobspeed 1.8;
 		hdweapon.barrelsize 55,3.5,7;
 		scale 0.725;
-		inventory.pickupmessage "You got the railgun!";
-		obituary "%o's misfortune lead to them getting killed by %k.";
+		inventory.pickupmessage "$PICKUP_RAILGUN";
+		obituary "$OB_RAILGUN";
 		tag "$TAG_RAILGUN";
 		hdweapon.refid HDLD_PWRAILGUN;
 	}

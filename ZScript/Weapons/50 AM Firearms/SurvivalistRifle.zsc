@@ -9,7 +9,7 @@ class HDSurvivalistRifleFNV:HDWeapon{
 		//$Sprite "C9MPA0"
 
 		-hdweapon.fitsinbackpack
-		obituary "%o didn't survive %k's rifle.";
+		obituary "$OB_SURVIVALISTRIFLE_FNV";
 		weapon.slotnumber 4;
 		weapon.selectionorder 125;
 		weapon.slotpriority 0.5;

@@ -11,8 +11,8 @@ class HD_M165Mag:HDMagAmmo{
 		hdmagammo.roundtype "HD5MM_Ammo";
 		hdmagammo.roundbulk ENC_5MM_LOADED;
 		hdmagammo.magbulk ENC_M165_MAG_EMPTY;
-		tag "M5/165c Drum";
-		inventory.pickupmessage "Picked up an M5/165c Magazine.";
+		tag "$TAG_M5165C_MAG";
+		inventory.pickupmessage "$PICKUP_M5165C_MAG";
 		hdpickup.refid HDLD_M165_MAG;
 	}
 	override void GetItemsThatUseThis(){

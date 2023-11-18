@@ -12,8 +12,8 @@ class HDRuger1022Mag:HDMagAmmo{
 		hdmagammo.roundtype "HD5MM_Ammo";
 		hdmagammo.roundbulk ENC_5MM_LOADED;
 		hdmagammo.magbulk ENC_RUGER1022_MAG_EMPTY;
-		tag "Buger M22 Magazine";
-		inventory.pickupmessage "Picked up a small target rifle magazine.";
+		tag "$TAG_BUGERM22_MAG";
+		inventory.pickupmessage "$PICKUP_BUGERM22_MAG";
 		hdpickup.refid HDLD_RUGER1022_MAG;
 	}
 	override string,string,name,double getmagsprite(int thismagamt){

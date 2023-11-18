@@ -8,7 +8,7 @@ class HD_FNFAL:HDWeapon{
 		//$Sprite "FALPA0"
 
 		-hdweapon.fitsinbackpack //forgot that this shouldn't fit
-		obituary "%o was hit with the right hand of the free world from %k.";
+		obituary "$OB_FAL";
 		weapon.selectionorder 10;
 		weapon.slotpriority 1.25;
 		weapon.slotnumber 6;
@@ -17,7 +17,7 @@ class HD_FNFAL:HDWeapon{
 		weapon.bobrangey 0.9;
 		//weapon.bobspeed 2.5;
 		scale 0.65;
-		inventory.pickupmessage "You got the 7.76 Support Weapon!";
+		inventory.pickupmessage "$PICKUP_FAL";
 		hdweapon.barrelsize 35,1,2;
 		//hdweapon.nicename "Chives Herstal MG77 ''Defender''";
 		tag "$TAG_FAL";

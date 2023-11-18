@@ -8,7 +8,7 @@ class HD_ATCDevincenzia:HDWeapon{
 		//$Title "Devincenzia"
 		//$Sprite "ATCPA0"
 		-hdweapon.fitsinbackpack
-		obituary "%k made %o cease to exist.";
+		obituary "$OB_DEVINCENZIA";
 		weapon.selectionorder 24;
 		weapon.slotnumber 7;
 		weapon.kickback 90;
@@ -16,7 +16,7 @@ class HD_ATCDevincenzia:HDWeapon{
 		weapon.bobrangey 1.3;
 		weapon.bobspeed 1.75;
 		scale 0.8;
-		inventory.pickupmessage "You got the Devincenzia! State of the art bang bang!";
+		inventory.pickupmessage "$PICKUP_DEVINCENZIA";
 		hdweapon.barrelsize 52,1.5,3;
 		hdweapon.refid HDLD_COBRACANNON_WP;
 		tag "$TAG_DEVINCENZIA"; 

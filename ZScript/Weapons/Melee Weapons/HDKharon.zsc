@@ -125,8 +125,8 @@ class HDKharon:HD_PB_UnarmedWeapon{
 		+forceXYbillboard
 		+rollsprite
 		+rollcenter
-		inventory.pickupmessage "You got the Kharon! That's some fine demon steel!";
-		obituary "%o got sliced and diced by %k.";
+		inventory.pickupmessage "";
+		obituary "$OB_KHARON";
 		attacksound "weapons/kharonwall";
 		weapon.selectionorder 200;
 		weapon.slotpriority 0.75;

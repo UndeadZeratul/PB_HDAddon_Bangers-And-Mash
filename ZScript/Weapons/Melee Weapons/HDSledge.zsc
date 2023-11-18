@@ -75,8 +75,8 @@ class HDSledgehammer:HD_PB_UnarmedWeapon{
 		+forceXYbillboard
 		+rollsprite
 		+rollcenter
-		inventory.pickupmessage "You got the sledgehammer!";
-		obituary "%o got evicted by %k. (plus property damage)";
+		inventory.pickupmessage "$PICKUP_SLEDGEHAMMER";
+		obituary "$OB_SLEDGEHAMMER";
 		attacksound "weapons/axewall";
 		weapon.selectionorder 200;
 		weapon.slotpriority 0.75;

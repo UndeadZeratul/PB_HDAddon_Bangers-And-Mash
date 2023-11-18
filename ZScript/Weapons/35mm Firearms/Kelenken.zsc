@@ -9,7 +9,7 @@ class HD_ATCKelenken:HDWeapon{
 		//$Sprite "ATCPA0"
 		-hdweapon.fitsinbackpack
 		+hdweapon.hinderlegs
-		obituary "%k made %o cease to exist.";
+		obituary "$OB_KELENKEN";
 		weapon.selectionorder 24;
 		weapon.slotnumber 7;
 		weapon.kickback 90;
@@ -17,7 +17,7 @@ class HD_ATCKelenken:HDWeapon{
 		weapon.bobrangey 1.8;
 		weapon.bobspeed 1.75;
 		scale 0.8;
-		inventory.pickupmessage "You got the Kelenken!";
+		inventory.pickupmessage "$PICKUP_KELENKEN";
 		hdweapon.barrelsize 42,1.5,3;
 		hdweapon.refid HDLD_KELENKEN_WP;
 		tag "$TAG_KELENKEN"; 

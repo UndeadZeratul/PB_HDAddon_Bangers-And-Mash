@@ -9,8 +9,8 @@ class HD_CAWSMag:HDMagAmmo{
 		hdmagammo.roundbulk ENC_SHELLLOADED;
 		hdmagammo.magbulk ENC_CAWS_MAG;
 		hdpickup.refid HDLD_CAWSMAG;
-		tag "Combat Shotgun Magazine";
-		inventory.pickupmessage "Picked up an automatic combat shotgun magazine.";
+		tag "$TAG_CAWS_MAG";
+		inventory.pickupmessage "$PICKUP_CAWS_MAG";
 		scale 0.65;
 		inventory.maxamount 1000;
 	}

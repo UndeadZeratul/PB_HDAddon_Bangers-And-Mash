@@ -14,7 +14,7 @@ class HDAT4_WEP:HDWeapon{
 		+hdweapon.fitsinbackpack
 		scale 0.6;
 		inventory.pickupmessage "$PICKUP_AT4";
-		obituary "%o's remains can no longer be identified thanks to %k's green tube.";
+		obituary "$OB_AT4";
 		hdweapon.barrelsize 32,3.1,2;
 		tag "$TAG_AT4";
 		hdweapon.refid HDLD_AT4;

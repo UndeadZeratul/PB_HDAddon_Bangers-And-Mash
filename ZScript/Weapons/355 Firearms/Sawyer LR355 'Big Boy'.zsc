@@ -8,8 +8,8 @@ class HDLeverGun:HDWeapon{
 		weapon.bobrangex 0.21;
 		weapon.bobrangey 0.86;
 		weapon.bobstyle "normal";
-		obituary "%k made %o yee their last haw.";
-		inventory.pickupmessage "You got the lever action rifle!";
+		obituary "$OB_LEVERGAT";
+		inventory.pickupmessage "$PICKUP_LEVERGAT";
 		tag "$TAG_LEVERGAT";
 		hdweapon.refid HDLD_LEVERRIFLE;
 		hdweapon.barrelsize 28,0.6,2;

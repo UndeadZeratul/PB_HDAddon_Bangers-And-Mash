@@ -9,7 +9,7 @@ class HDColt355:HDWeapon{
 		//$Sprite "C9MPA0"
 
 		+hdweapon.fitsinbackpack
-		obituary "%o was soaked by %k's pea stream.";
+		obituary "$OB_COLTCOMMANDO";
 		weapon.slotnumber 2;
 		weapon.selectionorder 125;
 		weapon.slotpriority 0.5;
@@ -18,7 +18,7 @@ class HDColt355:HDWeapon{
 		weapon.bobrangey 0.6;
 		weapon.bobspeed 2.5;
 		scale 0.65;
-		inventory.pickupmessage "You got the .355 SMG!";
+		inventory.pickupmessage "$PICKUP_COLTCOMMANDO";
 		hdweapon.barrelsize 28,0.9,1;
 		hdweapon.refid HDLD_COLT9MM_NORM;
 		tag "$TAG_COLTCOMMANDO";

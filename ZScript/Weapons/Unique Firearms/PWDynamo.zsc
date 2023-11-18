@@ -12,8 +12,8 @@ class HDRailgunDynamoPW:HDWeapon{
 		scale 0.725;
 		weapon.bobrangex 0.22;
 		weapon.bobrangey 0.9;
-		Inventory.PickupMessage "You found the XM99 Railgun's dynamo.";
-		obituary "%o was mysteriously killed by %k.";
+		Inventory.PickupMessage "$PICKUP_RAILGUNDYNAMO";
+		obituary "$OB_RAILGUNDYNAMO";
 		hdweapon.refid HDLD_PW_RAILGUNDYNAMO;
 		hdweapon.barrelsize 15,0.3,0.5;
 		Tag "$TAG_RAILGUNDYNAMO";

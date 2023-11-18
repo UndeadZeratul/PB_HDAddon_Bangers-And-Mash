@@ -14,8 +14,8 @@ class HD_AutoMag:HDHandgun{
 		weapon.bobrangey 0.7;
 		weapon.bobspeed 2.5;
 		weapon.bobstyle "normal";
-		obituary "%k assumed %o was carrying their 2nd pistol.";
-		inventory.pickupmessage "You got the magnum handgun!";
+		obituary "$OB_AUTOMAG";
+		inventory.pickupmessage "$PICKUP_AUTOMAG";
 		tag "$TAG_AUTOMAG";
 		hdweapon.refid HDLD_50PSTL;
 		inventory.maxamount 3;

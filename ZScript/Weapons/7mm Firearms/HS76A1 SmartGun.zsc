@@ -15,8 +15,8 @@ class HDMicrogun:HDWeapon{
 		weapon.bobrangey 1.1;
 		weapon.bobspeed 1.67;
 		scale 0.85;
-		inventory.pickupmessage "You got the HS76A1 SmartGun! Fire it in short, controlled bursts!";
-		obituary "%o was turned into swiss cheese by %k's bike parts.";
+		inventory.pickupmessage "$PICKUP_SMARTGUN";
+		obituary "$OB_SMARTGUN";
 		hdweapon.barrelsize 40,4,2;
 		tag "$TAG_SMARTGUN";
 		hdweapon.refid HDLD_SMARTGUN;

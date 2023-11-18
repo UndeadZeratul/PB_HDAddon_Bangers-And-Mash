@@ -15,8 +15,8 @@ class HDUragan5:HDHandgun{
 		weapon.bobrangey 0.6;
 		weapon.bobspeed 2.5;
 		weapon.bobstyle "normal";
-		obituary "%o tried to match %k with the big iron on their hip.";
-		inventory.pickupmessage "You got the revolver shotgun!";
+		obituary "$OB_URAGAN5";
+		inventory.pickupmessage "$PICKUP_URAGAN5";
 		tag "$TAG_URAGAN5";
 		hdweapon.refid HDLD_URAGAN5;
 		hdweapon.barrelsize 6.5,0.3,0.5; //physically longer than auto but can shoot at contact
