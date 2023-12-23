@@ -233,10 +233,11 @@ MENU_AUTOMAGMAG_CLIPMAG_SPAWNTEXT           = "Control the spawn rate of the SP-
 MENU_AUTOMAGMAG_BACKPACKS                   = "Control whether the SP-50 Automag's Magazines spawn in Backpacks:";
 
 // Levergat
-MENU_LEVERGAT_TITLE                         = "------ Sawyer LR37 \"Big Boy\" Hunting Carbine Options ------";
-MENU_LEVERGAT_HUNTER_SPAWNTEXT              = "Control the spawn rate of the Sawyer LR37 on Hunters:";
-MENU_LEVERGAT_SLAYER_SPAWNTEXT              = "Control the spawn rate of the Sawyer LR37 on Slayers:";
-MENU_LEVERGAT_BACKPACKS                     = "Control whether the Sawyer LR37 spawns in Backpacks:";
+MENU_SURVIVALISTRIFLE_TITLE                 = "------ Sawyer R50 \"Grendel\" Rifle Options ------";
+MENU_SURVIVALISTRIFLE_HUNTER_SPAWNTEXT      = "Control the spawn rate of the Sawyer R50 on Hunters:";
+MENU_SURVIVALISTRIFLE_SLAYER_SPAWNTEXT      = "Control the spawn rate of the Sawyer R50 on Slayers:";
+MENU_SURVIVALISTRIFLE_CHAINGUN_SPAWNTEXT    = "Control the spawn rate of the Sawyer R50 on Vulcanettes:";
+MENU_SURVIVALISTRIFLE_BACKPACKS             = "Control whether the Sawyer R50 spawns in Backpacks:";
 
 //-----------------
 // .50 OMG Firearms
@@ -259,6 +260,12 @@ MENU_COLT355_CLIPBOX_SPAWNTEXT              = "Control the spawn rate of the M35
 MENU_COLT355_BACKPACKS                      = "Control whether the M35A1 HPC spawns in Backpacks:";
 MENU_COLT355MAG_CLIPMAG_SPAWNTEXT           = "Control the spawn rate of the M35A1 HPC's Magazines on Clip Magazines:";
 MENU_COLT355MAG_BACKPACKS                   = "Control whether the M35A1 HPC's Magazines spawn in Backpacks:";
+
+// Levergat
+MENU_LEVERGAT_TITLE                         = "------ Sawyer LR355 \"Big Boy\" Hunting Carbine Options ------";
+MENU_LEVERGAT_HUNTER_SPAWNTEXT              = "Control the spawn rate of the Sawyer LR355 on Hunters:";
+MENU_LEVERGAT_SLAYER_SPAWNTEXT              = "Control the spawn rate of the Sawyer LR355 on Slayers:";
+MENU_LEVERGAT_BACKPACKS                     = "Control whether the Sawyer LR355 spawns in Backpacks:";
 
 //-----------------
 // Explosives
@@ -390,14 +397,15 @@ TAG_MK23                                    = "H&M Mk.45 Combat Handgun";
 TAG_MAC10                                   = "Raycob RAC-10/45 Machine Pistol";
 
 // 50 AM Firearms
-TAG_LEVERGAT                                = "Sawyer LR37 \"Big Boy\" Hunting Carbine";
 TAG_AUTOMAG                                 = "SP-50 Mega Class Magnum";
+TAG_SURVIVALISTRIFLE_FNV                    = "Sawyer R50 \"Grendel\" Rifle";
 
 // 50 OMG Firearms
 TAG_M2HB                                    = "Brownell AM-HMG50 \"MKII Stinger\"";
 
 // .355 Firearms
 TAG_COLTCOMMANDO                            = "Volt R0355 HPC \"Commando\"";
+TAG_LEVERGAT                                = "Sawyer LR355 \"Big Boy\" Hunting Carbine";
 
 // Rocket Launchers
 TAG_CGM25                                   = "DLAaM ATCM-35";

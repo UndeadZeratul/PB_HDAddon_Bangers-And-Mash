@@ -163,62 +163,63 @@ class PBWepsHandler : EventHandler {
         // Example from Ace-Corp Extended. - [Ted]
         // if (!blackhawk_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDBlackhawk'));
 
-        if (!railgun_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDFortuneRailgun'));
-        if (!railgun_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDRailgunDynamoPW'));
-        if (!smartgun_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HDMicrogun'));
-        if (!kelenken_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HD_ATCKelenken'));
-        if (!fal_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HD_FNFAL'));
-        if (!m60_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HD_M60'));
-        if (!devincenzia_allowBackpacks)     backpackBlacklist.push((Class<Inventory>)('HD_ATCDevincenzia'));
-        if (!steyracr_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HD_SteyrACR'));
-        if (!mancubuscannon_allowBackpacks)  backpackBlacklist.push((Class<Inventory>)('HDMancCannon'));
-        if (!automag_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HD_AutoMag'));
+        if (!railgun_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDFortuneRailgun'));
+        if (!railgun_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDRailgunDynamoPW'));
+        if (!smartgun_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDMicrogun'));
+        if (!kelenken_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HD_ATCKelenken'));
+        if (!fal_allowBackpacks)              backpackBlacklist.push((Class<Inventory>)('HD_FNFAL'));
+        if (!m60_allowBackpacks)              backpackBlacklist.push((Class<Inventory>)('HD_M60'));
+        if (!devincenzia_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HD_ATCDevincenzia'));
+        if (!steyracr_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HD_SteyrACR'));
+        if (!mancubuscannon_allowBackpacks)   backpackBlacklist.push((Class<Inventory>)('HDMancCannon'));
+        if (!automag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HD_AutoMag'));
         // Moving this to be one cvar as technically this could be a variant like the AutoMag but whatever. - [Ted]
-        if (!g11_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HDG11Rifle'));
-        if (!g11_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HDG11Rifle_Scoped'));
-        if (!m5165_allowBackpacks)           backpackBlacklist.push((Class<Inventory>)('HD_M5165'));
-        if (!colt355_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDColt355'));
-        if (!caws_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HD_CAWSGUN'));
-        if (!sweeper_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDStreetSweeper'));
-        if (!uragan5_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDUragan5'));
-        if (!levergat_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HDLeverGun'));
-        if (!psg1_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HD_PSG1'));
-        if (!mac10_allowBackpacks)           backpackBlacklist.push((Class<Inventory>)('HDMAC10'));
-        if (!mk23socom_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HDMK23SOCOM'));
-        if (!ps20_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HDPS20'));
-        if (!knife_allowBackpacks)           backpackBlacklist.push((Class<Inventory>)('HDCombatKnife'));
-        if (!at4_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HDAT4_WEP'));
-        if (!cgm25_allowBackpacks)           backpackBlacklist.push((Class<Inventory>)('HDCGM25_WEP'));
-        if (!raffica_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDRafficaPistol'));
-        if (!m9s_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HDMinebeaPM9'));
-        if (!m2hb_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HD_M2HB'));
-        if (!terminator_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HDTerminatorSG'));
-        if (!kharon_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDKharon'));
-        if (!sledgehammer_allowBackpacks)    backpackBlacklist.push((Class<Inventory>)('HDSledgehammer'));
-        if (!fireaxe_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDFireAxe'));
-        if (!extinguisher_allowBackpacks)    backpackBlacklist.push((Class<Inventory>)('HDFireExtinguisher'));
-        if (!gasgrenade_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HDGasGrenadeAmmo'));
-        if (!wpgrenade_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HDWilliePeteGrenadeAmmo'));
-        if (!ruger1022_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HD_Ruger1022'));
+        if (!g11_allowBackpacks)              backpackBlacklist.push((Class<Inventory>)('HDG11Rifle'));
+        if (!g11_allowBackpacks)              backpackBlacklist.push((Class<Inventory>)('HDG11Rifle_Scoped'));
+        if (!m5165_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HD_M5165'));
+        if (!colt355_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDColt355'));
+        if (!caws_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HD_CAWSGUN'));
+        if (!sweeper_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDStreetSweeper'));
+        if (!uragan5_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDUragan5'));
+        if (!levergat_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDLeverGun'));
+        if (!survivalistrifle_allowBackpacks) backpackBlacklist.push((Class<Inventory>)('HDSurvivalistRifleFNV'));
+        if (!psg1_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HD_PSG1'));
+        if (!mac10_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HDMAC10'));
+        if (!mk23socom_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HDMK23SOCOM'));
+        if (!ps20_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HDPS20'));
+        if (!knife_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HDCombatKnife'));
+        if (!at4_allowBackpacks)              backpackBlacklist.push((Class<Inventory>)('HDAT4_WEP'));
+        if (!cgm25_allowBackpacks)            backpackBlacklist.push((Class<Inventory>)('HDCGM25_WEP'));
+        if (!raffica_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDRafficaPistol'));
+        if (!m9s_allowBackpacks)              backpackBlacklist.push((Class<Inventory>)('HDMinebeaPM9'));
+        if (!m2hb_allowBackpacks)             backpackBlacklist.push((Class<Inventory>)('HD_M2HB'));
+        if (!terminator_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HDTerminatorSG'));
+        if (!kharon_allowBackpacks)           backpackBlacklist.push((Class<Inventory>)('HDKharon'));
+        if (!sledgehammer_allowBackpacks)     backpackBlacklist.push((Class<Inventory>)('HDSledgehammer'));
+        if (!fireaxe_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDFireAxe'));
+        if (!extinguisher_allowBackpacks)     backpackBlacklist.push((Class<Inventory>)('HDFireExtinguisher'));
+        if (!gasgrenade_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HDGasGrenadeAmmo'));
+        if (!wpgrenade_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HDWilliePeteGrenadeAmmo'));
+        if (!ruger1022_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HD_Ruger1022'));
 
-        if (!g11mag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDG11Mag'));
-        if (!m165mag_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HD_M165Mag'));
-        if (!fiftyammag_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HD50AM_Mag'));
-        if (!mac10mag_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HDMAC10_Mag'));
-        if (!mk23mag_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDMK23SOCOM_Mag'));
-        if (!napalmtank_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HDNapalmTank'));
-        if (!steyracrmag_allowBackpacks)     backpackBlacklist.push((Class<Inventory>)('PB_HDSteyrACRMag'));
-        if (!cawsmag_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HD_CAWSMag'));
-        if (!falmag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HD_FALMag'));
-        if (!colt355mag_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HDColt9mmMag25'));
-        if (!ruger1022mag_allowBackpacks)    backpackBlacklist.push((Class<Inventory>)('HDRuger1022Mag'));
-        if (!psg1mag_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('PB_PSG1_MAG'));
-        if (!devincenziamag_allowBackpacks)  backpackBlacklist.push((Class<Inventory>)('HDDevincenziaMag'));
-        if (!kelenkenmag_allowBackpacks)     backpackBlacklist.push((Class<Inventory>)('HD_PB_35mmBeltBox'));
-        if (!m2hbmag_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HD_PB_50OMGBeltBox'));
-        if (!beltbox7mm_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HD_PB_7mmBeltBox'));
+        if (!g11mag_allowBackpacks)           backpackBlacklist.push((Class<Inventory>)('HDG11Mag'));
+        if (!m165mag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HD_M165Mag'));
+        if (!fiftyammag_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HD50AM_Mag'));
+        if (!mac10mag_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HDMAC10_Mag'));
+        if (!mk23mag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HDMK23SOCOM_Mag'));
+        if (!napalmtank_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HDNapalmTank'));
+        if (!steyracrmag_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('PB_HDSteyrACRMag'));
+        if (!cawsmag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HD_CAWSMag'));
+        if (!falmag_allowBackpacks)           backpackBlacklist.push((Class<Inventory>)('HD_FALMag'));
+        if (!colt355mag_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HDColt9mmMag25'));
+        if (!ruger1022mag_allowBackpacks)     backpackBlacklist.push((Class<Inventory>)('HDRuger1022Mag'));
+        if (!psg1mag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('PB_PSG1_MAG'));
+        if (!devincenziamag_allowBackpacks)   backpackBlacklist.push((Class<Inventory>)('HDDevincenziaMag'));
+        if (!kelenkenmag_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HD_PB_35mmBeltBox'));
+        if (!m2hbmag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HD_PB_50OMGBeltBox'));
+        if (!beltbox7mm_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HD_PB_7mmBeltBox'));
 
-        if (!eightmilec_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HD8mmElectroMagnetic'));
+        if (!eightmilec_allowBackpacks)       backpackBlacklist.push((Class<Inventory>)('HD8mmElectroMagnetic'));
 
         //------------
         // Ammunition
@@ -423,7 +424,14 @@ class PBWepsHandler : EventHandler {
         Array<PBWepsSpawnItemEntry> spawns_levergat;
         spawns_levergat.push(addItemEntry('HunterRandom', levergat_hunter_spawn_bias));
         spawns_levergat.push(addItemEntry('SlayerRandom', levergat_slayer_spawn_bias));
-        addItem('HDLeverGun', spawns_levergat, levergat_persistent_spawning);
+        addItem('PB_LeverGat_Spawn', spawns_levergat, levergat_persistent_spawning);
+
+        // Survivalist Rifle
+        Array<PBWepsSpawnItemEntry> spawns_survivalistrifle;
+        spawns_survivalistrifle.push(addItemEntry('HunterRandom', survivalistrifle_hunter_spawn_bias));
+        spawns_survivalistrifle.push(addItemEntry('SlayerRandom', survivalistrifle_slayer_spawn_bias));
+        spawns_survivalistrifle.push(addItemEntry('ChaingunReplaces', survivalistrifle_chaingun_spawn_bias));
+        addItem('PB_BeowulfRifle_Spawn', spawns_survivalistrifle, survivalistrifle_persistent_spawning);
 
         // PSG-1
         Array<PBWepsSpawnItemEntry> spawns_psg1;
@@ -434,7 +442,7 @@ class PBWepsHandler : EventHandler {
         // MAC-11/10/whatever
         Array<PBWepsSpawnItemEntry> spawns_MAC10;
         spawns_MAC10.push(addItemEntry('PistolReplaces', mac10_pistol_spawn_bias));
-        addItem('HDMAC10', spawns_MAC10, mac10_persistent_spawning);
+        addItem('PB_MAC11Spawn', spawns_MAC10, mac10_persistent_spawning);
 
         // Mk. 23 SOCOM
         Array<PBWepsSpawnItemEntry> spawns_mk23socom;

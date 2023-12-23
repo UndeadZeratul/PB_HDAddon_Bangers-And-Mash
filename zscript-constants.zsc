@@ -177,3 +177,6 @@ const HDLD_RAFFICAPISTOL="93r";
 
 // PM9
 const HDLD_MINEBEAPM9="pm9";
+
+// Survivalist Rifle
+const HDLD_SURIVALISTSRIFLE_FNV="sr5";

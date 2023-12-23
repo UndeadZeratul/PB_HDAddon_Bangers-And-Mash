@@ -116,6 +116,8 @@ OptionMenu "PBWepsMenu" {
 	StaticText ""
 	Submenu "$TAG_BUGERM22", "bugerm22Spawning", 0, 1
 	StaticText ""
+	Submenu "$TAG_SURVIVALISTRIFLE_FNV", "survivalistRifleSpawning", 0, 1
+	StaticText ""
 
     StaticText "$MENU_ENERGYWEAPONS_TITLE", "Cyan"
 	StaticText ""
@@ -874,8 +876,8 @@ OptionMenu "automagSpawning" {
 	SafeCommand "$MENU_RESETALLOPTIONS", "automag_reset_cvars"
 }
 
-OptionMenu "levergatSpawning" {
-    Title "$MENU_LEVERGAT_TITLE"
+OptionMenu "survivalistRifleSpawning" {
+    Title "$MENU_SURVIVALISTRIFLE_TITLE"
     StaticText ""
 
    	StaticText "$MENU_NOTICE", "Orange"
@@ -884,26 +886,29 @@ OptionMenu "levergatSpawning" {
     StaticText ""
 
 	StaticText "$MENU_WEPSPAWNOPTIONS", "Orange"
-    StaticText "$MENU_LEVERGAT_HUNTER_SPAWNTEXT", "White"
-	Option "$MENU_WEPSPAWNRATE", "levergat_hunter_spawn_bias", "SpawnBias"
-	SafeCommand "$MENU_RESETWEP", "resetcvar levergat_hunter_spawn_bias"
-    StaticText "$MENU_LEVERGAT_SLAYER_SPAWNTEXT", "White"
-	Option "$MENU_WEPSPAWNRATE", "levergat_slayer_spawn_bias", "SpawnBias"
-	SafeCommand "$MENU_RESETWEP", "resetcvar levergat_slayer_spawn_bias"
+    StaticText "$MENU_SURVIVALISTRIFLE_HUNTER_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "survivalistRifle_hunter_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar survivalistRifle_hunter_spawn_bias"
+    StaticText "$MENU_SURVIVALISTRIFLE_SLAYER_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "survivalistRifle_slayer_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar survivalistRifle_slayer_spawn_bias"
+    StaticText "$MENU_SURVIVALISTRIFLE_CHAINGUN_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "survivalistRifle_chaingun_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar survivalistRifle_chaingun_spawn_bias"
  	StaticText ""
 
-	StaticText "$MENU_LEVERGAT_BACKPACKS", "White"
-	Option "$MENU_BACKPACKSALLOWED", "levergat_allowBackpacks", "OnOff"
+	StaticText "$MENU_SURVIVALISTRIFLE_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "survivalistRifle_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
     StaticText "$MENU_PERSISTENCY_TEXT", "White"
-	Option "$MENU_WEPPERSISTENCY", "levergat_persistent_spawning", "OnOff"
-	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar levergat_persistent_spawning"
+	Option "$MENU_WEPPERSISTENCY", "survivalistRifle_persistent_spawning", "OnOff"
+	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar survivalistRifle_persistent_spawning"
  	StaticText ""
 
 	StaticText "$MENU_RESETOPTIONS", "Orange"
-	SafeCommand "$MENU_RESETALLOPTIONS", "levergat_reset_cvars"
+	SafeCommand "$MENU_RESETALLOPTIONS", "survivalistRifle_reset_cvars"
 }
 
 // 50 OMG Firearms
@@ -978,6 +983,38 @@ OptionMenu "colt355Spawning" {
 
 	StaticText "$MENU_RESETOPTIONS", "Green"
 	SafeCommand "$MENU_RESETALLOPTIONS", "colt355_reset_cvars"
+}
+
+OptionMenu "levergatSpawning" {
+    Title "$MENU_LEVERGAT_TITLE"
+    StaticText ""
+
+   	StaticText "$MENU_NOTICE", "Orange"
+    StaticText "$MENU_SPAWNRATE_TEXT1", "White"
+    StaticText "$MENU_SPAWNRATE_TEXT2", "White"
+    StaticText ""
+
+	StaticText "$MENU_WEPSPAWNOPTIONS", "Orange"
+    StaticText "$MENU_LEVERGAT_HUNTER_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "levergat_hunter_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar levergat_hunter_spawn_bias"
+    StaticText "$MENU_LEVERGAT_SLAYER_SPAWNTEXT", "White"
+	Option "$MENU_WEPSPAWNRATE", "levergat_slayer_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETWEP", "resetcvar levergat_slayer_spawn_bias"
+ 	StaticText ""
+
+	StaticText "$MENU_LEVERGAT_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "levergat_allowBackpacks", "OnOff"
+ 	StaticText ""
+
+	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
+    StaticText "$MENU_PERSISTENCY_TEXT", "White"
+	Option "$MENU_WEPPERSISTENCY", "levergat_persistent_spawning", "OnOff"
+	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar levergat_persistent_spawning"
+ 	StaticText ""
+
+	StaticText "$MENU_RESETOPTIONS", "Orange"
+	SafeCommand "$MENU_RESETALLOPTIONS", "levergat_reset_cvars"
 }
 
 // Explosives

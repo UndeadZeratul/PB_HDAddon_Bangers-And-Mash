@@ -127,6 +127,13 @@ server int levergat_hunter_spawn_bias = 19;
 server int levergat_slayer_spawn_bias = 14;
 server bool levergat_persistent_spawning = false;
 
+// Survivalist Rifle
+server bool survivalistrifle_allowBackpacks = true;
+server int survivalistrifle_hunter_spawn_bias = 19;
+server int survivalistrifle_slayer_spawn_bias = 14;
+server int survivalistrifle_chaingun_spawn_bias = 14;
+server bool survivalistrifle_persistent_spawning = false;
+
 // PSG-1
 server bool psg1_allowBackpacks = true;
 server int psg1_hunter_spawn_bias = 19;

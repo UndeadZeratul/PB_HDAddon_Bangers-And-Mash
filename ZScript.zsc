@@ -94,14 +94,15 @@ version "4.10"
 #include "zscript/Weapons/45 ACP Firearms/SOCOM.zsc"
 
 // 50 AM Firearms
-#include "zscript/Weapons/50 AM Firearms/Sawyer LR37 'Big Boy'.zsc"
 #include "zscript/Weapons/50 AM Firearms/SP-50 Mega Class Magnum.zsc"
+#include "ZScript/Weapons/50 AM Firearms/SurvivalistRifle.zsc"
 
 // 50 OMG Firearms
 #include "zscript/Weapons/50 OMG Firearms/M2HBGun.zsc"
 
 // 355 Firearms
 #include "zscript/weapons/355 Firearms/M35A1 HPC.zsc"
+#include "zscript/Weapons/355 Firearms/Sawyer LR355 'Big Boy'.zsc"
 
 // Melee Weapons
 #include "zscript/Weapons/Melee Weapons/HDGrossHack.zsc"
@@ -254,6 +255,9 @@ version "4.10"
 // Kelenken
 #include "ZScript/Weapons/Kelenken/Kelenken.zsc"
 #include "ZScript/Weapons/Kelenken/KelenkenBox.zsc"
+
+//Sawyer R50 "Grendel" Rifle
+#include "ZScript/Weapons/SurvivalistRifle/SurvivalistRifle.zsc"
 
 //Replacers
 #include "ZScript/Misc/ItemReplacer.zsc"
