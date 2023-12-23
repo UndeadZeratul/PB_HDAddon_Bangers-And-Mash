@@ -526,7 +526,7 @@ class PBFlying355Round:HDDebris{
 	
 	states{
 	spawn:
-		PRND A 2 nodelay{
+		3RND A 2 nodelay{
 			A_SetRoll(roll+45,SPF_INTERPOLATE);
 		}loop;
 	death:
