@@ -98,6 +98,15 @@ MENU_STEYRACRMAG_BACKPACKS                  = "Control whether the Austere M17 M
 MENU_STEYRACRMAG_CLIPMAG_SPAWNTEXT          = "Control the spawn rate of singular Austere M17 Magazines on Clip Magazines:";
 MENU_STEYRACRMAG_MORE_BATTERY_SPAWNTEXT     = "Control the spawn rate of multiple Austere M17 Magazines on Batteries:";
 
+// Steyr AICW
+MENU_STEYRAICW_TITLE                         = "------ Austere XM18 AICR Options ------";
+MENU_STEYRAICW_CHAINGUN_SPAWNTEXT            = "Control the spawn rate of the Austere XM18 on Vulcanettes:";
+MENU_STEYRAICW_CLIPBOX_SPAWNTEXT             = "Control the spawn rate of the Austere XM18 on Clip Boxes:";
+MENU_STEYRAICW_BACKPACKS                     = "Control whether the Austere XM18 spawns in Backpacks:";
+MENU_STEYRAICWMAG_BACKPACKS                  = "Control whether the Austere XM18 Magazine spawns in Backpacks:";
+MENU_STEYRAICWMAG_CLIPMAG_SPAWNTEXT          = "Control the spawn rate of singular Austere XM18 Magazines on Clip Magazines:";
+MENU_STEYRAICWMAG_MORE_BATTERY_SPAWNTEXT     = "Control the spawn rate of multiple Austere XM18 Magazines on Batteries:";
+
 //-----------------
 // 7mm Firearms
 //-----------------

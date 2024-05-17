@@ -67,7 +67,8 @@ version "4.10"
 #include "zscript/Weapons/5mm Firearms/Buger M22 Target Rifle.zsc"
 
 // 6mm Firearms
-#include "zscript/Weapons/6mm Firearms/SteyrGun.zsc"
+#include "zscript/Weapons/6mm Firearms/SteyrACR.zsc"
+#include "ZScript/Weapons/6mm Firearms/SteyrAICW.zsc"
 
 // 7mm Firearms
 #include "zscript/Weapons/7mm Firearms/HS76A1 SmartGun.zsc"
@@ -185,7 +186,7 @@ version "4.10"
 
 //Austere M17 Flechette Rifle
 #include "ZScript/Weapons/SteyrACR/SteyrGun.zsc"
-//#include "ZScript/Weapons/SteyrACR/SteyrAICW.zsc"
+#include "ZScript/Weapons/SteyrACR/SteyrAICW.zsc"
 #include "ZScript/Weapons/SteyrACR/SteyrAmmo.zsc"
 
 //mk23 socom

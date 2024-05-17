@@ -171,6 +171,7 @@ class PBWepsHandler : EventHandler {
         if (!m60_allowBackpacks)              backpackBlacklist.push((Class<Inventory>)('HD_M60'));
         if (!devincenzia_allowBackpacks)      backpackBlacklist.push((Class<Inventory>)('HD_ATCDevincenzia'));
         if (!steyracr_allowBackpacks)         backpackBlacklist.push((Class<Inventory>)('HD_SteyrACR'));
+        if (!steyraicw_allowBackpacks)        backpackBlacklist.push((Class<Inventory>)('HD_SteyrAICW'));
         if (!mancubuscannon_allowBackpacks)   backpackBlacklist.push((Class<Inventory>)('HDMancCannon'));
         if (!automag_allowBackpacks)          backpackBlacklist.push((Class<Inventory>)('HD_AutoMag'));
         // Moving this to be one cvar as technically this could be a variant like the AutoMag but whatever. - [Ted]
@@ -245,6 +246,7 @@ class PBWepsHandler : EventHandler {
         // 6mm
         Array<string> wep_6mm;
         wep_6mm.push('HD_SteyrACR');
+        wep_6mm.push('HD_SteyrAICW');
         addAmmo('HD6mmFlechetteAmmo', wep_6mm);
 
         // 7mm
@@ -296,6 +298,7 @@ class PBWepsHandler : EventHandler {
         // Steyr ACR Magazines
         Array<string> wep_ACR;
         wep_ACR.push('HD_SteyrACR');
+        wep_ACR.push('HD_SteyrAICW');
         addAmmo('PB_HDSteyrACRMag', wep_ACR);
 
         // 9mm SMG Magazines
@@ -359,6 +362,12 @@ class PBWepsHandler : EventHandler {
         spawns_SteyrACR.push(addItemEntry('ChaingunReplaces', steyracr_chaingun_spawn_bias));
         spawns_SteyrACR.push(addItemEntry('ClipBoxPickup1', steyracr_clipbox_spawn_bias));
         addItem('PB_SteyrACR_Spawn', spawns_SteyrACR, steyracr_persistent_spawning);
+
+        // Steyr AICW
+        Array<PBWepsSpawnItemEntry> spawns_SteyrAICW;
+        spawns_SteyrAICW.push(addItemEntry('ChaingunReplaces', steyraicw_chaingun_spawn_bias));
+        spawns_SteyrAICW.push(addItemEntry('ClipBoxPickup1', steyraicw_clipbox_spawn_bias));
+        addItem('PB_SteyrAICW_Spawn', spawns_SteyrAICW, steyraicw_persistent_spawning);
 
         // Mancubus Cannon
         Array<PBWepsSpawnItemEntry> spawns_mancubuscannon;

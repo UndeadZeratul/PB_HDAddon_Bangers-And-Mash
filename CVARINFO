@@ -61,6 +61,12 @@ server int steyracr_chaingun_spawn_bias = 14;
 server int steyracr_clipbox_spawn_bias = 24;
 server bool steyracr_persistent_spawning = false;
 
+// Steyr AICW
+server bool steyraicw_allowBackpacks = true;
+server int steyraicw_chaingun_spawn_bias = 14;
+server int steyraicw_clipbox_spawn_bias = 24;
+server bool steyraicw_persistent_spawning = false;
+
 // Mancubus Cannon
 server bool mancubuscannon_allowBackpacks = true;
 server int mancubuscannon_launcher_spawn_bias = 24;
