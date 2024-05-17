@@ -306,7 +306,7 @@ user4:
 			else if(HDMagAmmo.NothingLoaded(self,"HD9mMag30")){
 				if(
 					invoker.weaponstatus[PM9S_MAG]<0
-					&&countinv("HD45ACPAmmo")
+					&&countinv("HDPistolAmmo")
 				)setweaponstate("loadchamber");
 				else setweaponstate("nope");
 			}

@@ -1,8 +1,6 @@
 // ------------------------------------------------------------
 // Toxic Gas Grenade
 // ------------------------------------------------------------
-const HDLD_GRE_GAS="tgg";
-const ENC_GASGRENADE=ENC_FRAG*1.23;
 
 class HDGasGrenades:HDGrenadethrower{
 	default{
@@ -137,7 +135,7 @@ class HDGasGrenadeAmmo:HDAmmo{
 		inventory.amount 1;
 		scale 0.35;
 		inventory.maxamount 50;
-		inventory.pickupmessage "Picked up a ''Roller'' Toxic Gas Grenade.";
+		inventory.pickupmessage "$PICKUP_GASGRENADES";
 		inventory.pickupsound "weapons/pocket";
 		tag "$TAG_GASGRENADES";
 		hdpickup.refid HDLD_GRE_GAS;
@@ -170,7 +168,7 @@ class HDGasGrenadeP:HDUPK{
 		scale 0.35;height 3;radius 3;
 		hdupk.amount 1;
 		hdupk.pickuptype "HDGasGrenadeAmmo";
-		hdupk.pickupmessage "Picked up a ''Roller'' Toxic Gas Grenade.";
+		hdupk.pickupmessage "$PICKUP_GASGRENADES";
 		hdupk.pickupsound "weapons/rifleclick2";
 		stamina 1;
 	}

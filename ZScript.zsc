@@ -76,8 +76,8 @@ version "4.10"
 #include "zscript/Weapons/7mm Firearms/UN-AF L7A1.zsc"
 
 // 9mm Firearms
-#include "ZScript/Weapons/9mm Firearms/93R.zsc"
-#include "ZScript/Weapons/9mm Firearms/PM9.zsc"
+#include "zscript/Weapons/9mm Firearms/93R.zsc"
+#include "zscript/Weapons/9mm Firearms/PM9.zsc"
 
 // 12-Gauge Firearms
 #include "zscript/Weapons/12-Gauge Firearms/Arkoudi M12-5.zsc"
@@ -95,7 +95,7 @@ version "4.10"
 
 // 50 AM Firearms
 #include "zscript/Weapons/50 AM Firearms/SP-50 Mega Class Magnum.zsc"
-#include "ZScript/Weapons/50 AM Firearms/SurvivalistRifle.zsc"
+#include "zscript/Weapons/50 AM Firearms/SurvivalistRifle.zsc"
 
 // 50 OMG Firearms
 #include "zscript/Weapons/50 OMG Firearms/M2HBGun.zsc"
@@ -129,8 +129,9 @@ version "4.10"
 // Grenades
 #include "zscript/Misc/Grenades/ConcNade_Projectile.zsc"
 #include "zscript/Misc/Grenades/GasGrenade_Projectile.zsc"
-#include "zscript/Misc/Grenades/GasWeapon.zsc"
+#include "zscript/Misc/Grenades/SmokeGrenade_Projectile.zsc"
 #include "zscript/Misc/Grenades/WPGrenade_Projectile.zsc"
+#include "zscript/Misc/Grenades/GasWeapon.zsc"
 #include "zscript/Misc/Grenades/WPGWeapon.zsc"
 
 /*
@@ -184,6 +185,7 @@ version "4.10"
 
 //Austere M17 Flechette Rifle
 #include "ZScript/Weapons/SteyrACR/SteyrGun.zsc"
+//#include "ZScript/Weapons/SteyrACR/SteyrAICW.zsc"
 #include "ZScript/Weapons/SteyrACR/SteyrAmmo.zsc"
 
 //mk23 socom
@@ -223,9 +225,9 @@ version "4.10"
 #include "ZScript/Weapons/CAWS/CAWSMag.zsc"
 
 //Disposable big boys
-#include "ZScript/Weapons/RAT-84/AT4.zsc"
-#include "ZScript/Weapons/RAT-84/CGM25.zsc"
-
+#include "ZScript/Weapons/AT-4/AT4.zsc"
+#include "ZScript/Weapons/AT-4/Stinger.zsc"
+//#include "ZScript/Weapons/AT-4/RPO.zsc"
 //Big MG
 #include "ZScript/Weapons/Microgun/BigBoy.zsc"
 #include "ZScript/Weapons/Microgun/BeltBox.zsc"
@@ -234,6 +236,7 @@ version "4.10"
 #include "ZScript/Equipment/Grenades/WPGrenade_Projectile.zsc"
 #include "ZScript/Equipment/Grenades/WPGWeapon.zsc"
 #include "ZScript/Equipment/Grenades/GasGrenade_Projectile.zsc"
+#include "ZScript/Equipment/Grenades/SmokeGrenade_Projectile.zsc"
 #include "ZScript/Equipment/Grenades/GasWeapon.zsc"
 
 #include "ZScript/Equipment/Grenades/ConcNade_Projectile.zsc"

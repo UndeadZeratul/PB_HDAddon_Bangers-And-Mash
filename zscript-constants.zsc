@@ -28,7 +28,13 @@ const ENC_50AMMAG_EMPTY=ENC_50AMMAG*0.4;
 const ENC_50AMMAG_LOADED=ENC_50AMMAG_EMPTY*0.1;
 
 // RAT-84
-const HDLD_AT4="AT4";
+const HDLD_AT4="EAT";
+
+// Stinger Rocket Launcher
+const HDLD_KILLERBEE="hbe";
+const HDLD_KILLERBEE_AMMO="hba";
+
+const ENC_KILLERBEE_AMMO=65;
 
 // DLAaM ATCM-35
 const HDLD_CGM25="CGM";
@@ -40,6 +46,8 @@ const HDLD_STEYRACRMAG="6fm";
 const ENC_STEYRACR_MAG=ENC_426MAG*1.28;
 const ENC_STEYRACR_MAG_EMPTY=ENC_STEYRACR_MAG*0.4;
 const ENC_STEYRACR_MAG_LOADED=ENC_STEYRACR_MAG_EMPTY*0.6;
+
+const HDLD_STEYRAICW="acw";
 
 // Railgun
 // I'm proud of you PB for putting these ones roughly where they belong originally. - [Ted]
@@ -180,3 +188,9 @@ const HDLD_MINEBEAPM9="pm9";
 
 // Survivalist Rifle
 const HDLD_SURIVALISTSRIFLE_FNV="sr5";
+
+// Grenades
+const HDLD_GRE_GAS="tgg";
+const HDLD_GRE_SMOKE="tsg";
+const ENC_GASGRENADE=ENC_FRAG*1.23;
+const ENC_SMOKEGRENADE=ENC_FRAG*1.23;

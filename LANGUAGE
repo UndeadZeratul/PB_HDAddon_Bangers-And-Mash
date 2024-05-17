@@ -362,8 +362,11 @@ MENU_8MMEC_BACKPACKS                        = "Control whether the 8x35mm Electr
 
 // 4mm Firearms
 TAG_G11                                     = "H&M G26 Series Rifles";
-TAG_G11_NORMAL                              = "H&M G26A1 Assault Rifle";
-TAG_G11_SCOPED                              = "H&M G26SD Service Rifle";
+TAG_G11_NORMAL                              = "H&M G26A1 DPIR";
+TAG_G11_SCOPED                              = "H&M G26SD Covert";
+
+PICKUP_G11_NORMAL                           = "You got the Dual Purpose Infantry Rifle!";
+PICKUP_G11_SCOPED                           = "You got the G26SD Covert!";
 
 // 5mm Firearms
 TAG_M5165C                                  = "Arkoudi M5/165c";
@@ -371,6 +374,10 @@ TAG_BUGERM22                                = "Buger M22 Target Rifle";
 
 // 6mm Firearms
 TAG_STEYRACR                                = "Austere M17 Flechette Rifle";
+TAG_STEYRAICW                               = "Austere XM18 AICR";
+
+PICKUP_STEYRACR                             = "You got the flechette rifle!";
+PICKUP_STEYRAICW                            = "You got the Advanced Infantry Combat Rifle!";
 
 // 7mm Firearms
 TAG_SMARTGUN                                = "H&M HS76A1 SmartGun";
@@ -381,6 +388,8 @@ TAG_PSG1                                    = "H&M PSG2A1 Sniper Rifle";
 // 9mm Firearms
 TAG_93R                                     = "Mouletta 97R \"Raffica\"";
 TAG_M9S                                     = "Minato M9S Machine Pistol";
+
+PICKUP_93R                                  = "You got the burst pistol!";
 
 // 12-Gauge Firearms
 TAG_CAWS                                    = "H&M CROWS \"Presslufthämmer\"";
@@ -400,6 +409,8 @@ TAG_MAC10                                   = "Raycob RAC-10/45 Machine Pistol";
 TAG_AUTOMAG                                 = "SP-50 Mega Class Magnum";
 TAG_SURVIVALISTRIFLE_FNV                    = "Sawyer R50 \"Grendel\" Rifle";
 
+PICKUP_SURVIVALISTRIFLE_FNV                 = "You got the .50 AM rifle!";
+
 // 50 OMG Firearms
 TAG_M2HB                                    = "Brownell AM-HMG50 \"MKII Stinger\"";
 
@@ -408,8 +419,11 @@ TAG_COLTCOMMANDO                            = "Volt R0355 HPC \"Commando\"";
 TAG_LEVERGAT                                = "Sawyer LR355 \"Big Boy\" Hunting Carbine";
 
 // Rocket Launchers
-TAG_CGM25                                   = "DLAaM ATCM-35";
-TAG_AT4                                     = "RAT-84";
+TAG_AT4                                     = "EAT-17 Expendable Anti-Tank";
+TAG_CGM25                                   = "DLAaM IHML-98 \"Honey Bee\"";
+
+PICKUP_AT4                                  = "You got the disposable rocket launcher!";
+PICKUP_CGM25                                = "You got the homing missile launcher!";
 
 // Unique Firearms
 TAG_RAILGUN                                 = "XM99 Experimental Railgun";
@@ -420,7 +434,11 @@ TAG_PS20                                    = "Denton Light Arms and Munitions P
 
 // Items
 TAG_WPGRENADES                              = "M70 White Phosphorus Grenades";
-TAG_GASGRENADES                             = "\"Roller\" Toxic Gas Grenades";
+TAG_GASGRENADES                             = "\"Skunk\" Gas Grenades";
+TAG_SMOKEGRENADES                           = "Smoke Grenades";
+
+PICKUP_GASGRENADES                          = "Picked up a \"Skunk\" Gas Grenade.";
+PICKUP_SMOKEGRENADES                        = "Picked up a Smoke Grenade.";
 
 // Melee Weapons
 TAG_KNIFE                                   = "Combat Knife";
