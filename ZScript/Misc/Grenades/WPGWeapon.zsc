@@ -1,9 +1,6 @@
 // ------------------------------------------------------------
 // White Phosphorus / Incendiary Grenades
 // ------------------------------------------------------------
-const HDLD_GRE_WHITEPHOSPHORUS="wpg";
-const ENC_WPGRENADE=ENC_FRAG*1.175;
-
 class HDWhitePhosphorusGrenades:HDGrenadethrower{
 	default{
 		weapon.selectionorder 1020;
