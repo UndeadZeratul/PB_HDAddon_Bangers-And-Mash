@@ -106,9 +106,7 @@ OptionMenu "PBWepsMenu" {
 	StaticText ""
     Submenu "$TAG_DEVINCENZIA", "devincenziaSpawning", 0, 1
 	StaticText ""
-	Submenu "$TAG_STEYRACR", "steyracrSpawning", 0, 1
-	StaticText ""
-	Submenu "$TAG_STEYRAICW", "steyraicwSpawning", 0, 1
+	Submenu "$TAG_STEYR", "steyrSpawning", 0, 1
 	StaticText ""
 	Submenu "$TAG_G11", "g11Spawning", 0, 1
 	StaticText ""
@@ -290,8 +288,8 @@ OptionMenu "bugerm22Spawning" {
 }
 
 // 6mm Firearms
-OptionMenu "steyracrSpawning" {
-    Title "$MENU_STEYRACR_TITLE"
+OptionMenu "steyrSpawning" {
+    Title "$MENU_STEYR_TITLE"
     StaticText ""
 
    	StaticText "$MENU_NOTICE", "Orange"
@@ -308,39 +306,6 @@ OptionMenu "steyracrSpawning" {
 	SafeCommand "$MENU_RESETWEP", "resetcvar steyracr_clipbox_spawn_bias"
  	StaticText ""
 
-	StaticText "$MENU_MAGSPAWNOPTIONS", "Orange"
-    StaticText "$MENU_STEYRACRMAG_CLIPMAG_SPAWNTEXT", "White"
-	Option "$MENU_MAGSPAWNRATE", "acrmag_clipmag_spawn_bias", "SpawnBias"
-	SafeCommand "$MENU_RESETMAG", "resetcvar acrmag_clipmag_spawn_bias"
- 	StaticText ""
-
-	StaticText "$MENU_STEYRACR_BACKPACKS", "White"
-	Option "$MENU_BACKPACKSALLOWED", "steyracr_allowBackpacks", "OnOff"
-	StaticText "$MENU_STEYRACRMAG_BACKPACKS", "White"
-	Option "$MENU_BACKPACKSALLOWED", "steyracrmag_allowBackpacks", "OnOff"
- 	StaticText ""
-
-	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
-    StaticText "$MENU_PERSISTENCY_TEXT", "White"
-	Option "$MENU_WEPPERSISTENCY", "steyracr_persistent_spawning", "OnOff"
-	Option "$MENU_MAGPERSISTENCY", "acrmag_persistent_spawning", "OnOff"
-	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar steyracr_persistent_spawning; resetcvar acrmag_persistent_spawning"
- 	StaticText ""
-
-	StaticText "$MENU_RESETOPTIONS", "Orange"
-	SafeCommand "$MENU_RESETALLOPTIONS", "steyracr_reset_cvars"
-}
-
-OptionMenu "steyraicwSpawning" {
-    Title "$MENU_STEYRAICW_TITLE"
-    StaticText ""
-
-   	StaticText "$MENU_NOTICE", "Orange"
-    StaticText "$MENU_SPAWNRATE_TEXT1", "White"
-    StaticText "$MENU_SPAWNRATE_TEXT2", "White"
-    StaticText ""
-
-	StaticText "$MENU_WEPSPAWNOPTIONS", "Orange"
     StaticText "$MENU_STEYRAICW_CHAINGUN_SPAWNTEXT", "White"
 	Option "$MENU_WEPSPAWNRATE", "steyraicw_chaingun_spawn_bias", "SpawnBias"
 	SafeCommand "$MENU_RESETWEP", "resetcvar steyraicw_chaingun_spawn_bias"
@@ -349,27 +314,32 @@ OptionMenu "steyraicwSpawning" {
 	SafeCommand "$MENU_RESETWEP", "resetcvar steyraicw_clipbox_spawn_bias"
  	StaticText ""
 
-	StaticText "$MENU_MAGSPAWNOPTIONS", "Orange"
-    StaticText "$MENU_STEYRAICWMAG_CLIPMAG_SPAWNTEXT", "White"
-	Option "$MENU_MAGSPAWNRATE", "aicwmag_clipmag_spawn_bias", "SpawnBias"
-	SafeCommand "$MENU_RESETMAG", "resetcvar aicwmag_clipmag_spawn_bias"
- 	StaticText ""
-
+	StaticText "$MENU_STEYRACR_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "steyracr_allowBackpacks", "OnOff"
 	StaticText "$MENU_STEYRAICW_BACKPACKS", "White"
 	Option "$MENU_BACKPACKSALLOWED", "steyraicw_allowBackpacks", "OnOff"
-	StaticText "$MENU_STEYRAICWMAG_BACKPACKS", "White"
-	Option "$MENU_BACKPACKSALLOWED", "steyraicwmag_allowBackpacks", "OnOff"
+ 	StaticText ""
+
+	StaticText "$MENU_MAGSPAWNOPTIONS", "Orange"
+    StaticText "$MENU_STEYR_MAG_CLIPMAG_SPAWNTEXT", "White"
+	Option "$MENU_MAGSPAWNRATE", "acrmag_clipmag_spawn_bias", "SpawnBias"
+	SafeCommand "$MENU_RESETMAG", "resetcvar acrmag_clipmag_spawn_bias"
+ 	StaticText ""
+
+	StaticText "$MENU_STEYR_MAG_BACKPACKS", "White"
+	Option "$MENU_BACKPACKSALLOWED", "steyracrmag_allowBackpacks", "OnOff"
  	StaticText ""
 
 	StaticText "$MENU_PERSISTENCYOPTIONS", "Orange"
     StaticText "$MENU_PERSISTENCY_TEXT", "White"
+	Option "$MENU_WEPPERSISTENCY", "steyracr_persistent_spawning", "OnOff"
 	Option "$MENU_WEPPERSISTENCY", "steyraicw_persistent_spawning", "OnOff"
-	Option "$MENU_MAGPERSISTENCY", "aicwmag_persistent_spawning", "OnOff"
-	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar steyraicw_persistent_spawning; resetcvar aicwmag_persistent_spawning"
+	Option "$MENU_MAGPERSISTENCY", "acrmag_persistent_spawning", "OnOff"
+	SafeCommand "$MENU_RESETPERSISTENCY", "resetcvar steyracr_persistent_spawning; resetcvar steyraicw_persistent_spawning; resetcvar acrmag_persistent_spawning"
  	StaticText ""
 
 	StaticText "$MENU_RESETOPTIONS", "Orange"
-	SafeCommand "$MENU_RESETALLOPTIONS", "steyraicw_reset_cvars"
+	SafeCommand "$MENU_RESETALLOPTIONS", "steyr_reset_cvars"
 }
 
 // 7mm Firearms

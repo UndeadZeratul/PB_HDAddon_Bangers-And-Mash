@@ -89,23 +89,17 @@ MENU_BUGERM22MAG_BACKPACKS                  = "Control whether the Buger M22 Mag
 // 6mm Firearms
 //-----------------
 
-// Steyr ACR
-MENU_STEYRACR_TITLE                         = "------ Austere M17 Flechette Rifle Options ------";
+// Steyr
+MENU_STEYR_TITLE                            = "------ Austere M17 & XM18 Options ------"
 MENU_STEYRACR_CHAINGUN_SPAWNTEXT            = "Control the spawn rate of the Austere M17 on Vulcanettes:";
 MENU_STEYRACR_CLIPBOX_SPAWNTEXT             = "Control the spawn rate of the Austere M17 on Clip Boxes:";
 MENU_STEYRACR_BACKPACKS                     = "Control whether the Austere M17 spawns in Backpacks:";
-MENU_STEYRACRMAG_BACKPACKS                  = "Control whether the Austere M17 Magazine spawns in Backpacks:";
-MENU_STEYRACRMAG_CLIPMAG_SPAWNTEXT          = "Control the spawn rate of singular Austere M17 Magazines on Clip Magazines:";
-MENU_STEYRACRMAG_MORE_BATTERY_SPAWNTEXT     = "Control the spawn rate of multiple Austere M17 Magazines on Batteries:";
-
-// Steyr AICW
-MENU_STEYRAICW_TITLE                         = "------ Austere XM18 AICR Options ------";
-MENU_STEYRAICW_CHAINGUN_SPAWNTEXT            = "Control the spawn rate of the Austere XM18 on Vulcanettes:";
-MENU_STEYRAICW_CLIPBOX_SPAWNTEXT             = "Control the spawn rate of the Austere XM18 on Clip Boxes:";
-MENU_STEYRAICW_BACKPACKS                     = "Control whether the Austere XM18 spawns in Backpacks:";
-MENU_STEYRAICWMAG_BACKPACKS                  = "Control whether the Austere XM18 Magazine spawns in Backpacks:";
-MENU_STEYRAICWMAG_CLIPMAG_SPAWNTEXT          = "Control the spawn rate of singular Austere XM18 Magazines on Clip Magazines:";
-MENU_STEYRAICWMAG_MORE_BATTERY_SPAWNTEXT     = "Control the spawn rate of multiple Austere XM18 Magazines on Batteries:";
+MENU_STEYRAICW_CHAINGUN_SPAWNTEXT           = "Control the spawn rate of the Austere XM18 on Vulcanettes:";
+MENU_STEYRAICW_CLIPBOX_SPAWNTEXT            = "Control the spawn rate of the Austere XM18 on Clip Boxes:";
+MENU_STEYRAICW_BACKPACKS                    = "Control whether the Austere XM18 spawns in Backpacks:";
+MENU_STEYR_MAG_CLIPMAG_SPAWNTEXT            = "Control the spawn rate of singular Austere M17 Magazines on Clip Magazines:";
+MENU_STEYR_MAG_MORE_BATTERY_SPAWNTEXT       = "Control the spawn rate of multiple Austere M17 Magazines on Batteries:";
+MENU_STEYR_MAG_BACKPACKS                    = "Control whether the Austere M17 Magazine spawns in Backpacks:";
 
 //-----------------
 // 7mm Firearms
@@ -382,6 +376,7 @@ TAG_M5165C                                  = "Arkoudi M5/165c";
 TAG_BUGERM22                                = "Buger M22 Target Rifle";
 
 // 6mm Firearms
+TAG_STEYR                                   = "Austere Flechette Rifles";
 TAG_STEYRACR                                = "Austere M17 Flechette Rifle";
 TAG_STEYRAICW                               = "Austere XM18 AICR";
 
