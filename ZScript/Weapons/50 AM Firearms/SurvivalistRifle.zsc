@@ -506,7 +506,6 @@ class HDSurvivalistRifleFNV:HDWeapon{
 		goto nope;
 
 	spawn:
-		C5SP A 0;
 		C5SP ABCD -1 nodelay{
 			if(invoker.weaponstatus[COLT50CS_MAG]<0){
 				if(invoker.weaponstatus[COLT50CS_OPTIC]>0)frame=3;
