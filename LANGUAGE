@@ -39,6 +39,12 @@ MENU_MAGPERSISTENCY                         = "Persistent Magazine Spawns: ";
 MENU_GRENADEPERSISTENCY                     = "Persistent Grenade Spawns: ";
 MENU_GRENADEPACKPERSISTENCY                 = "Persistent Grenade Pack Spawns: ";
 
+// Menu Option Values
+MENU_ENABLED                                = "Enabled";
+MENU_DISABLED                               = "Disabled";
+MENU_REPLACEALL                             = "Replace All";
+MENU_WITHALL                                = "With All";
+
 // Menu Command Text
 MENU_RESETWEP                               = "Reset Weapon Options";
 MENU_RESETMAG                               = "Reset Magazine Options";
