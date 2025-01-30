@@ -465,7 +465,7 @@ OB_STREETSWEEPER                            = "%o was destroyed by %k's register
 OB_URAGAN5                                  = "%o tried to match %k with the big iron on their hip.";
 OB_TERMINATOR                               = "%o died an embarrassing death, caused by %k.";
 
-TAG_CAWSM_MAG                               = "Combat Shotgun Magazine";
+TAG_CAWS_MAG                                = "Combat Shotgun Magazine";
 
 PICKUP_CAWS_MAG                             = "Picked up an automatic combat shotgun magazine.";
 
