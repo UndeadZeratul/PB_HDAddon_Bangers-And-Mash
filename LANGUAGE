@@ -96,7 +96,7 @@ MENU_BUGERM22MAG_BACKPACKS                  = "Control whether the Buger M22 Mag
 //-----------------
 
 // Steyr
-MENU_STEYR_TITLE                            = "------ Austere M17 & XM18 Options ------"
+MENU_STEYR_TITLE                            = "------ Austere M17 & XM18 Options ------";
 MENU_STEYRACR_CHAINGUN_SPAWNTEXT            = "Control the spawn rate of the Austere M17 on Vulcanettes:";
 MENU_STEYRACR_CLIPBOX_SPAWNTEXT             = "Control the spawn rate of the Austere M17 on Clip Boxes:";
 MENU_STEYRACR_BACKPACKS                     = "Control whether the Austere M17 spawns in Backpacks:";
@@ -104,7 +104,7 @@ MENU_STEYRAICW_CHAINGUN_SPAWNTEXT           = "Control the spawn rate of the Aus
 MENU_STEYRAICW_CLIPBOX_SPAWNTEXT            = "Control the spawn rate of the Austere XM18 on Clip Boxes:";
 MENU_STEYRAICW_BACKPACKS                    = "Control whether the Austere XM18 spawns in Backpacks:";
 MENU_STEYR_MAG_CLIPMAG_SPAWNTEXT            = "Control the spawn rate of singular Austere M17 Magazines on Clip Magazines:";
-MENU_STEYR_MAG_MORE_BATTERY_SPAWNTEXT       = "Control the spawn rate of multiple Austere M17 Magazines on Batteries:";
+MENU_STEYR_MAGS_CLIPMAG_SPAWNTEXT           = "Control the spawn rate of multiple Austere M17 Magazines on Clip Magazines:";
 MENU_STEYR_MAG_BACKPACKS                    = "Control whether the Austere M17 Magazine spawns in Backpacks:";
 
 //-----------------
@@ -283,14 +283,12 @@ MENU_LEVERGAT_BACKPACKS                     = "Control whether the Sawyer LR355 
 // White Phosphorous Grenades
 MENU_WPGRENADES_TITLE                       = "------ M70 White Phosphorous Grenade Options ------";
 MENU_WP_GRENADES_ROCKETBOX_SPAWNTEXT        = "Control the spawn rate of M70 White Phosphorous Grenades on Rocket Boxes:";
-MENU_WP_GRENADES_7MM_SPAWNTEXT              = "Control the spawn rate of M70 White Phosphorous Grenades on 7mm Boxes:";
 MENU_WP_GRENADE_GRENADE_SPAWNTEXT           = "Control the spawn rate of M70 White Phosphorous Grenades on Grenades:";
 MENU_WPGRENADE_BACKPACKS                    = "Control whether the M70 White Phosphorous Grenades spawn in Backpacks:";
 
 // Toxic Gas Grenades
 MENU_TOXICGASGRENADES_TITLE                 = "------ \"Roller\" Toxic Gas Grenade Options ------";
 MENU_TG_GRENADES_ROCKETBOX_SPAWNTEXT        = "Control the spawn rate of \"Roller\" Toxic Gas Grenades on Rocket Boxes:";
-MENU_TG_GRENADES_7MM_SPAWNTEXT              = "Control the spawn rate of \"Roller\" Toxic Gas Grenades on 7mm Boxes:";
 MENU_TG_GRENADE_GRENADE_SPAWNTEXT           = "Control the spawn rate of \"Roller\" Toxic Gas Grenades on Grenades:";
 MENU_TOXICGASGRENADE_BACKPACKS              = "Control whether the \"Roller\" Toxic Gas Grenades spawn in Backpacks:";
 
