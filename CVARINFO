@@ -20,30 +20,30 @@
 
 // Railgun
 server bool railgun_allowBackpacks = true;
-server int railgun_bfg_spawn_bias = 49;
+server float railgun_bfg_spawn_bias = 0.02;
 server bool railgun_persistent_spawning = false;
 
 // Smartgun
 server bool smartgun_allowBackpacks = true;
-server int smartgun_bfg_spawn_bias = 49;
+server float smartgun_bfg_spawn_bias = 0.02;
 server bool smartgun_persistent_spawning = false;
 
 // Kelenken
 server bool kelenken_allowBackpacks = true;
-server int kelenken_bfg_spawn_bias = 24;
+server float kelenken_bfg_spawn_bias = 0.04;
 server bool kelenken_persistent_spawning = false;
 server bool kelenkenmag_allowBackpacks = true;
 
 // FAL
 server bool fal_allowBackpacks = true;
-server int fal_chaingun_spawn_bias = 24;
-server int fal_plasma_spawn_bias = 14;
-server int fal_liberator_spawn_bias = 14;
+server float fal_chaingun_spawn_bias = 0.52;
+server float fal_plasma_spawn_bias = 0.4666;
+server float fal_liberator_spawn_bias = 0.0666;
 server bool fal_persistent_spawning = false;
 
 // M60
 server bool m60_allowBackpacks = true;
-server int m60_plasma_spawn_bias = 24;
+server float m60_plasma_spawn_bias = 0.28;
 server bool m60_persistent_spawning = false;
 
 // 7mm Belt Box
@@ -51,244 +51,245 @@ server bool beltbox7mm_allowBackpacks = true;
 
 // Devincenzia
 server bool devincenzia_allowBackpacks = true;
-server int devincenzia_plasma_spawn_bias = 24;
+server float devincenzia_plasma_spawn_bias = 0.28;
 server bool devincenzia_persistent_spawning = false;
 server bool devincenziamag_allowBackpacks = true;
 
 // Steyr ACR
 server bool steyracr_allowBackpacks = true;
-server int steyracr_chaingun_spawn_bias = 14;
-server int steyracr_clipbox_spawn_bias = 24;
+server float steyracr_chaingun_spawn_bias = 0.8666;
+server float steyracr_clipbox_spawn_bias = 1.1666;
 server bool steyracr_persistent_spawning = false;
 
 // Steyr AICW
 server bool steyraicw_allowBackpacks = true;
-server int steyraicw_chaingun_spawn_bias = 14;
-server int steyraicw_clipbox_spawn_bias = 24;
+server float steyraicw_chaingun_spawn_bias = 0.8666;
+server float steyraicw_clipbox_spawn_bias = 1.1666;
 server bool steyraicw_persistent_spawning = false;
 
 // Mancubus Cannon
 server bool mancubuscannon_allowBackpacks = true;
-server int mancubuscannon_launcher_spawn_bias = 24;
-server int mancubuscannon_plasma_spawn_bias = 24;
+server float mancubuscannon_launcher_spawn_bias = 0.2;
+server float mancubuscannon_plasma_spawn_bias = 0.28;
 server bool mancubuscannon_persistent_spawning = false;
 
 // Automag FA
 server bool automag_allowBackpacks = true;
-server int automag_fa_pistol_spawn_bias = 49;
-server int automag_fa_slayer_spawn_bias = 49;
+server float automag_fa_pistol_spawn_bias = 0.12;
+server float automag_fa_slayer_spawn_bias = 0.28;
 server bool automag_fa_persistent_spawning = false;
 
 // Automag SA
-server int automag_sa_pistol_spawn_bias = 24;
-server int automag_sa_hunter_spawn_bias = 24;
+server float automag_sa_pistol_spawn_bias = 0.24;
+server float automag_sa_hunter_spawn_bias = 0.4;
 server bool automag_sa_persistent_spawning = false;
 
 // G11 Normal
 //server bool G11_normal_allowBackpacks = true;
 server bool g11_allowBackpacks = true;
-server int g11_normal_chaingun_spawn_bias = 19;
-server int g11_normal_clipbox_spawn_bias = 19;
+server float g11_normal_chaingun_spawn_bias = 0.65;
+server float g11_normal_clipbox_spawn_bias = 1.4;
 server bool g11_normal_persistent_spawning = false;
 
 // G11 Scoped
 //server bool G11_scoped_allowBackpacks = true;
-server int g11_scoped_chaingun_spawn_bias = 19;
-server int g11_scoped_clipbox_spawn_bias = 19;
+server float g11_scoped_chaingun_spawn_bias = 0.65;
+server float g11_scoped_clipbox_spawn_bias = 1.4;
 server bool g11_scoped_persistent_spawning = false;
 
 // M5-165c
 server bool m5165_allowBackpacks = true;
-server int m5165_chaingun_spawn_bias = 9;
-server int m5165_clipbox_spawn_bias = 14;
+server float m5165_chaingun_spawn_bias = 1.3;
+server float m5165_clipbox_spawn_bias = 1.8666;
 server bool m5165_persistent_spawning = false;
 
 // Colt 355
 server bool colt355_allowBackpacks = true;
-server int colt355_chaingun_spawn_bias = 9;
-server int colt355_clipbox_spawn_bias = 14;
+server float colt355_chaingun_spawn_bias = 1.3;
+server float colt355_clipbox_spawn_bias = 1.8666;
 server bool colt355_persistent_spawning = false;
 
 // Caws
 server bool caws_allowBackpacks = true;
-server int caws_chaingun_spawn_bias = 9;
-server int caws_slayer_spawn_bias = 9;
+server float caws_chaingun_spawn_bias = 1.3;
+server float caws_slayer_spawn_bias = 1.4;
 server bool caws_persistent_spawning = false;
 
 // Street Sweeper
 server bool sweeper_allowBackpacks = true;
-server int sweeper_slayer_spawn_bias = 9;
+server float sweeper_slayer_spawn_bias = 1.4;
 server bool sweeper_persistent_spawning = false;
 
 // Uragan-5
 server bool uragan5_allowBackpacks = true;
-server int uragan5_revolver_spawn_bias = 9;
-server int uragan5_hunter_spawn_bias = 14;
-server int uragan5_slayer_spawn_bias = 14;
+server float uragan5_revolver_spawn_bias = 0.6;
+server float uragan5_hunter_spawn_bias = 0.666;
+server float uragan5_slayer_spawn_bias = 0.9333;
 server bool uragan5_persistent_spawning = false;
 
 // Levergat
 server bool levergat_allowBackpacks = true;
-server int levergat_hunter_spawn_bias = 19;
-server int levergat_slayer_spawn_bias = 14;
+server float levergat_hunter_spawn_bias = 0.5;
+server float levergat_slayer_spawn_bias = 0.9333;
 server bool levergat_persistent_spawning = false;
 
 // Survivalist Rifle
 server bool survivalistrifle_allowBackpacks = true;
-server int survivalistrifle_hunter_spawn_bias = 19;
-server int survivalistrifle_slayer_spawn_bias = 14;
-server int survivalistrifle_chaingun_spawn_bias = 14;
+server float survivalistrifle_hunter_spawn_bias = 0.5;
+server float survivalistrifle_slayer_spawn_bias = 0.9333;
+server float survivalistrifle_chaingun_spawn_bias = 0.8666;
 server bool survivalistrifle_persistent_spawning = false;
 
 // PSG-1
 server bool psg1_allowBackpacks = true;
-server int psg1_hunter_spawn_bias = 19;
-server int psg1_slayer_spawn_bias = 14;
+server float psg1_hunter_spawn_bias = 0.5;
+server float psg1_slayer_spawn_bias = 0.9333;
 server bool psg1_persistent_spawning = false;
 server bool psg1mag_allowBackpacks = true;
 
 // MAC-10
 server bool mac10_allowBackpacks = true;
-server int mac10_pistol_spawn_bias = 14;
-server int mac10_clipbox_spawn_bias = 14;
+server float mac10_pistol_spawn_bias = 0.5;
+server float mac10_clipbox_spawn_bias = 1.8666;
 server bool mac10_persistent_spawning = false;
 
 // Mk. 23 SOCOM
 server bool mk23socom_allowBackpacks = true;
-server int mk23socom_pistol_spawn_bias = 9;
-server int mk23socom_clipbox_spawn_bias = 24;
+server float mk23socom_pistol_spawn_bias = 0.6;
+server float mk23socom_clipbox_spawn_bias = 1.12;
 server bool mk23socom_persistent_spawning = false;
 
 server bool knife_allowBackpacks = true;
-server int knife_chainsaw_spawn_bias = 19;
+server float knife_chainsaw_spawn_bias = 0.05;
 server bool knife_persistent_spawning = false;
 
 server bool fireaxe_allowBackpacks = true;
-server int fireaxe_chainsaw_spawn_bias = 14;
+server float fireaxe_chainsaw_spawn_bias = 0.0666;
 server bool fireaxe_persistent_spawning = false;
 
 server bool sledgehammer_allowBackpacks = true;
-server int sledgehammer_chainsaw_spawn_bias = 14;
+server float sledgehammer_chainsaw_spawn_bias = 0.0666;
 server bool sledgehammer_persistent_spawning = false;
 
 server bool at4_allowBackpacks = true;
-server int at4_shellbox_spawn_bias = 24;
-server int at4_rocketbox_spawn_bias = 24;
+server float at4_shellbox_spawn_bias = 0.68;
+server float at4_rocketbox_spawn_bias = 0.84;
 server bool at4_persistent_spawning = false;
 
 server bool cgm25_allowBackpacks = true;
-server int cgm25_rocketbox_spawn_bias = 24;
-server int cgm25_shellbox_spawn_bias = 24;
+server float cgm25_shellbox_spawn_bias = 0.68;
+server float cgm25_rocketbox_spawn_bias = 0.84;
 server bool cgm25_persistent_spawning = false;
 
-server int terminator_shellbox_spawn_bias = 49;
+server float terminator_shellbox_spawn_bias = 5;
 server bool terminator_allowBackpacks = false;
 server bool terminator_persistent_spawning = false;
 
 server bool extinguisher_allowBackpacks = true;
-server int extinguisher_clipbox_spawn_bias = 24;
+server float extinguisher_clipbox_spawn_bias = 1.12;
 server bool extinguisher_persistent_spawning = false;
 
 server bool ps20_allowBackpacks = true;
-server int ps20_chainsaw_spawn_bias = 14;
+server float ps20_chainsaw_spawn_bias = 0.0666;
 server bool ps20_persistent_spawning = false;
 
 server bool ruger1022_allowBackpacks = true;
-server int ruger1022_hunter_spawn_bias = 14;
-server int ruger1022_clipbox_spawn_bias = 14;
+server float ruger1022_hunter_spawn_bias = 0.666;
+server float ruger1022_clipbox_spawn_bias = 1.8666;
 server bool ruger1022_persistent_spawning = false;
 
 server bool ruger1022mag_allowBackpacks = true;
-server int ruger1022mag_clipmag_spawn_bias = 14;
+server float ruger1022mag_clipmag_spawn_bias = 2.2666;
 server bool ruger1022mag_persistent_spawning = false;
 
 server bool falmag_allowBackpacks = true;
-server int falmag_battery_spawn_bias = 14;
-server int falmag_clipmag_spawn_bias = 14;
+server float falmag_battery_spawn_bias = 0.8666;
+server float falmag_clipmag_spawn_bias = 2.2666;
 server bool falmag_persistent_spawning = false;
 
 server bool steyracrmag_allowBackpacks = true;
-server int acrmag_clipmag_spawn_bias = 14;
+server float acrmag_clipmag_spawn_bias = 2.2666;
+server float acrmags_clipmag_spawn_bias = 2.2666;
 server bool acrmag_persistent_spawning = false;
 
 // To be moved to HDBulletlib-Recasted with belt links, unsure of when but I'll fuckin do it. - [Ted]
 server bool eightmilec_allowBackpacks = true;
-server int eightmilec_battery_spawn_bias = 14;
+server float eightmilec_battery_spawn_bias = 0.8666;
 server bool eightmilec_persistent_spawning = false;
 
 server bool napalmtank_allowBackpacks = true;
-server int napalm_rocket_spawn_bias = 14;
-server int napalm_battery_spawn_bias = 14;
+server float napalm_rocket_spawn_bias = 0.0666;
+server float napalm_battery_spawn_bias = 0.8666;
 server bool napalm_persistent_spawning = false;
 
 server bool fiftyammag_allowBackpacks = true;
-server int am50mag_clipmag_spawn_bias = 14;
+server float am50mag_clipmag_spawn_bias = 2.2666;
 server bool am50mag_persistent_spawning = false;
 
 server bool cawsmag_allowBackpacks = true;
-server int cawsmag_clipmag_spawn_bias = 14;
-server int cawsmag_shell_spawn_bias = 14;
+server float cawsmag_clipmag_spawn_bias = 2.2666;
+server float cawsmag_shell_spawn_bias = 1.5333;
 server bool cawsmag_persistent_spawning = false;
 
 server bool colt355mag_allowBackpacks = true;
-server int colt355mag_clipmag_spawn_bias = 14;
+server float colt355mag_clipmag_spawn_bias = 2.2666;
 server bool colt355mag_persistent_spawning = false;
 
 server bool mac10mag_allowBackpacks = true;
-server int mac10mag_clipmag_spawn_bias = 14;
+server float mac10mag_clipmag_spawn_bias = 2.2666;
 server bool mac10mag_persistent_spawning = false;
 
 server bool mk23mag_allowBackpacks = true;
-server int socommag_clipmag_spawn_bias = 14;
+server float socommag_clipmag_spawn_bias = 2.2666;
 server bool socommag_persistent_spawning = false;
 
 server bool m165mag_allowBackpacks = true;
-server int m165mag_clipbox_spawn_bias = 14;
-server int m165mag_clipmag_spawn_bias = 14;
+server float m165mag_clipbox_spawn_bias = 1.8666;
+server float m165mag_clipmag_spawn_bias = 2.2666;
 server bool m165mag_persistent_spawning = false;
 
-server int wpgrenades_rocketbox_spawn_bias = 14;
-server int wpgrenades_7mm_spawn_bias = 14;
+server float wpgrenades_rocketbox_spawn_bias = 1.4;
+server float wpgrenades_grenade_spawn_bias = 0.0666;
 server bool wpgrenades_persistent_spawning = false;
 
 server bool wpgrenade_allowBackpacks = true;
-server int wpgrenade_grenade_spawn_bias = 14;
+server float wpgrenade_grenade_spawn_bias = 0.0666;
 server bool wpgrenade_persistent_spawning = false;
 
-server int gasrenades_rocketbox_spawn_bias = 14;
-server int gasgrenades_7mm_spawn_bias = 14;
+server float gasrenades_rocketbox_spawn_bias = 1.4;
+server float gasgrenades_grenade_spawn_bias = 0.0666;
 server bool gasgrenades_persistent_spawning = false;
 
 server bool gasgrenade_allowBackpacks = true;
-server int gasgrenade_grenade_spawn_bias = 14;
+server float gasgrenade_grenade_spawn_bias = 0.0666;
 server bool gasgrenade_persistent_spawning = false;
 
 server bool g11mag_allowBackpacks = true;
-server int g11mag_clipmag_spawn_bias = 14;
-server int g11mag_clipbox_spawn_bias = 14;
+server float g11mag_clipmag_spawn_bias = 2.2666;
+server float g11mag_clipbox_spawn_bias = 1.8666;
 server bool g11mag_persistent_spawning = false;
 
 // 93R
 server bool raffica_allowBackpacks = true;
-server int raffica_pistol_spawn_bias = 9;
-server int raffica_clipbox_spawn_bias = 9;
+server float raffica_pistol_spawn_bias = 0.6;
+server float raffica_clipbox_spawn_bias = 2.8;
 server bool raffica_persistent_spawning = false;
 
 // M9S
 server bool m9s_allowBackpacks = true;
-server int m9s_pistol_spawn_bias = 9;
-server int m9s_clipbox_spawn_bias = 9;
+server float m9s_pistol_spawn_bias = 0.6;
+server float m9s_clipbox_spawn_bias = 2.8;
 server bool m9s_persistent_spawning = false;
 
 // M2HB
 server bool m2hb_allowBackpacks = true;
-server int m2hb_bfg_spawn_bias = 24;
+server float m2hb_bfg_spawn_bias = 0.04;
 server bool m2hb_persistent_spawning = false;
 server bool m2hbmag_allowBackpacks = true;
 
 // Kharon
 server bool kharon_allowBackpacks = true;
-server int kharon_chainsaw_spawn_bias = 24;
+server float kharon_chainsaw_spawn_bias = 0.04;
 server bool kharon_persistent_spawning = false;
 
 //-----------------
