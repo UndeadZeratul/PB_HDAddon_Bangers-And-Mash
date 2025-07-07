@@ -195,13 +195,13 @@ addSpawnTableSingleEntry => { "tableName": "HDHandgunRandomDrop", "name": "HDMin
 
 // FN-FAL Magazine Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "CellReplaces", "name": "HD_FALMag", "weight": "#falmag_battery_spawn_bias", "persists": "#falmag_persistent_spawning" }
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HD_FALMag", "weight": "#falmag_clipmag_spawn_bias", "persists": "#falmag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HD_FALMag", "weight": "#falmag_clipmag_spawn_bias", "persists": "#falmag_persistent_spawning" }
 
 // Steyr ACR Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "PB_HDSteyrACRMag", "weight": "#acrmag_clipmag_spawn_bias", "persists": "#acrmag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "PB_HDSteyrACRMag", "weight": "#acrmag_clipmag_spawn_bias", "persists": "#acrmag_persistent_spawning" }
 
 // Steyr ACR Magazine Bundles Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "PB_SteyrACR_MultiMagSpawn", "weight": "#acrmags_clipmag_spawn_bias", "persists": "#acrmag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "PB_SteyrACR_MultiMagSpawn", "weight": "#acrmags_clipmag_spawn_bias", "persists": "#acrmag_persistent_spawning" }
 
 // 8mm Electromagnetic Ammo Box Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "CellReplaces", "name": "HD8mmECAmmoBox", "weight": "#eightmilec_battery_spawn_bias", "persists": "#eightmilec_persistent_spawning" }
@@ -211,26 +211,26 @@ addSpawnTableSingleEntry => { "tableName": "RocketAmmoReplaces", "name": "HDNapa
 addSpawnTableSingleEntry => { "tableName": "CellReplaces", "name": "HDNapalmTank", "weight": "#napalm_battery_spawn_bias", "persists": "#napalm_persistent_spawning" }
 
 // .50 AM Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HD50AM_Mag", "weight": "#am50mag_clipmag_spawn_bias", "persists": "#am50mag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HD50AM_Mag", "weight": "#am50mag_clipmag_spawn_bias", "persists": "#am50mag_persistent_spawning" }
 
 // G11 Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HDG11Mag", "weight": "#g11mag_clipmag_spawn_bias", "persists": "#g11mag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HDG11Mag", "weight": "#g11mag_clipmag_spawn_bias", "persists": "#g11mag_persistent_spawning" }
 
 // CAWS Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HD_CAWSMag", "weight": "#cawsmag_clipmag_spawn_bias", "persists": "#cawsmag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HD_CAWSMag", "weight": "#cawsmag_clipmag_spawn_bias", "persists": "#cawsmag_persistent_spawning" }
 addSpawnTableSingleEntry => { "tableName": "ShellReplaces", "name": "HD_CAWSMag", "weight": "#cawsmag_shell_spawn_bias", "persists": "#cawsmag_persistent_spawning" }
 
 // Colt .355 Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HDColt9mmMag25", "weight": "#colt355mag_clipmag_spawn_bias", "persists": "#colt355mag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HDColt9mmMag25", "weight": "#colt355mag_clipmag_spawn_bias", "persists": "#colt355mag_persistent_spawning" }
 
 // MAC-10 Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HDMAC10_Mag", "weight": "#mac10mag_clipmag_spawn_bias", "persists": "#mac10mag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HDMAC10_Mag", "weight": "#mac10mag_clipmag_spawn_bias", "persists": "#mac10mag_persistent_spawning" }
 
 // Mk. 23 SOCOM Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HDMK23SOCOM_Mag", "weight": "#mk23socommag_clipmag_spawn_bias", "persists": "#mk23socommag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HDMK23SOCOM_Mag", "weight": "#mk23socommag_clipmag_spawn_bias", "persists": "#mk23socommag_persistent_spawning" }
 
 // M165 Magazine Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "HD_M165Mag", "weight": "#m165mag_clipmag_spawn_bias", "persists": "#m165mag_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "HD_M165Mag", "weight": "#m165mag_clipmag_spawn_bias", "persists": "#m165mag_persistent_spawning" }
 
 // Grenade Variants Spawn Tables
 newSpawnTable => { "spawnName": "FragP", "addOriginalThing": "true", "persists": "true" }
