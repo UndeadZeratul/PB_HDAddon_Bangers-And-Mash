@@ -207,7 +207,7 @@ addSpawnTableSingleEntry => { "tableName": "ClipMagReplaces", "name": "PB_SteyrA
 addSpawnTableSingleEntry => { "tableName": "CellReplaces", "name": "HD8mmECAmmoBox", "weight": "#eightmilec_battery_spawn_bias", "persists": "#eightmilec_persistent_spawning" }
 
 // Napalm Tank Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "RocketReplaces", "name": "HDNapalmTank", "weight": "#napalm_rocket_spawn_bias", "persists": "#napalm_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "RocketAmmoReplaces", "name": "HDNapalmTank", "weight": "#napalm_rocket_spawn_bias", "persists": "#napalm_persistent_spawning" }
 addSpawnTableSingleEntry => { "tableName": "CellReplaces", "name": "HDNapalmTank", "weight": "#napalm_battery_spawn_bias", "persists": "#napalm_persistent_spawning" }
 
 // .50 AM Magazine Spawn Entries
