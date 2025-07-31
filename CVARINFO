@@ -293,10 +293,66 @@ server float kharon_chainsaw_spawn_bias = 0.04;
 server bool kharon_persistent_spawning = false;
 
 //-----------------
-// Miscallaneous CVARs
+// Miscellaneous CVARs
 //-----------------
 
 // Not sure if any of these are going to be used anymore, not gonna remove them in case I fuck something up on accident. - [Ted]
 server int PB_HDWeps_ThingSpawnRate = 100;
 server float PB_HDWeps_ThingOverspawn = 0.5;
 server bool PB_HDWeps_AllowReplacement = true;
+
+//-----------------
+// Merchant Store Filters
+//-----------------
+
+server bool hdm_enable_355smg               = true;
+server bool hdm_enable_355smgmag            = true;
+server bool hdm_enable_7mmbeltbox           = true;
+server bool hdm_enable_8mmec                = true;
+server bool hdm_enable_at4                  = true;
+server bool hdm_enable_atcm35               = true;
+server bool hdm_enable_automag              = true;
+server bool hdm_enable_automagmag           = true;
+server bool hdm_enable_cawsgun              = true;
+server bool hdm_enable_cawsmag              = true;
+server bool hdm_enable_devincenzia          = true;
+server bool hdm_enable_devincenziamag       = true;
+server bool hdm_enable_fireaxe              = true;
+server bool hdm_enable_fireextinguisher     = true;
+server bool hdm_enable_fnfal                = true;
+server bool hdm_enable_fnfalmag             = true;
+server bool hdm_enable_g11                  = true;
+server bool hdm_enable_g11mag               = true;
+server bool hdm_enable_g11scoped            = true;
+server bool hdm_enable_gasgrenade           = true;
+server bool hdm_enable_kelenken             = true;
+server bool hdm_enable_kelenkenmag          = true;
+server bool hdm_enable_kharon               = true;
+server bool hdm_enable_knife                = true;
+server bool hdm_enable_levergun             = true;
+server bool hdm_enable_m2hb                 = true;
+server bool hdm_enable_m2hbmag              = true;
+server bool hdm_enable_m5165                = true;
+server bool hdm_enable_m5165mag             = true;
+server bool hdm_enable_m60                  = true;
+server bool hdm_enable_mac10                = true;
+server bool hdm_enable_mac10mag             = true;
+server bool hdm_enable_manccannon           = true;
+server bool hdm_enable_microgun             = true;
+server bool hdm_enable_mk23socom            = true;
+server bool hdm_enable_mk23socommag         = true;
+server bool hdm_enable_napalmtank           = true;
+server bool hdm_enable_otru92               = true;
+server bool hdm_enable_ps20                 = true;
+server bool hdm_enable_psg1                 = true;
+server bool hdm_enable_psg1mag              = true;
+server bool hdm_enable_railgun              = true;
+server bool hdm_enable_railgundynamo        = true;
+server bool hdm_enable_ruger1022            = true;
+server bool hdm_enable_ruger1022mag         = true;
+server bool hdm_enable_sledgehammer         = true;
+server bool hdm_enable_steyr                = true;
+server bool hdm_enable_steyrmag             = true;
+server bool hdm_enable_streetsweeper        = true;
+server bool hdm_enable_uragan               = true;
+server bool hdm_enable_wpgrenade            = true;
