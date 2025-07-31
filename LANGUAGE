@@ -608,3 +608,261 @@ OB_KHARON                                   = "%o got sliced and diced by %k.";
 // 8mm Electromagnetic
 TAG_8MMEC                                   = "8x35mm Electromagnetic Cartridge";
 PICKUP_8MMEC                                = "Picked up a 8mm EC round.";
+
+
+// Merchant Store Entries
+
+// 7mm Belt Box
+MERCH_CAT_7MMBELTBOX              = "Bangers & Mash";
+MERCH_TAG_7MMBELTBOX              = "7.76mm Belt Box";
+MERCH_FLAVOR_7MMBELTBOX           = "";
+
+// AT-4
+MERCH_CAT_AT4                     = "Bangers & Mash";
+MERCH_TAG_AT4                     = "RAT-84 HEAT Rocket Launcher";
+MERCH_FLAVOR_AT4                  = "Mind the backblast.";
+
+// ATC Devincenzia
+MERCH_CAT_DEVINCENZIA             = "Bangers & Mash";
+MERCH_TAG_DEVINCENZIA             = "Berlinghoff XM135 'Devincenzia' Cannon";
+MERCH_FLAVOR_DEVINCENZIA          = "Whoa, a new toy!.";
+
+// ATC Devincenzia Mag
+MERCH_CAT_DEVINCENZIAMAG          = "Bangers & Mash";
+MERCH_TAG_DEVINCENZIAMAG          = "'Devincenzia' 35mm Magazine";
+MERCH_FLAVOR_DEVINCENZIAMAG       = "";
+
+// ATC Kelenken
+MERCH_CAT_KELENKEN                = "Bangers & Mash";
+MERCH_TAG_KELENKEN                = "M5-AT 'Kelenken' 35mm Autocannon";
+MERCH_FLAVOR_KELENKEN             = "The chances of being surrounded by ten Cyberdemons is low but never zero.";
+
+// ATC KElenken Mag
+MERCH_CAT_KELENKENMAG             = "Bangers & Mash";
+MERCH_TAG_KELENKENMAG             = "35mm Belt Box";
+MERCH_FLAVOR_KELENKENMAG          = "";
+
+// ATCM-35
+MERCH_CAT_ATCM35                  = "Bangers & Mash";
+MERCH_TAG_ATCM35                  = "ATCM-35 Tracking Cluster Missile Launcher";
+MERCH_FLAVOR_ATCM35               = "The operator casualty rate for these are... well, I'll leave it to imagination.";
+
+// Automag
+MERCH_CAT_AUTOMAG                 = "Bangers & Mash";
+MERCH_TAG_AUTOMAG                 = "SP-50 Magnum";
+MERCH_FLAVOR_AUTOMAG              = "Now you too can be a Bleedin' Action Man!";
+
+// Automag Mag
+MERCH_CAT_AUTOMAGMAG              = "Bangers & Mash";
+MERCH_TAG_AUTOMAGMAG              = "SP-50 Magazine";
+MERCH_FLAVOR_AUTOMAGMAG           = "";
+
+// Cawsgun
+MERCH_CAT_CAWSGUN                 = "Bangers & Mash";
+MERCH_TAG_CAWSGUN                 = "H&M CROWS 'Presslufthammer' Shotgun";
+MERCH_FLAVOR_CAWSGUN              = "Just don't expect your shells to chamber reliably.";
+
+// Cawsgun Mag
+MERCH_CAT_CAWSMAG                 = "Bangers & Mash";
+MERCH_TAG_CAWSMAG                 = "H&W CROWS 12ga Magazine";
+MERCH_FLAVOR_CAWSMAG              = "";
+
+// Colt .355
+MERCH_CAT_355SMG                  = "Bangers & Mash";
+MERCH_TAG_355SMG                  = "Volt M35A1 HPC SMG";
+MERCH_FLAVOR_355SMG               = "Armored marines got you down? No problem!";
+
+// Colt .355 Mag
+MERCH_CAT_355SMGMAG               = "Bangers & Mash";
+MERCH_TAG_355SMGMAG               = "M35A1 .355 Magazine";
+MERCH_FLAVOR_355SMGMAG            = "";
+
+// Combat Knife
+MERCH_CAT_KNIFE                   = "Bangers & Mash";
+MERCH_TAG_KNIFE                   = "Combat Knife";
+MERCH_FLAVOR_KNIFE                = "A no-frills combat knife, in case you want to keep your hands clean.";
+
+// Fire Axe
+MERCH_CAT_FIREAXE                 = "Bangers & Mash";
+MERCH_TAG_FIREAXE                 = "Fire Axe";
+MERCH_FLAVOR_FIREAXE              = "Why is it called a Fire Axe if it's not on fire?";
+
+// FNFAL
+MERCH_CAT_FNFAL                   = "Bangers & Mash";
+MERCH_TAG_FNFAL                   = "UN-AF L7A1 MG";
+MERCH_FLAVOR_FNFAL                = "Give those abominations a taste of true freedom.";
+
+// FNFAL Mag
+MERCH_CAT_FNFALMAG                = "Bangers & Mash";
+MERCH_TAG_FNFALMAG                = "UN-AF L7A1 7mm Drum Magazine";
+MERCH_FLAVOR_FNFALMAG             = "";
+
+// G11
+MERCH_CAT_G11                     = "Bangers & Mash";
+MERCH_TAG_G11                     = "H&M G26A1 Assault Rifle";
+MERCH_FLAVOR_G11                  = "Kraut Space Magic!";
+
+// G11 Mag
+MERCH_CAT_G11MAG                  = "Bangers & Mash";
+MERCH_TAG_G11MAG                  = "G26 Series 4.26mm Magazine";
+MERCH_FLAVOR_G11MAG               = "";
+
+// G11 (Scoped)
+MERCH_CAT_G11SCOPED               = "Bangers & Mash";
+MERCH_TAG_G11SCOPED               = "H&M G26SD Service Rifle";
+MERCH_FLAVOR_G11SCOPED            = "A very sneaky G26A1 capable of 'hyperburst'.";
+
+// Kharon
+MERCH_CAT_KHARON                  = "Bangers & Mash";
+MERCH_TAG_KHARON                  = "Replica Kharon";
+MERCH_FLAVOR_KHARON               = "Filled with a history of violence and anguish... except this one's a replica. Still effective.";
+
+// Levergun
+MERCH_CAT_LEVERGUN                = "Bangers & Mash";
+MERCH_TAG_LEVERGUN                = "LR37 'Big Boy' Hunting Carbine";
+MERCH_FLAVOR_LEVERGUN             = "Contrary to what its name suggests, you don't HAVE to use it against 'big boys'.";
+
+// M2HB
+MERCH_CAT_M2HB                    = "Bangers & Mash";
+MERCH_TAG_M2HB                    = "AM-HMG50 'MKII Stinger' HMG";
+MERCH_FLAVOR_M2HB                 = "This was made for tanks, not infantry. How you'll use this is a mystery to me.";
+
+// M2HB Mag
+MERCH_CAT_M2HBMAG                 = "Bangers & Mash";
+MERCH_TAG_M2HBMAG                 = "'MKII Stinger' .50 OMG Belt Box";
+MERCH_FLAVOR_M2HBMAG              = "";
+
+// M5165
+MERCH_CAT_M5165                   = "Bangers & Mash";
+MERCH_TAG_M5165                   = "Arkoudi M5/165c SMG";
+MERCH_FLAVOR_M5165                = "It really does hold 165 rounds. Very tiny rounds.";
+
+// M5165 Mag
+MERCH_CAT_M5165MAG                = "Bangers & Mash";
+MERCH_TAG_M5165MAG                = "M5/165c 6mm BR Drum Magazine";
+MERCH_FLAVOR_M5165MAG             = "";
+
+// M60
+MERCH_CAT_M60                     = "Bangers & Mash";
+MERCH_TAG_M60                     = "USGI M60E1 'Fat Boar' GPMG";
+MERCH_FLAVOR_M60                  = "Just don't load them as much.";
+
+// MAC10
+MERCH_CAT_MAC10                   = "Bangers & Mash";
+MERCH_TAG_MAC10                   = "RAC-10/45 Machine Pistol";
+MERCH_FLAVOR_MAC10                = "Ferocious little box that spits hot lead and anger. Don't lose your grip.";
+
+// MAC10 Mag
+MERCH_CAT_MAC10MAG                = "Bangers & Mash";
+MERCH_TAG_MAC10MAG                = "RAC-10/45 .45 ACP Magazine";
+MERCH_FLAVOR_MAC10MAG             = "";
+
+// Mancubus Cannon
+MERCH_CAT_MANCCANNON              = "Bangers & Mash";
+MERCH_TAG_MANCCANNON              = "Modified Mancubus Arm Cannon";
+MERCH_FLAVOR_MANCCANNON           = "I hope you aren't planning to use this for grilling.";
+
+// Microgun
+MERCH_CAT_MICROGUN                = "Bangers & Mash";
+MERCH_TAG_MICROGUN                = "H*M H576 Smartgun";
+MERCH_FLAVOR_MICROGUN             = "Keep the trigger squeezed down and it'll do the thinking for you.";
+
+// MK23 SOCOM
+MERCH_CAT_MK23SOCOM               = "Bangers & Mash";
+MERCH_TAG_MK23SOCOM               = "Mk.45 Combat Handgun";
+MERCH_FLAVOR_MK23SOCOM            = "They won't even hear you coming.";
+
+// Mk23 SOCOM Mag
+MERCH_CAT_MK23SOCOMMAG            = "Bangers & Mash";
+MERCH_TAG_MK23SOCOMMAG            = "Mk.45 .45 ACP Magazine";
+MERCH_FLAVOR_MK23SOCOMMAG         = "";
+
+// OTRU92
+MERCH_CAT_OTRU92                  = "Bangers & Mash";
+MERCH_TAG_OTRU92                  = "OTRU-92 Incendiary Rocket Launcher";
+MERCH_FLAVOR_OTRU92               = "Cook delicious meals from 100 meters away!";
+
+// PS20
+MERCH_CAT_PS20                    = "Bangers & Mash";
+MERCH_TAG_PS20                    = "Denton Light Arms and Munitions PS-451";
+MERCH_FLAVOR_PS20                 = "A deceivingly effective package for the marine you just can't kill.";
+
+// PSG1
+MERCH_CAT_PSG1                    = "Bangers & Mash";
+MERCH_TAG_PSG1                    = "H&M PSG2A1 Sniper Rifle";
+MERCH_FLAVOR_PSG1                 = "See that Baron over there? Now you don't.";
+
+// PSG1 Mag
+MERCH_CAT_PSG1MAG                 = "Bangers & Mash";
+MERCH_TAG_PSG1MAG                 = "PSG2A1 7.76mm Magazine";
+MERCH_FLAVOR_PSG1MAG              = "";
+
+// Railgun
+MERCH_CAT_RAILGUN                 = "Bangers & Mash";
+MERCH_TAG_RAILGUN                 = "XM99 Experimental Railgun";
+MERCH_FLAVOR_RAILGUN              = "You've seen the fires of Hell, haven't you?";
+
+// Railgun Dynamo
+MERCH_CAT_RAILGUNDYNAMO           = "Bangers & Mash";
+MERCH_TAG_RAILGUNDYNAMO           = "XM99 Experimental Railgun Dynamo";
+MERCH_FLAVOR_RAILGUNDYNAMO        = "A recharging device for the XM99. Required for continued operation of the weapon.";
+
+// Ruger1022
+MERCH_CAT_RUGER1022               = "Bangers & Mash";
+MERCH_TAG_RUGER1022               = "Buger M22 Target Rifle";
+MERCH_FLAVOR_RUGER1022            = "Gone from plinkin' beer cans to plinkin' babuins.";
+
+// Ruger1022 Mag
+MERCH_CAT_RUGER1022MAG            = "Bangers & Mash";
+MERCH_TAG_RUGER1022MAG            = "Buger M22 5mm BR Magazine";
+MERCH_FLAVOR_RUGER1022MAG         = "";
+
+// Sledgehammer
+MERCH_CAT_SLEDGEHAMMER            = "Bangers & Mash";
+MERCH_TAG_SLEDGEHAMMER            = "Sledgehammer";
+MERCH_FLAVOR_SLEDGEHAMMER         = "A hefty master key for any locked doors (or demons), doorbuster be damned.";
+
+// Steyr ACR
+MERCH_CAT_STEYR                   = "Bangers & Mash";
+MERCH_TAG_STEYR                   = "Austere M17 Flechette Rifle";
+MERCH_FLAVOR_STEYR                = "Don't judge this gun by its appearance.";
+
+// Steyr ACR Mag
+MERCH_CAT_STEYRMAG                = "Bangers & Mash";
+MERCH_TAG_STAYRMAG                = "Austere Flechette Magazine";
+MERCH_FLAVOR_STEYRMAG             = "";
+
+// Street Sweeper
+MERCH_CAT_STREETSWEEPER           = "Bangers & Mash";
+MERCH_TAG_STREETSWEEPER           = "Raycob Urban Destroyer";
+MERCH_FLAVOR_STREETSWEEPER        = "All fun and games until you need to reload.";
+
+// Uragan
+MERCH_CAT_URAGAN                  = "Bangers & Mash";
+MERCH_TAG_URAGAN                  = "Arkoudi M12/5 Shotgun";
+MERCH_FLAVOR_URAGAN               = "An itty-bitty shotgun that'll fit in your purse.";
+
+// Fire Extinguisher
+MERCH_CAT_FIREEXTINGUISHER        = "Bangers & Mash";
+MERCH_TAG_FIREEXTINGUISHER        = "Fire Extinguisher";
+MERCH_FLAVOR_FIREEXTINGUISHER     = "This might just save your bacon.";
+
+// Gas Grenade
+MERCH_CAT_GASGRENADE              = "Bangers & Mash";
+MERCH_TAG_GASGRENADE              = "'Roller' Toxic Gas Grenade";
+MERCH_FLAVOR_GASGRENADE           = "Smell that air! Couldn't you just drink it like booze?!";
+
+// Napalm Tank
+MERCH_CAT_NAPALMTANK              = "Bangers & Mash";
+MERCH_TAG_NAPALMTANK              = "Napalm Tank";
+MERCH_FLAVOR_NAPALMTANK           = "Burns hotter than the Tyrant's asshole.";
+
+// White Phosphorus Grenade
+MERCH_CAT_WPGRENADE               = "Bangers & Mash";
+MERCH_TAG_WPGRENADE               = "'Willie Pete' White Phosphorus Grenade";
+MERCH_FLAVOR_WPGRENADE            = "Enjoy in moderation!";
+
+// 8mm Electromagnetic Cartridges
+MERCH_CAT_8MMEC                   = "Bangers & Mash";
+MERCH_TAG_8MMEC                   = "8x35mm Electromagnetic Cartridges";
+MERCH_FLAVOR_8MMEC                = "Fuckin' magnets, how do they work?";
