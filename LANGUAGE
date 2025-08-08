@@ -528,9 +528,11 @@ PICKUP_50OMG_BELTBOX                        = "Picked up a .50 OMG belt box.";
 
 // .355 Firearms
 TAG_COLTCOMMANDO                            = "Volt R0355 HPC \"Commando\"";
+TAG_COLTCOMMANDOMAG                         = "R0355 HPC Magazine";
 TAG_LEVERGAT                                = "Sawyer LR355 \"Big Boy\" Hunting Carbine";
 
 PICKUP_COLTCOMMANDO                         = "You got the .355 SMG!";
+PICKUP_COLTCOMMANDOMAG                      = "Picked up an .355 SMG magazine.";
 PICKUP_LEVERGAT                             = "You got the lever action rifle!";
 
 OB_COLTCOMMANDO                             = "%o was soaked by %k's pea stream.";

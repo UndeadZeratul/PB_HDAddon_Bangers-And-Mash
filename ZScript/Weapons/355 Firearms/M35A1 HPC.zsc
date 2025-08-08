@@ -490,8 +490,8 @@ class HDColt9mmMag25:HD9mMag15{
 		hdmagammo.roundbulk ENC_355_LOADED;
 		hdmagammo.maxperunit 25;
 		hdmagammo.magbulk ENC_9MAG30_EMPTY;
-		tag "R0355 HPC Magazine";
-		inventory.pickupmessage "Picked up an .355 SMG  magazine.";
+		tag "$TAG_COLTCOMMANDOMAG";
+		inventory.pickupmessage "$PICKUP_COLTCOMMANDOMAG";
 		hdpickup.refid HDLD_COLT9MM_MAG;
 	}
 	override string,string,name,double getmagsprite(int thismagamt){
