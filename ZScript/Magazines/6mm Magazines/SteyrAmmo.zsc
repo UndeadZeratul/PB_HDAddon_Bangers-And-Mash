@@ -5,7 +5,7 @@
 class PB_HDSteyrACRMag:HDMagAmmo{
 	default{
 
-		hdmagammo.maxperunit 24;
+		hdmagammo.maxperunit 42;
 		hdmagammo.roundtype "HD6mmFlechetteAmmo";
 		hdmagammo.roundbulk ENC_6MMFLECHETTE_LOADED;
 		hdmagammo.magbulk ENC_STEYRACR_MAG_EMPTY;
