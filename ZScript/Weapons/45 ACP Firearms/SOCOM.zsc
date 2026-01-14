@@ -233,10 +233,7 @@ class HDMK23SOCOM:HDHandgun{
 		#### # 2 offset(-2,35)
 		{
 			A_StartSound("weapons/rifleclick2",CHAN_6,CHANF_OVERLAP,0.1);
-			int lam=invoker.weaponstatus[MK23S_LASER];
-			if(lam>=1)invoker.weaponstatus[MK23S_LASER]=0;
-			else if(lam<0)invoker.weaponstatus[MK23S_LASER]=0;
-			else invoker.weaponstatus[MK23S_LASER]++;
+			invoker.weaponstatus[MK23S_LASER] = !invoker.weaponstatus[MK23S_LASER];
 		}
 		#### # 1 offset(-1,33);
 		goto nope;
