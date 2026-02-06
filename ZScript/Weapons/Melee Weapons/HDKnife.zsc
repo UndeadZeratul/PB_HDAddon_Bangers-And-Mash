@@ -52,6 +52,27 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 		;
 	}
 
+	override inventory createTossable(int amt) {
+		let thrown = super.createTossable(amt);
+
+		if (thrown) {
+			bool throw = (owner && owner.player && owner.player.readyweapon == self && owner.player.cmd.buttons&BT_ZOOM);
+
+			// Reset these in case they were set from being thrown
+			thrown.bBOUNCEONWALLS = false;
+			thrown.bBOUNCEONFLOORS = false;
+			thrown.bALLOWBOUNCEONACTORS = false;
+
+			thrown.bFORCEXYBILLBOARD = !throw;
+			thrown.bROLLSPRITE = !throw;
+			thrown.bROLLCENTER = !throw;
+
+			thrown.bFLATSPRITE = throw;
+		}
+
+		return thrown;
+	}
+
 	override double getWeaponAttackHeight() {
 		return owner.height - 12;
 	}
@@ -214,7 +235,7 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 				if (invoker.zerk) A_Recoil(-random(12, 24));
 			}
 			TNT1 A 1 A_Recoil(-4);
-		goto startfire;
+			goto startfire;
 		grabhold:
 			CKF0 A 1 {
 				invoker.weaponstatus[FRAGS_FORCE] = 50;
@@ -238,8 +259,7 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 			TNT1 A 0;
 			goto nope;
 		spawn:
-			KNFP X 0 A_JumpIf(invoker.bNOEXTREMEDEATH, "spawn2");
-			KNFP Y 1;
+			KNFP Y 1 A_JumpIf(invoker.bMISSILE, "spawn2");
 			loop;
 		spawn2:
 			KNFP X 1 A_SetPitch(15 + pitch);
@@ -321,24 +341,20 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 		
 		death:
 			KNFP X 1 {
-			invoker.bJUSTCHUCKED = false;
-			A_SpawnItemEx("BulletPuffSmall");
-			A_NoGravity();
+				invoker.bJUSTCHUCKED = false;
+
+				A_SpawnItemEx("BulletPuffSmall");
+				A_NoGravity();
+
 				if (tracer) {
 				
 					let hdt = HDMobBase(tracer);
 					
 					if (
 						pos.z - tracer.pos.z > tracer.height * 0.8
-						&&(
-							!hdt
-							||(
-								!hdt.bNOVITALSHOTS
-								&&!hdt.bHEADLESS
-							)
-						)
+						&& (!hdt || (!hdt.bNOVITALSHOTS && !hdt.bHEADLESS))
 					) {
-						if (hd_debug) A_Log("HEAD SHOT");
+        				HDCore.log('B&M.HDKnife', LOGGING_DEBUG, "HEAD SHOT");
 						bPIERCEARMOR = true;
 						damagemobj(tracer, self, 5, "slashing");
 					}
@@ -347,63 +363,7 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 				}
 			}
 			goto spawn3;
-		Xdeath:
-			KNFP X 1 {
-				invoker.bJUSTCHUCKED = false;
 
-				if (tracer) {
-				
-					let hdt = HDMobBase(tracer);
-					
-					if (
-						pos.z - tracer.pos.z > tracer.height * 0.8
-						&& (
-							!hdt
-							|| (
-								!hdt.bNOVITALSHOTS
-								&&!hdt.bHEADLESS
-							)
-						)
-					) {
-						if (hd_debug) A_Log("HEAD SHOT");
-						bpiercearmor = true;
-						damagemobj(tracer, self, 75, "slashing");
-					}
-					
-					HDBleedingWound.inflict(tracer, 15);
-				}
-			}
-			goto spawn3;
-		Crash:
-			KNFP X 1 {
-				invoker.bJUSTCHUCKED = false;
-
-				if (tracer) {
-				
-					let hdt = HDMobBase(tracer);
-					
-					if (
-						pos.z - tracer.pos.z > tracer.height * 0.8
-						&& (
-							!hdt
-							|| (
-								!hdt.bNOVITALSHOTS
-								&& !hdt.bHEADLESS
-							)
-						)
-					) {
-						if (hd_debug) A_Log("HEAD SHOT");
-						bPIERCEARMOR = true;
-						damagemobj(tracer, self, 75, "slashing");
-					}
-
-					HDBleedingWound.inflict(tracer, 35, 7);
-					if(!tracer.bNOBLOOD) {
-						A_StartSound("weapons/kharoncut", CHAN_7, volume: 0.6);
-					}
-				}
-			}
-			goto spawn3;
 		unload:
 			#### E 0;
 			goto nope;
