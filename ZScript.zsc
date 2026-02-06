@@ -103,7 +103,7 @@ version "4.10"
 #include "zscript/Weapons/355 Firearms/Sawyer LR355 'Big Boy'.zsc"
 
 // Melee Weapons
-#include "zscript/Weapons/Melee Weapons/HDGrossHack.zsc"
+// #include "zscript/Weapons/Melee Weapons/HDGrossHack.zsc"
 #include "zscript/Weapons/Melee Weapons/HDKnife.zsc"
 #include "zscript/Weapons/Melee Weapons/HDFireAxe.zsc"
 #include "zscript/Weapons/Melee Weapons/HDKharon.zsc"
