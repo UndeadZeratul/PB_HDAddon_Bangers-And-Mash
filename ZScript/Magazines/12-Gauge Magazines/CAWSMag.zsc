@@ -144,8 +144,8 @@ class HD_CAWSMag:HDMagAmmo{
 		return true;
 	}
 
-	override double getbulkonemag(int which){
-		return magbulk+roundbulk*(mags[which]%100);
+	override double getmagbulk(int loaded){
+		return magbulk+roundbulk*(loaded%100);
 	}
 
 	states{
