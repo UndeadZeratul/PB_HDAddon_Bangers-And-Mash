@@ -149,9 +149,9 @@ class HDWilliePeteGrenadeAmmo:HDAmmo{
 	}
 	override void DetachFromOwner()
 	{
-		if(!(owner.player.ReadyWeapon is "HDWhitePhosphorusGrenades"))
+		if(owner && owner.player && !(owner.player.ReadyWeapon is "HDWhitePhosphorusGrenades"))
 		{
-			TakeInventory("HDWhitePhosphorusGrenades", 1);
+			owner.TakeInventory("HDWhitePhosphorusGrenades", 1);
 		}
 		super.DetachFromOwner();
 	}
