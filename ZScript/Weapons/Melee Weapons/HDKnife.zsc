@@ -29,7 +29,7 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 		
 		damageType                         'slashing';
 		meleeRange                         54.0;
-		HDCoreBaseMeleeWeapon.swingDmgMult 2.0;
+		HDCoreBaseMeleeWeapon.swingDmgMult 2.5;
 		HDCoreBaseMeleeWeapon.attackFlags  HDCMW_DO_HEADSHOT|HDCMW_DO_PUFF|HDCMW_RECOIL_ATTACKEE;
 	}
 	
@@ -205,7 +205,7 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 			goto punch;
 		punch:
 			CKF0 C 1 offset(0, 32) A_WeaponReady(WRF_NOSWITCH|WRF_NOFIRE);
-			#### D 3 offset(6, 28) A_MeleeWeaponAttack(HDCMW_ATTACK_THRUST, dmg: 12);
+			#### D 3 offset(6, 28) A_MeleeWeaponAttack(HDCMW_ATTACK_THRUST, dmg: 18);
 			#### D 3 offset(0, 32) A_WeaponOffset(frandom(-3, 3), frandom(30, 34));
 			#### CB 3;
 			#### E 3;
@@ -217,7 +217,7 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 				A_Recoil(-1);
 				A_WeaponReady(WRF_NOSWITCH|WRF_NOFIRE);
 			}
-			#### D 0 A_MeleeWeaponAttack(HDCMW_ATTACK_THRUST, dmg: invoker.flicked ? 40 : 30);
+			#### D 0 A_MeleeWeaponAttack(HDCMW_ATTACK_THRUST, dmg: invoker.flicked ? 90 : 70);
 			#### D 3 A_WeaponOffset(frandom(-12, 12), frandom(30, 34));
 			#### CBE 1;
 			#### E 1;

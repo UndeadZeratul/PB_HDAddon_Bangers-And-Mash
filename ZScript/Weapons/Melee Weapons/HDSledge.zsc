@@ -75,8 +75,9 @@ class HDSledgehammer : HDCoreBaseMeleeWeapon {
 		HDWeapon.refid HDLD_SLEDGEHAMMER;
 
         damageType                         'bashing';
-        meleeRange                         70.0;
-        HDCoreBaseMeleeWeapon.swingDmgMult 2.0;
+        meleeRange                         75.0;
+		HDCoreBaseMeleeWeapon.swingHMult    0;
+		HDCoreBaseMeleeWeapon.swingVMult    5.5;
         HDCoreBaseMeleeWeapon.attackFlags  HDCMW_DO_HEADSHOT|HDCMW_DO_PUFF|HDCMW_DO_WALLBUST|HDCMW_DO_WINDOWBUST|HDCMW_RECOIL_ATTACKEE;
 	}
 	
@@ -455,12 +456,12 @@ class HDSledgehammer : HDCoreBaseMeleeWeapon {
 			
 		hitcheck:
 			// TNT1 AA 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: 125);
-			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: 110);
+			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: 150);
 			// TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: 70);
 		stop;
 		
 		hitcheckzerk:
-			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: invoker.flicked ? 240 : 200);
+			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: invoker.flicked ? 750 : 650);
 		stop;
 		
 		// IGOTEM:
