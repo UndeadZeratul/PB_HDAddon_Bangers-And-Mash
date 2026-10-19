@@ -86,8 +86,8 @@ addSpawnTableSingleEntry => { "tableName": "ChaingunReplaces", "name": "PB_Steyr
 addSpawnTableSingleEntry => { "tableName": "ClipBoxReplaces", "name": "PB_SteyrAICW_Spawn", "weight": "#ateyraicw_clipbox_spawn_bias", "persists": "#steyraicw_persistent_spawning" }
 
 // Mancubus Cannon Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "RocketLauncherReplaces", "name": "HDMancCannon", "weight": "#mancubuscannon_bfg_spawn_bias", "persists": "#mancubuscannon_persistent_spawning" }
-addSpawnTableSingleEntry => { "tableName": "PlasmaRifleReplaces", "name": "HDMancCannon", "weight": "#mancubuscannon_bfg_spawn_bias", "persists": "#mancubuscannon_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "RocketLauncherReplaces", "name": "HDMancCannon", "weight": "#mancubuscannon_launcher_spawn_bias", "persists": "#mancubuscannon_persistent_spawning" }
+addSpawnTableSingleEntry => { "tableName": "PlasmaRifleReplaces", "name": "HDMancCannon", "weight": "#mancubuscannon_plasma_spawn_bias", "persists": "#mancubuscannon_persistent_spawning" }
 
 // Automag Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "PistolReplaces", "name": "PB_HDAutoMagSpawn_FA", "weight": "#automag_fa_pistol_spawn_bias", "persists": "#automag_fa_persistent_spawning" }
