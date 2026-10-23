@@ -76,8 +76,9 @@ class HDFireAxe : HDCoreBaseMeleeWeapon {
 		
 		damageType                          'slashing';
 		meleeRange                          70.0;
-		HDCoreBaseMeleeWeapon.swingDmgMult  2.0;
-		HDCoreBaseMeleeWeapon.corpseDmgMult 1.5;
+		HDCoreBaseMeleeWeapon.swingHMult    0;
+		HDCoreBaseMeleeWeapon.swingVMult    5;
+		HDCoreBaseMeleeWeapon.corpseDmgMult 1.2;
 		HDCoreBaseMeleeWeapon.attackFlags   HDCMW_DO_HEADSHOT|HDCMW_DO_PUFF|HDCMW_DO_WALLBUST|HDCMW_DO_WINDOWBUST|HDCMW_RECOIL_ATTACKEE;
 	}
 
@@ -119,7 +120,7 @@ class HDFireAxe : HDCoreBaseMeleeWeapon {
 	}
 
 	override double getWeaponHeadShotDamageBonus() {
-		return frandom(2.1, 2.3);
+		return frandom(1.4, 1.6);
 	}
 
 	override int getWeaponHeadShotStun(int dmg) {
@@ -378,11 +379,11 @@ class HDFireAxe : HDCoreBaseMeleeWeapon {
 			goto recoverswing;
 			
 		hitcheck:
-			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: 75);
+			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: 95);
 			stop;
 		
 		hitcheckzerk:
-			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: invoker.flicked ? 140 : 100);
+			TNT1 A 1 A_MeleeWeaponAttack(HDCMW_ATTACK_DOWN, dmg: invoker.flicked ? 475 : 400);
 			stop;
 
 		spawn:
