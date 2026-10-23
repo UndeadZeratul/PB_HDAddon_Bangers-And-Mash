@@ -143,8 +143,8 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 		// and whether the actor hit is dead
 		// TODO: Extract & Hoist into HDCoreLib?
 		dmg *= (strength * frandom(1.1, 1.6))
-			* (atkLine.hitActor && shouldDoHeadShot(atkLine, flags) ? getWeaponHeadShotDamageBonus() : 1.0)
-			* (atkLine.hitActor && HDMath.isDead(atkLine.hitActor)) ? getWeaponCorpseDamageBonus() : 1.0;
+			* ((atkLine.hitActor && shouldDoHeadShot(atkLine, flags)) ? getWeaponHeadShotDamageBonus() : 1.0)
+			* ((atkLine.hitActor && HDMath.isDead(atkLine.hitActor)) ? getWeaponCorpseDamageBonus() : 1.0);
 
 		return dmg;
 	}
