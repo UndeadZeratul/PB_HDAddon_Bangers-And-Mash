@@ -78,7 +78,7 @@ class HDCombatKnife : HDCoreBaseMeleeWeapon {
 	}
 
 	override double getWeaponHeadShotDamageBonus() {
-		return frandom(2.1, 2.3);
+		return frandom(1.45, 1.7);
 	}
 
 	override int getWeaponHeadShotStun(int dmg) {
